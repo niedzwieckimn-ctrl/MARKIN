@@ -1,208 +1,97 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-10-05T18:52:50.152Z",
-  "lastSuccessAt": "2026-10-05T18:52:50.152Z",
+  "schemaVersion": 2,
+  "kind": "products",
+  "generatedAt": "2026-10-05T19:42:17.989Z",
+  "lastSuccessAt": "2026-10-05T19:42:17.989Z",
   "entries": [
     {
-      "id": "0613418048a267c4e98f",
-      "title": "Jak zamontować kotwy do betonu?",
-      "url": "https://gatigo.pl/wiadomosci/porady-i-trendy/jak-zamontowac-kotwy-do-betonu/",
-      "partner": "Gatigo",
-      "sourceId": "gatigo",
+      "id": "3dda55e37a97ec80b141",
+      "title": "Primavera Lumino",
+      "url": "https://www.drogbruk.pl/produkt/primavera-2/primavera-lumino/",
+      "imageSource": "https://www.drogbruk.pl/wp-content/uploads/2026/09/DSC09055_1_lumino-scaled-e1789045856499.jpg",
+      "partner": "Drogbruk",
+      "sourceId": "drogbruk",
+      "sourcePage": "https://www.drogbruk.pl/",
+      "badge": "Nowy kolor",
+      "description": "Nadaj nawierzchni nowy charakter. Zestaw odcień z elewacją, zielenią i detalami swojego domu.",
+      "category": "Nawierzchnie",
+      "discoveredAt": "2026-10-05T19:36:32.023Z",
       "publishedAt": null,
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
+      "image": "assets/products/b1eff7a8afada6b9b5fc8466e3a391669a2dc66b343cc978380d60cdc7fe1e53.webp"
     },
     {
-      "id": "09ffe89f6401803ca2f5",
-      "title": "Jak zbudować warzywniak w ogrodzie?",
-      "url": "https://www.drogbruk.pl/porady/jak-zbudowac-warzywniak-w-ogrodzie/",
-      "partner": "Drogbruk",
-      "sourceId": "drogbruk",
-      "publishedAt": "2025-08-12T00:00:00.000Z",
-      "discoveredAt": "2026-10-05T18:44:46.000Z"
+      "id": "e347eef0248adabd6ddf",
+      "title": "FREZO FRESCO",
+      "url": "https://pozbruk.pl/produkt/frezo-fresco/",
+      "imageSource": "https://pozbruk.pl/wp-content/uploads/2026/04/Frezo-Fresco_platynowy2.webp",
+      "partner": "POZBRUK",
+      "sourceId": "pozbruk",
+      "sourcePage": "https://pozbruk.pl/otoczenie-domu/",
+      "badge": "Nowości 2026",
+      "description": "Zbuduj przestrzeń na długie poranki i spokojne wieczory. Zobacz, jak ten materiał odnajdzie się przy Twoim domu.",
+      "category": "Taras",
+      "discoveredAt": "2026-10-05T19:36:32.023Z",
+      "publishedAt": null,
+      "image": "assets/products/a43cb097d079d5f36096f34e615d3df202bb79135d690ae2872f547fa1587346.webp"
     },
     {
-      "id": "f57b9c9acf1f5c414a75",
-      "title": "Jak samodzielnie wykonać opaskę oddzielającą trawnik od rabaty?",
-      "url": "https://www.drogbruk.pl/porady/jak-samodzielnie-wykonac-opaske-oddzielajaca-trawnik-od-rabaty/",
-      "partner": "Drogbruk",
-      "sourceId": "drogbruk",
-      "publishedAt": "2025-07-29T00:00:00.000Z",
-      "discoveredAt": "2026-10-05T18:44:46.000Z"
-    },
-    {
-      "id": "3cfdfff9f4c233bd9403",
-      "title": "Jasne kolory beżu w aranżacji podjazdu i ogrodu",
-      "url": "https://www.drogbruk.pl/porady/jasne-kolory-bezu-w-aranzacji-podjazdu-i-ogrodu/",
-      "partner": "Drogbruk",
-      "sourceId": "drogbruk",
-      "publishedAt": "2025-07-10T00:00:00.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
-    },
-    {
-      "id": "ff4e1f9ebc73531703fd",
-      "title": "Oświetlenie w kostce brukowej – co wybrać?",
-      "url": "https://ledbruk.com/oswietlenie-w-kostce-brukowej-co-wybrac/",
+      "id": "51b3c4bfc0bafa0e10f4",
+      "title": "LedBruk® Kostka Brukowa LED RGB+CCT",
+      "url": "https://ledbruk.com/produkty/swiecaca-kostka-brukowa/",
+      "imageSource": "https://ledbruk.com/wp-content/uploads/2022/05/LedPave-Luminous-Paving-Stone-LED-RGBCTT-2021-ver8-001.jpg",
       "partner": "LedBruk",
       "sourceId": "ledbruk",
-      "publishedAt": "2024-08-12T10:27:03.000Z",
-      "discoveredAt": "2026-10-05T18:44:46.000Z"
+      "sourcePage": "https://ledbruk.com/nowosci/",
+      "badge": "W nowościach producenta",
+      "description": "Światło zmienia ogród po zmroku. Podkreśl przebieg ścieżki i nadaj wieczorom własny nastrój.",
+      "category": "Światło",
+      "discoveredAt": "2026-10-05T19:36:32.023Z",
+      "publishedAt": null,
+      "image": "assets/products/9c732c619f3109ed84ceb9820f77a3e1e93051ecaaf1ddcc329e2e247118aa4b.webp"
     },
     {
-      "id": "7ce845534026dd39fbe7",
-      "title": "LedBruk-Line Alu – Michał Jesionowski VLOG",
-      "url": "https://ledbruk.com/michal-jesionowski-vlog/",
+      "id": "05afe540823e7e1afe41",
+      "title": "LedBruk-Line ALU Oprawa liniowa 24V",
+      "url": "https://ledbruk.com/ledbruk-line-alu/",
+      "imageSource": "https://ledbruk.com/wp-content/uploads/2024/03/LedBruk-Line-ALU-www-ledbruk-com-2024-1.jpg",
       "partner": "LedBruk",
       "sourceId": "ledbruk",
-      "publishedAt": "2024-05-30T19:32:46.000Z",
-      "discoveredAt": "2026-10-05T18:44:46.000Z"
-    },
-    {
-      "id": "fdbdbb8eaeb6ad89e9bd",
-      "title": "Zrównoważony rozwój",
-      "url": "https://ledbruk.com/zrownowazony-rozwoj/",
-      "partner": "LedBruk",
-      "sourceId": "ledbruk",
-      "publishedAt": "2022-03-01T21:14:58.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
-    },
-    {
-      "id": "d475589e8bd960d68aac",
-      "title": "Oświetlenie tarasu",
-      "url": "https://ledbruk.com/oswietlenie-tarasu/",
-      "partner": "LedBruk",
-      "sourceId": "ledbruk",
-      "publishedAt": "2021-07-08T14:13:25.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
-    },
-    {
-      "id": "459083fcaf610af7e6f1",
-      "title": "Jak podświetlać strefy w ogrodzie?",
-      "url": "https://ledbruk.com/jak-podswietlac-strefy-w-ogrodzie/",
-      "partner": "LedBruk",
-      "sourceId": "ledbruk",
-      "publishedAt": "2021-07-08T14:11:14.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
-    },
-    {
-      "id": "9782b3d8f1cc76589aec",
-      "title": "Oświetlenie kostki brukowej",
-      "url": "https://ledbruk.com/oswietlenie-kostki-brukowej/",
-      "partner": "LedBruk",
-      "sourceId": "ledbruk",
-      "publishedAt": "2021-05-11T05:14:31.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
-    },
-    {
-      "id": "2ff1cea6a736010efa27",
-      "title": "Katalog produktów",
-      "url": "https://ledbruk.com/katalog-produktow/",
-      "partner": "LedBruk",
-      "sourceId": "ledbruk",
-      "publishedAt": "2021-04-13T10:43:04.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
-    },
-    {
-      "id": "6336ddd7ad494e5f8dff",
-      "title": "Oświetlenie podjazdu do garażu",
-      "url": "https://ledbruk.com/oswietlenie-podjazdu-do-garazu/",
-      "partner": "LedBruk",
-      "sourceId": "ledbruk",
-      "publishedAt": "2021-04-13T06:40:18.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
-    },
-    {
-      "id": "9c5a1bffee0382e25380",
-      "title": "Nowe kolory w kolekcjach Libet",
-      "url": "https://libet.pl/aktualnosci/nowe-kolory-w-kolekcjach-libet/",
-      "partner": "Libet",
-      "sourceId": "libet",
-      "publishedAt": "2021-03-09T11:24:16.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
-    },
-    {
-      "id": "80d61d7c3837e1788620",
-      "title": "Nowość! kolor kwarcytowy w rodzinie Libet Decco",
-      "url": "https://libet.pl/aktualnosci/nowosc-kolor-kwarcytowy-w-rodzinie-libet-decco/",
-      "partner": "Libet",
-      "sourceId": "libet",
-      "publishedAt": "2020-10-02T09:04:21.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
-    },
-    {
-      "id": "6d23dc543cefb7130aec",
-      "title": "Poznajcie kostkę antysmogową",
-      "url": "https://libet.pl/aktualnosci/poznajcie-kostke-antysmogowa/",
-      "partner": "Libet",
-      "sourceId": "libet",
-      "publishedAt": "2019-09-30T05:36:45.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
-    },
-    {
-      "id": "dcb49f076f231ba0712e",
-      "title": "Nowe kostki Modulo",
-      "url": "https://libet.pl/aktualnosci/nowe-kostki-modulo/",
-      "partner": "Libet",
-      "sourceId": "libet",
-      "publishedAt": "2019-06-17T08:41:33.000Z",
-      "discoveredAt": "2026-10-05T18:52:50.152Z"
+      "sourcePage": "https://ledbruk.com/nowosci/",
+      "badge": "Nowość w ofercie producenta",
+      "description": "Jedna linia światła, zupełnie inny wieczór. Podkreśl geometrię tarasu, ścieżek i wejścia do domu.",
+      "category": "Światło",
+      "discoveredAt": "2026-10-05T19:36:32.023Z",
+      "publishedAt": null,
+      "image": "assets/products/2af0728c54a2a9151b1089db05a057ff6086113ea8d8ce4509481ffe4793c199.webp"
     }
   ],
   "sources": [
     {
-      "id": "libet",
-      "name": "Libet",
-      "url": "https://libet.pl/aktualnosci/",
+      "id": "drogbruk",
+      "name": "Drogbruk",
+      "url": "https://www.drogbruk.pl/",
       "status": "ok",
-      "checkedAt": "2026-10-05T18:52:50.152Z",
-      "lastSuccessAt": "2026-10-05T18:52:50.152Z",
-      "count": 4,
-      "method": "rss",
-      "error": null
+      "checkedAt": "2026-10-05T19:42:17.989Z",
+      "lastSuccessAt": "2026-10-05T19:42:17.989Z",
+      "count": 1
+    },
+    {
+      "id": "pozbruk",
+      "name": "POZBRUK",
+      "url": "https://pozbruk.pl/otoczenie-domu/",
+      "status": "ok",
+      "checkedAt": "2026-10-05T19:42:17.989Z",
+      "lastSuccessAt": "2026-10-05T19:42:17.989Z",
+      "count": 1
     },
     {
       "id": "ledbruk",
       "name": "LedBruk",
-      "url": "https://ledbruk.com/category/bez-kategorii-pl/",
+      "url": "https://ledbruk.com/nowosci/",
       "status": "ok",
-      "checkedAt": "2026-10-05T18:52:50.152Z",
-      "lastSuccessAt": "2026-10-05T18:52:50.152Z",
-      "count": 8,
-      "method": "rss",
-      "error": null
-    },
-    {
-      "id": "gatigo",
-      "name": "Gatigo",
-      "url": "https://gatigo.pl/wiadomosci/",
-      "status": "ok",
-      "checkedAt": "2026-10-05T18:52:50.152Z",
-      "lastSuccessAt": "2026-10-05T18:52:50.152Z",
-      "count": 1,
-      "method": "html",
-      "error": null
-    },
-    {
-      "id": "drogbruk",
-      "name": "Drogbruk",
-      "url": "https://www.drogbruk.pl/artykuly-i-porady/",
-      "status": "ok",
-      "checkedAt": "2026-10-05T18:52:50.152Z",
-      "lastSuccessAt": "2026-10-05T18:52:50.152Z",
-      "count": 3,
-      "method": "html",
-      "error": null
-    },
-    {
-      "id": "bozza",
-      "name": "Bozza",
-      "url": "https://bozza.pl/blog/",
-      "status": "empty",
-      "checkedAt": "2026-10-05T18:52:50.152Z",
-      "lastSuccessAt": "2026-10-05T18:52:50.152Z",
-      "count": 0,
-      "method": "html",
-      "error": null
+      "checkedAt": "2026-10-05T19:42:17.989Z",
+      "lastSuccessAt": "2026-10-05T19:42:17.989Z",
+      "count": 2
     }
   ]
 }

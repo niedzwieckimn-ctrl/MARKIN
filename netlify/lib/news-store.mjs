@@ -1,23 +1,23 @@
 import { getStore } from '@netlify/blobs';
 import { SEED } from './news-seed.mjs';
 
-export const CACHE_KEY = 'snapshot-v1';
+export const CACHE_KEY = 'products-v2';
 export function openNewsStore() {
   // Previews may read production news but cannot refresh through a public endpoint.
   // Scheduled runs are production-only; local development uses Netlify's local sandbox.
-  return getStore({ name: 'markin-partner-news-v1', consistency: 'strong' });
+  return getStore({ name: 'markin-partner-products-v2', consistency: 'strong' });
 }
 
 export async function readNews(store) {
   const snapshot = await store.get(CACHE_KEY, { type: 'json', consistency: 'strong' });
-  if (snapshot?.schemaVersion === 1 && Array.isArray(snapshot.entries) && Array.isArray(snapshot.sources)) return snapshot;
+  if (snapshot?.schemaVersion === 2 && Array.isArray(snapshot.entries) && Array.isArray(snapshot.sources)) return snapshot;
   return null;
 }
 
 export async function readVersionedNews(store) {
   const blob = await store.getWithMetadata(CACHE_KEY, { type: 'json', consistency: 'strong' });
   if (!blob) return null;
-  if (blob.data?.schemaVersion !== 1 || !Array.isArray(blob.data.entries) || !Array.isArray(blob.data.sources) || !blob.etag) {
+  if (blob.data?.schemaVersion !== 2 || !Array.isArray(blob.data.entries) || !Array.isArray(blob.data.sources) || !blob.etag) {
     throw new Error('INVALID_NEWS_CACHE');
   }
   return { snapshot: blob.data, etag: blob.etag };

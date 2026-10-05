@@ -1,44 +1,43 @@
-MARKIN — RAPORT SPRAWDZENIA LOKALNEGO
-5 października 2026
+MARKIN V2 — RAPORT SPRAWDZENIA, 5 PAŹDZIERNIKA 2026
 
-ŹRÓDŁA
-Przeczytano 8 publicznych podstron Markin.
-Zachowano 151 zasobów treści, w tym oryginały oraz warianty responsive.
-89 oryginalnych wariantów źródłowych, 32 zdjęcia galerii, 17 zdjęć produktów,
-7 ilustracji poradnikowych. Zero błędów pobrania zasobów treści.
-Dziewięć niedostępnych elementów starego motywu nie dotyczy treści
-i nie zostało przeniesionych do nowego projektu.
+WYNIK LOKALNY
+- 37/37 testów jednostkowych zaliczonych.
+- 10 stron generuje się poprawnie; 452 lokalne odwołania i kotwice poprawne.
+- Edge/Chromium: 40 widoków (10 stron × 320/390/768/1440 px).
+- Brak poziomego przepełnienia, uszkodzonych zdjęć, błędów JavaScript
+  i odpowiedzi HTTP z błędem podczas sprawdzania stron.
+- Dokładnie jeden nagłówek H1 na każdej stronie.
+- W wyświetlanej treści i linkach stron brak Semmelrock i Gatigo.
 
-WIDOK I INTERAKCJE
-Przeglądarka Edge/Chromium, symulowane szerokości 320, 390, 768, 1440 px.
-36 kombinacji: 9 podstron × 4 szerokości.
-Brak poziomego przepełnienia, brak błędów JavaScript, brak nieudanych
-odczytów zasobów, wszystkie używane zdjęcia wczytują się.
-Lokalny font Manrope ładuje się prawidłowo.
-Sprawdzono: menu mobilne, filtry realizacji, powiększanie zdjęć,
-nawigację klawiaturą w galerii i zamykanie, wybór tematu kontaktu,
-tworzenie wiadomości mailto, filtrowanie wiadomości partnerów,
-pusty wynik dla marki bez wpisów, pauzę przewijanego paska.
-Przy preferencji ograniczonego ruchu pasek nie animuje się.
-Daty pozostają polskie także w przeglądarce ze strefą Los Angeles.
-Nie wysłano żadnej testowej wiadomości do firmy.
+INTERAKCJE
+- Pierwszy slajd pozostaje przy 3999 ms, następny wchodzi przy 4000 ms.
+- Transformacja przesuwa element w lewo; sprawdzono kolejne slajdy
+  i pętlę z ostatniego na pierwszy bez przejazdu wstecz.
+- Pauza, ręczne strzałki, klawiatura i preferencja ograniczonego ruchu.
+- Zapis inspiracji, zachowanie po przeładowaniu, lista w oknie,
+  usuwanie i czyszczenie, zapytanie o wycenę z nazwą produktu.
+- Przygotowanie wiadomości mailto; nie wysłano wiadomości do firmy.
+- Filtrowanie produktów po marce, przełączanie aranżacji, mobilne menu,
+  filtrowanie realizacji, powiększenie zdjęcia i zamknięcie klawiszem Escape.
 
-AUTOMAT
-25 testów parsera, deduplikacji, walidacji adresów, limitów odpowiedzi,
-dat, awarii źródeł, kontekstu produkcyjnego i warunkowego zapisu cache.
-Obie funkcje spakowano lokalnie esbuild-wasm (target Node 22, ESM).
-Spakowane moduły importują się i przyjmują lokalne wywołania.
-Endpoint GET zwraca HTTP 200 i fallback, POST — 405.
-Źródła odczytano rzeczywistymi połączeniami HTTP.
-Snapshot: Libet 4, LedBruk 8, Gatigo 1, Drogbruk 3, Bozza 0 pasujących.
-Razem 16 wpisów. Brak daty źródłowej pozostaje brakiem daty.
-Promocje i treści spoza zakresu Markin są filtrowane.
+IMPORTER I FUNKCJE
+- Prawdziwe odczyty stron producentów: 3/3 poprawne źródła, 4 produkty.
+- Zdjęcia pobrano i obejrzano; początkowe zdjęcia zoptymalizowano do WebP.
+- Nowy schemat danych i magazyn oddzielają produkty od newsów z wersji 1.
+- Testy: selekcja produktów, odrzucenie newsów/promocji/usuniętych marek,
+  ograniczenie domen, przekierowania, limit rozmiaru, formaty zdjęć,
+  fallback po awarii, wymiana dawnych nowości, status częściowej awarii,
+  walidacja danych po stronie przeglądarki, kontekst produkcyjny i ETag.
+- Trzy funkcje zbudowano lokalnie esbuild-wasm dla Node 22 / ESM.
+- Spakowane funkcje importują się. Odczyt nowości: HTTP 200,
+  kind=products, 4 produkty, mode=snapshot. Nieprawidłowy hash zdjęcia:
+  HTTP 400. Odświeżanie z kontekstu podglądu kończy się bez zapisu.
 
-ZAKRES POTWIERDZENIA
-To testy lokalne oraz odczyty publicznych źródeł, nie wdrożenie produkcyjne.
-Nie zmieniono domeny, DNS ani konta Netlify użytkownika.
-Po wdrożeniu trzeba sprawdzić opublikowanie obu funkcji, pierwszy Run now,
-zapis w Netlify Blobs oraz zaplanowany następny przebieg.
+ZAKRES
+To testy lokalne i rzeczywiste pobrania publicznych źródeł. Nie wdrożono
+paczki na Netlify, nie wykonano push do GitHub, nie zmieniono domeny ani DNS.
+Po wdrożeniu trzeba sprawdzić wszystkie 3 Functions, Run now, zapis Blobs,
+wyświetlanie pobranych zdjęć i następny zaplanowany przebieg.
 
-Uruchomienie testów: npm ci, npm test, npm run build,
-node scripts/verify-local.mjs.
+Testy w paczce: npm ci, npm test, npm run build,
+node scripts/verify-local.mjs. Kontrola źródeł: npm run news:verify.

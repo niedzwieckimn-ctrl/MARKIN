@@ -23,7 +23,7 @@ test('preview invocation stops before any unavailable production store access', 
 });
 
 test('cache refresh uses conditional ETag write to prevent a stale overlapping run', async () => {
-  let value = { schemaVersion: 1, entries: [{ id: 'old' }], sources: [] };
+  let value = { schemaVersion: 2, entries: [{ id: 'old' }], sources: [] };
   let etag = 'v1';
   const store = {
     async getWithMetadata() { return { data: structuredClone(value), etag }; },
@@ -46,7 +46,7 @@ test('missing blob creates only once and does not overwrite a concurrently creat
   const store = { async getWithMetadata() { return null; },
     async setJSON(key, value, options) { calls.push(options); return { modified: false }; } };
   const previous = await readVersionedNews(store);
-  await writeNewsIfUnchanged(store, { schemaVersion: 1, entries: [], sources: [] }, previous);
+  await writeNewsIfUnchanged(store, { schemaVersion: 2, entries: [], sources: [] }, previous);
   assert.deepEqual(calls, [{ onlyIfNew: true }]);
 });
 

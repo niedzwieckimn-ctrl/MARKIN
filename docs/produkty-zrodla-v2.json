@@ -1,0 +1,47 @@
+{
+  "verifiedAt": "2026-10-05T19:42:17.989Z",
+  "products": [
+    {
+      "title": "Primavera Lumino",
+      "partner": "Drogbruk",
+      "url": "https://www.drogbruk.pl/produkt/primavera-2/primavera-lumino/",
+      "sourcePage": "https://www.drogbruk.pl/",
+      "imageSource": "https://www.drogbruk.pl/wp-content/uploads/2026/09/DSC09055_1_lumino-scaled-e1789045856499.jpg",
+      "image": "assets/products/b1eff7a8afada6b9b5fc8466e3a391669a2dc66b343cc978380d60cdc7fe1e53.webp",
+      "badge": "Nowy kolor"
+    },
+    {
+      "title": "FREZO FRESCO",
+      "partner": "POZBRUK",
+      "url": "https://pozbruk.pl/produkt/frezo-fresco/",
+      "sourcePage": "https://pozbruk.pl/otoczenie-domu/",
+      "imageSource": "https://pozbruk.pl/wp-content/uploads/2026/04/Frezo-Fresco_platynowy2.webp",
+      "image": "assets/products/a43cb097d079d5f36096f34e615d3df202bb79135d690ae2872f547fa1587346.webp",
+      "badge": "Nowości 2026"
+    },
+    {
+      "title": "LedBruk® Kostka Brukowa LED RGB+CCT",
+      "partner": "LedBruk",
+      "url": "https://ledbruk.com/produkty/swiecaca-kostka-brukowa/",
+      "sourcePage": "https://ledbruk.com/nowosci/",
+      "imageSource": "https://ledbruk.com/wp-content/uploads/2022/05/LedPave-Luminous-Paving-Stone-LED-RGBCTT-2021-ver8-001.jpg",
+      "image": "assets/products/9c732c619f3109ed84ceb9820f77a3e1e93051ecaaf1ddcc329e2e247118aa4b.webp",
+      "badge": "W nowościach producenta"
+    },
+    {
+      "title": "LedBruk-Line ALU Oprawa liniowa 24V",
+      "partner": "LedBruk",
+      "url": "https://ledbruk.com/ledbruk-line-alu/",
+      "sourcePage": "https://ledbruk.com/nowosci/",
+      "imageSource": "https://ledbruk.com/wp-content/uploads/2024/03/LedBruk-Line-ALU-www-ledbruk-com-2024-1.jpg",
+      "image": "assets/products/2af0728c54a2a9151b1089db05a057ff6086113ea8d8ce4509481ffe4793c199.webp",
+      "badge": "Nowość w ofercie producenta"
+    }
+  ],
+  "notes": [
+    "Zdjęcia pochodzą z konkretnych materiałów produktowych producentów.",
+    "Opisy marketingowe są autorskie.",
+    "Oznaczenie nowości pochodzi ze strony producenta, nie z daty pobrania.",
+    "Aktualny importer: netlify/lib/product-sources.mjs. Dokumenty badania wersji 1 pozostają archiwum."
+  ]
+}

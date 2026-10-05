@@ -1,6 +1,6 @@
 import { openNewsStore, readVersionedNews, writeNewsIfUnchanged, SEED } from '../lib/news-store.mjs';
-import { refreshNews } from '../lib/news-core.mjs';
-import { SOURCES } from '../lib/news-sources.mjs';
+import { refreshProducts, fetchProductImage, imageKey } from '../lib/product-core.mjs';
+import { SOURCES } from '../lib/product-sources.mjs';
 import { canRefreshProduction } from '../lib/news-context.mjs';
 
 export default async function handler(_request, context) {
@@ -12,7 +12,14 @@ export default async function handler(_request, context) {
   const store = openNewsStore();
   // If storage read fails, abort. Never overwrite valid persisted news with an empty state.
   const previous = await readVersionedNews(store);
-  const snapshot = await refreshNews(previous?.snapshot || SEED, SOURCES);
+  const snapshot = await refreshProducts(previous?.snapshot || SEED, SOURCES, {
+    async saveImage(entry, source) {
+      const id = imageKey(entry.imageSource);
+      const { bytes, type } = await fetchProductImage(entry.imageSource, source);
+      await store.set('images/' + id, bytes, { metadata: { type } });
+      return '/api/product-image?id=' + id;
+    }
+  });
   const write = await writeNewsIfUnchanged(store, snapshot, previous);
   if (!write.modified) {
     console.log('refresh-partner-news: newer cache already saved by another run; skipped stale write');

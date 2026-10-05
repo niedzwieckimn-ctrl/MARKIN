@@ -1,6 +1,6 @@
-ŹRÓDŁA — 5 PAŹDZIERNIKA 2026
+MARKIN V2 — ŹRÓDŁA, 5 PAŹDZIERNIKA 2026
 
-Materiał główny i zdjęcia:
+Treści firmy i oryginalne materiały:
 https://markin.pl/
 https://markin.pl/o-firmie/
 https://markin.pl/produkty/
@@ -8,39 +8,41 @@ https://markin.pl/projektowanie/
 https://markin.pl/kontakt/
 https://markin.pl/realizacje/
 https://markin.pl/informacje/
-https://markin.pl/polityka-prywatnosci/
 https://markin.pl/pliki/OWS-MARKIN-PL-Sylweter-Kwiecien.pdf
 
-Informacje do autorskich opisów, bez kopiowania pełnych artykułów:
-https://gatigo.pl/ogrodzenia/
-https://gatigo.pl/bramy-wjazdowe/
+Aktualne źródła importera produktów:
+https://www.drogbruk.pl/
+https://pozbruk.pl/otoczenie-domu/
+https://ledbruk.com/nowosci/
+
+Początkowe produkty:
+https://www.drogbruk.pl/produkt/primavera-2/primavera-lumino/
+https://pozbruk.pl/produkt/frezo-fresco/
+https://ledbruk.com/produkty/swiecaca-kostka-brukowa/
+https://ledbruk.com/ledbruk-line-alu/
+
+Dokładne adresy źródłowych zdjęć, podpisy producentów i odpowiadające im
+pliki lokalne są zapisane w docs/produkty-zrodla-v2.json.
+Zdjęcia w nowościach pochodzą z powyższych materiałów produktowych;
+nie są generowanymi wizualizacjami. Nie kopiowano pełnych artykułów.
+Autorskie opisy pomagają wyobrazić sobie zastosowanie materiałów.
+Oznaczenia „nowości” są oznaczeniami producentów, nie datami publikacji.
+
+Informacje wykorzystywane do opisów zwykłej oferty:
 https://libet.pl/produkt-kategoria/wsporniki/
 https://libet.pl/produkt-kategoria/gres-porcelanowy/
 https://bozza.pl/oferta/tarasy/
 https://ledbruk.com/
-https://www.wienerberger.pl/produkty/kostka-brukowa-plyty-tarasowe-ogrodzenia-betonowe-semmelrock/kostki-i-plyty-brukowe.html
 https://futuredesign.com.pl/
 
-Źródła automatycznego paska:
-https://libet.pl/feed/
-https://libet.pl/aktualnosci/
-https://ledbruk.com/feed/
-https://ledbruk.com/category/bez-kategorii-pl/
-https://gatigo.pl/wiadomosci/
-https://www.drogbruk.pl/artykuly-i-porady/
-https://bozza.pl/feed/
-https://bozza.pl/blog/
+Logotypy i oryginalne zdjęcia Markin zachowano w archiwum zasobów.
+Usunięci przez użytkownika partnerzy nie są prezentowani ani odpytywani
+przez aktywny importer. Historyczne pliki badania wersji 1 w docs
+oraz archiwalne oryginały nie stanowią aktualnej listy partnerów.
 
-Font: Manrope, lokalne pliki WOFF2, licencja SIL Open Font License
-w public/assets/fonts/OFL.txt. Pliki źródłowe Google Fonts.
+Font Manrope: lokalne pliki WOFF2, licencja SIL Open Font License
+w public/assets/fonts/OFL.txt.
 
-Zdjęcia: oryginały pobrane z istniejącego markin.pl; brak generowanych
-substytutów i brak nowych zdjęć pobieranych z serwisów producentów.
-89 oryginalnych wariantów + 62 obrazy responsive = 151 zasobów treści.
-Oryginały są zachowane bajt w bajt; WebP to oddzielne wersje do wyświetlania.
-Manifest zawiera źródłowe adresy URL i sumy SHA256.
-
-W pierwotnej stronie nie było treści w sekcji „Procedura zamawiania”.
-Nowy opis procesu porządkuje potwierdzone usługi, nie określa nowych warunków
-umowy. Uogólnione stare tabele nośności i żywotności zastąpiono wskazaniem
-doboru według konkretnego produktu, podbudowy i dokumentacji producenta.
+Kontakt przyjęty z aktualnej zakładki Markin: Radlin 193C, 26-008 Górno;
+577 730 739; biuro@markin.pl. Historycznego adresu w archiwalnych
+materiałach nie prezentujemy jako drugiego czynnego punktu.
