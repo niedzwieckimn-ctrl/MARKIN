@@ -1,21 +1,26 @@
-MARKIN V5 — KONTROLA LOKALNA, 5 PAŹDZIERNIKA 2026
+MARKIN V6 — KONTROLA LOKALNA, 5 PAŹDZIERNIKA 2026
 
-46/46 testów zaliczonych. 40 widoków (10 stron x 320/390/768/1440 px).
-Brak błędów JS, HTTP >=400, uszkodzonych obrazów i przepełnienia poziomego.
-762 odwołania lokalne sprawdzone przed końcową zmianą kolejności kart.
+46/46 testów jednostkowych. 44 widoki: 11 stron x 320/390/768/1440 px.
+Brak błędów JS, odpowiedzi HTTP >=400, uszkodzonych obrazów i przepełnień.
+889 lokalnych odwołań sprawdzonych; 22 pliki JS/MJS poprawne składniowo.
+61 zdjęć kolekcji odczytanych z plików; każde ma min. 600 px szerokości.
+Źródłowe obrazy Crusil obejrzano przed wybraniem i dodaniem.
 
-Test kliknięcia „Zobacz ofertę” potwierdził otwarcie oferta.html i 6 kategorii.
-„Nowości produktowe” otwiera nowosci.html. Brak odnośników # w przyciskach hero.
-Dolny rząd: 17 produktów, zero wspólnych identyfikatorów kolekcji i adresów
-zdjęć z 7 scenami głównego pokazu. Stan sprawdzony również po odświeżeniu API.
-Przywrócono 6 filtrów i proste zdjęcia kart; brak gallery-hint na głównej.
-Kliknięcie karty otwiera jej stronę katalogu i właściwą pozycję.
-Główne zdjęcia oferty nie powielają zdjęć z pokazu na stronie głównej.
+Nowa strona Partnerzy: 12 marek, w tym Crusil z logo i oficjalnym linkiem.
+Sprawdzono wejście z menu komputera i telefonu, pełny wykaz oraz wykluczenie
+Semmelrock/Gatigo. Przykłady Crusil w Ofercie prowadzą do kart produktów.
+6 kolekcji Crusil: 3 tarasowe oraz 3 panele. Materiał oznaczony Wybór Markin.
 
-Zachowane: karuzele 4 s, kierunek w lewo, pauza, reduced motion,
-galerie kolekcji w katalogu, paginacja, zapis inspiracji i zapytanie mailto.
-Układ głównej: 2 sekcje. Wysokość 1388 px przy 1440 px i 1458 px przy 390 px.
-Katalog pełny: 24 kolekcje, 43 zdjęcia, bez utraty nowych materiałów z v4.
+Główny motyw ma 7 scen i nie powtarza kolekcji/zdjęć w dolnym rzędzie
+23 produktów. Pełny katalog zachowuje 30 propozycji (4 źródłowe nowości,
+26 wyborów redakcyjnych). Test odświeżenia API potwierdził zachowanie Crusil
+i reguły braku powtórzeń. Przycisk oferty otwiera osobną podstronę.
 
-Paczka nie jest wdrożeniem. Nie wykonywano push, publikacji ani zmian domeny.
-Harmonogram i Functions na docelowym Netlify wymagają kontroli po wdrożeniu.
+Zaliczone: galerie, pauza, zmiana co 4000 ms w lewo, ograniczony ruch,
+filtry, paginacja 6/2, linki do kart, lista inspiracji i zapytanie mailto.
+Główna nadal 1388 px wysokości przy 1440 px i 1458 px przy 390 px.
+Kontrola tekstów: 0 identycznych powtórzeń zdań >=6 słów na 11 podstronach.
+
+Przygotowano pliki lokalne. Nie wykonywano publikacji, push ani zmian DNS.
+Nie dodawano automatycznego źródła Crusil; jego kolekcje są statycznym wyborem.
+Dotychczasowe Functions i harmonogram wymagają kontroli po własnym wdrożeniu.

@@ -1,5 +1,5 @@
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const hosts = new Set(['www.drogbruk.pl','drogbruk.pl','pozbruk.pl','www.pozbruk.pl','ledbruk.com','www.ledbruk.com','libet.pl','www.libet.pl','slabb.pl','slabb.eu','bozza.pl','ogrodzenia.drewbet.pl']);
+const hosts = new Set(['www.drogbruk.pl','drogbruk.pl','pozbruk.pl','www.pozbruk.pl','ledbruk.com','www.ledbruk.com','libet.pl','www.libet.pl','slabb.pl','slabb.eu','bozza.pl','ogrodzenia.drewbet.pl','crusil.pl','www.crusil.pl']);
 export const safeImage = image => typeof image==='string' && /^(?:assets\/products\/[a-f0-9]+\.(?:webp|jpg|png)|\/api\/product-image\?id=[a-f0-9]{64})$/.test(image);
 export const galleryOf = p => [...new Map([{image:p.image},...(Array.isArray(p.gallery)?p.gallery:[])].filter(i=>i&&safeImage(i.image)).map(i=>[i.image,i])).values()].slice(0,20);
 export function safeProduct(p) {

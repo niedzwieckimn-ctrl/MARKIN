@@ -1,33 +1,41 @@
-MARKIN — WERSJA 5 / NAWIGACJA I BRAK POWTÓRZONYCH ZDJĘĆ
+MARKIN — WERSJA 6 / CRUSIL I WIDOCZNA LISTA PARTNERÓW
 5 października 2026
 
-POPRAWKA WZGLĘDEM WERSJI 4
-- Główny zielony przycisk „Zobacz ofertę” otwiera oferta.html.
-- Drugi przycisk „Nowości produktowe” otwiera nowosci.html.
-- Żaden z tych przycisków nie przewija do niższej sekcji głównej.
-- Dolny rząd zawiera 17 innych kolekcji: wyklucza wszystkie 7 pozycji
-  głównego pokazu oraz zdjęcia o tych samych adresach.
-- To samo wykluczenie działa po automatycznej aktualizacji produktów.
-- Przywrócono prosty wygląd zdjęć w kartach oraz 6 filtrów na głównej.
-  Nie ma nałożonych napisów „Zobacz zdjęcia” na zdjęciach głównej.
-- Zdjęcie dolnej karty otwiera właściwy produkt w osobnym katalogu.
-- Oferta także otrzymała inne zdjęcia główne tarasu i ogrodzenia.
+PARTNERZY
+„Partnerzy” to osobna pozycja menu na każdej stronie, także w menu telefonu.
+partnerzy.html zawiera wszystkie 12 marek: Crusil, Drogbruk, Libet, Bozza,
+Forbet, Drewbet, LedBruk, Poz-Bruk, SLABB, Nicoli, Future Design i COM-BET.
+Lista została przeniesiona z dołu O nas; pozostał tam wyraźny odnośnik.
+Partnerzy są również podlinkowani w stopkach. Semmelrock i Gatigo wykluczeni.
 
-Główny pokaz nadal przesuwa się co 4 s. Układ, kolory i długość strony
-pozostają: główny motyw, poziomy rząd produktów, krótki kontakt.
-W całym katalogu zachowano 24 kolekcje i 43 zdjęcia. Galerie i filtr
-paneli są dostępne w katalogu produktów, pod menu Nowości.
+CRUSIL
+- Panele dekoracyjne: ażurowe Aspre i Leste oraz pełne Maestro.
+- Płyty ceramiczno-betonowe DuoProCeram: Sabbia Doro, Pietra Antica Black,
+  Quartz Pumice.
+- 18 zdjęć producenta oraz oficjalne logo Crusil, zapisane lokalnie.
+- Opisy i przykłady w istniejących kategoriach oferty: tarasy, ogrodzenia
+  i architektura ogrodowa. Linki prowadzą do konkretnych kart katalogu.
+- Crusil pojawia się w dolnym rzędzie produktów i górnym pasku.
 
-JAK PODMIENIĆ WERSJĘ 4
-1. Rozpakuj MARKIN-poprawka-v5-do-v4.zip.
-2. W GitHub Desktop, w repozytorium MARKIN, kliknij Show in Explorer.
-3. Wklej zawartość rozpakowanego ZIP-a do głównego folderu repozytorium,
-   zastępując pliki o tych samych nazwach. Niczego nie usuwaj.
-4. Commit to main (opis: Poprawka przycisków i powtarzanych zdjęć), Push origin.
+To wybór redakcyjny oznaczony Wybór Markin. Dodanie partnera nie włącza
+automatycznego importu jego całej witryny. Dotychczasowy automat
+Drogbruk / POZBRUK / LedBruk pozostaje aktywny i zachowuje kolekcje Crusil.
+Źródła zdjęć i opisów: docs/crusil-zrodla-v6.json.
 
-Ta mała poprawka wymaga kompletu plików wersji 4. Jeśli masz starszy
-projekt, użyj pełnej paczki MARKIN-strona-v5-Netlify.zip.
-Nie nadpisuj bez sprawdzenia własnych zmian dokonanych po wersji 4.
+ZACHOWANY UKŁAD
+Główny pokaz bez zmian: 7 aranżacji co 4 sekundy. Pod nim 23 inne kolekcje,
+bez powtarzania głównych fotografii. Pełny katalog: 30 kolekcji i 61 zdjęć.
+Przyciski Zobacz ofertę / Nowości produktowe nadal otwierają osobne strony.
+Na głównej nadal 2 sekcje, 6 filtrów i zwykłe karty bez dodatkowych nakładek.
+
+AKTUALIZACJA
+1. Rozpakuj MARKIN-zmiany-v6.zip. Paczka pasuje do wersji 4 albo 5.
+2. GitHub Desktop → repozytorium MARKIN → Show in Explorer.
+3. Wklej zawartość paczki do głównego folderu repozytorium i zastąp pliki.
+4. Commit to main, następnie Push origin.
+Nie trzeba osobno nakładać poprawki v5. Własne późniejsze zmiany porównaj
+przed nadpisaniem. Dla starszej wersji użyj pełnego projektu:
+MARKIN-strona-v6-Netlify.zip.
 
 NETLIFY
 Wdróż cały projekt przez integrację Git:

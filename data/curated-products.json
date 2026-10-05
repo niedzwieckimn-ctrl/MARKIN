@@ -553,5 +553,227 @@
     "kind": "selection",
     "verifiedAt": "2026-10-05T20:25:28.346Z",
     "panel": true
+  },
+  {
+    "id": "5a9130e324c0ba5894a3",
+    "partner": "Crusil",
+    "title": "Sabbia Doro — DuoProCeram",
+    "category": "Tarasy",
+    "url": "https://crusil.pl/kolekcje/sabbia-doro/",
+    "image": "assets/products/be2c2e48744a9d3b15d3490b6f7cd8d47091505f38766cba7e910e7ad3af97d6.webp",
+    "imageSource": "https://crusil.pl/wp-content/uploads/2026/03/sabbia_doro.jpg",
+    "width": 1024,
+    "height": 1024,
+    "gallery": [
+      {
+        "image": "assets/products/be2c2e48744a9d3b15d3490b6f7cd8d47091505f38766cba7e910e7ad3af97d6.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2026/03/sabbia_doro.jpg",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "image": "assets/products/362248cbad3e3a4d0ea513d7397dc3f1c45837cda5a05c25f99b7db72abff3c2.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2026/03/sabbia_doro2.jpg",
+        "width": 1024,
+        "height": 1024
+      }
+    ],
+    "description": "Ciepły odcień kamienia i ceramiczna powierzchnia na betonowym kompozycie. Płyty DuoProCeram 4.0 tworzą jasne tło dla tarasu i ogrodowej zieleni.",
+    "panel": false,
+    "priority": -20,
+    "kind": "selection",
+    "badge": "Wybór Markin",
+    "verifiedAt": "2026-10-05T21:02:35.407Z"
+  },
+  {
+    "id": "e979e18814e7fe7ab482",
+    "partner": "Crusil",
+    "title": "Leste — panele dekoracyjne",
+    "category": "Ogrodzenia",
+    "url": "https://crusil.pl/system-tarasowy/plyty-azurowe-leste/",
+    "image": "assets/products/d2e16745701da0bfd950aa66b1608eb6260466bc9e043675a095642eabccd105.webp",
+    "imageSource": "https://crusil.pl/wp-content/uploads/2026/07/ogrodzenia_azurowe_Leste.jpg",
+    "width": 2560,
+    "height": 800,
+    "gallery": [
+      {
+        "image": "assets/products/d2e16745701da0bfd950aa66b1608eb6260466bc9e043675a095642eabccd105.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2026/07/ogrodzenia_azurowe_Leste.jpg",
+        "width": 2560,
+        "height": 800
+      },
+      {
+        "image": "assets/products/e7da091abf725426375284490b7f4c49378853cb0bd239c2b03990b81439768c.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/03/ogrodzenie-leste.jpg",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "assets/products/3d86999ee8f830d7969a1defaa6b63db24d5a711a2497552304fff78f0c70efc.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/03/Ogrodzenie-Leste-1.jpg",
+        "width": 768,
+        "height": 1086
+      },
+      {
+        "image": "assets/products/eb8fef493a62f7d621b8ef735a0f3b41f953971605af3f02968fc7c77c53da0f.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2024/12/Azur_crusil_.jpg",
+        "width": 1600,
+        "height": 1086
+      },
+      {
+        "image": "assets/products/a2b3be2fb260e7f0ee6b151cc01f7f7aaf69dd85bdbc45a9608d81c160f89011.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2024/12/azur_zoom.jpg",
+        "width": 1600,
+        "height": 1086
+      }
+    ],
+    "description": "Organiczny ażur przepuszcza światło i podkreśla rośliny. Panele z betonu WHPC Tegal pozwalają wydzielić miejsce odpoczynku lub zbudować dekoracyjne ogrodzenie.",
+    "panel": true,
+    "priority": -19,
+    "kind": "selection",
+    "badge": "Wybór Markin",
+    "verifiedAt": "2026-10-05T21:02:35.411Z"
+  },
+  {
+    "id": "f38aba46b1429060710b",
+    "partner": "Crusil",
+    "title": "Aspre — panele ażurowe",
+    "category": "Ogrodzenia",
+    "url": "https://crusil.pl/system-tarasowy/plyty-azurowe-aspre/",
+    "image": "assets/products/3a9ac7f8cd8c973d8b5885bcbd0130002ca5d2b11b653eb330a0a9dc8ddbe75e.webp",
+    "imageSource": "https://crusil.pl/wp-content/uploads/2025/03/Ogrodzenie-Aspre.jpg",
+    "width": 1920,
+    "height": 1080,
+    "gallery": [
+      {
+        "image": "assets/products/3a9ac7f8cd8c973d8b5885bcbd0130002ca5d2b11b653eb330a0a9dc8ddbe75e.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/03/Ogrodzenie-Aspre.jpg",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "assets/products/4ef3f3ad394b05c9d70f87eaab899d97eccb25563e01ebd39582042303754b79.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/03/Ogrodzenie-Aspre-2.jpg",
+        "width": 769,
+        "height": 1087
+      },
+      {
+        "image": "assets/products/259f821f272d4c9a8e936fe886d10830a00a0e0c0c536abcb1bcb8e597da79f8.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/03/Ogrodzenie-Aspre-1.jpg",
+        "width": 769,
+        "height": 1087
+      }
+    ],
+    "description": "Smukłe otwory i rytm białych płaszczyzn. Ażurowe panele Aspre tworzą lekką wizualnie oprawę patio, tarasu i granicy ogrodu.",
+    "panel": true,
+    "priority": -3,
+    "kind": "selection",
+    "badge": "Wybór Markin",
+    "verifiedAt": "2026-10-05T21:02:35.412Z"
+  },
+  {
+    "id": "adc598b745f3888d3529",
+    "partner": "Crusil",
+    "title": "Maestro — panele pełne",
+    "category": "Ogrodzenia",
+    "url": "https://crusil.pl/system-tarasowy/pelna-plyta-maestro/",
+    "image": "assets/products/b8dd12f84fa497529e319ac4afab44a65007b3e1b39190f3f015dd68cc75c23a.webp",
+    "imageSource": "https://crusil.pl/wp-content/uploads/2025/03/Maestro-1.jpg",
+    "width": 600,
+    "height": 732,
+    "gallery": [
+      {
+        "image": "assets/products/b8dd12f84fa497529e319ac4afab44a65007b3e1b39190f3f015dd68cc75c23a.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/03/Maestro-1.jpg",
+        "width": 600,
+        "height": 732
+      },
+      {
+        "image": "assets/products/23afacca4e650f31d7159fe439bff2470802bdf1139c39f986c1680b5eeef6b1.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/03/Ogrodzenia-Maestro-x2.jpg",
+        "width": 900,
+        "height": 948
+      }
+    ],
+    "description": "Pełna dekoracyjna płyta z betonu WHPC Tegal. Subtelna faktura porządkuje tło dla zieleni i pozwala wyraźniej osłonić wybraną strefę posesji.",
+    "panel": true,
+    "priority": 0,
+    "kind": "selection",
+    "badge": "Wybór Markin",
+    "verifiedAt": "2026-10-05T21:02:35.414Z"
+  },
+  {
+    "id": "a161b921beff8308b9f1",
+    "partner": "Crusil",
+    "title": "Pietra Antica Black — DuoProCeram",
+    "category": "Tarasy",
+    "url": "https://crusil.pl/kolekcje/pietra-antica-black/",
+    "image": "assets/products/865c93c5048b30db884f57f894bb6a8feaa2a5784dd531b342b340c16dcf366d.webp",
+    "imageSource": "https://crusil.pl/wp-content/uploads/2025/06/pietra_antica_black_exterior_d3_small.jpg",
+    "width": 1080,
+    "height": 764,
+    "gallery": [
+      {
+        "image": "assets/products/865c93c5048b30db884f57f894bb6a8feaa2a5784dd531b342b340c16dcf366d.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/06/pietra_antica_black_exterior_d3_small.jpg",
+        "width": 1080,
+        "height": 764
+      },
+      {
+        "image": "assets/products/46abf5ef30c42a43f508f1901410146042375ab957ae72918a700be7af2c2f55.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/06/pietra_antica_black_exterior_d1_small.jpg",
+        "width": 1080,
+        "height": 764
+      },
+      {
+        "image": "assets/products/18ffb7a4d02424d468fd990a3057b43b9b7c15bcee69d13690c50700f183981f.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/06/pietra_antica_black_exterior_d4.jpg",
+        "width": 764,
+        "height": 1080
+      }
+    ],
+    "description": "Głębokie grafitowe tony i kamienny rysunek ceramiki. Hybrydowe płyty DuoProCeram pozwalają połączyć taras i dojście do domu wyrazistym materiałem.",
+    "panel": false,
+    "priority": -3,
+    "kind": "selection",
+    "badge": "Wybór Markin",
+    "verifiedAt": "2026-10-05T21:02:35.415Z"
+  },
+  {
+    "id": "568f4697b651f2dfcf92",
+    "partner": "Crusil",
+    "title": "Quartz Pumice — DuoProCeram",
+    "category": "Tarasy",
+    "url": "https://crusil.pl/kolekcje/quartz-pumice/",
+    "image": "assets/products/73b11c591fcdcfa84047fa35576ebb9ad5fbad0f37bee048f0117b148ef772f6.webp",
+    "imageSource": "https://crusil.pl/wp-content/uploads/2025/01/quarzt_pumice1.jpg",
+    "width": 1528,
+    "height": 1080,
+    "gallery": [
+      {
+        "image": "assets/products/73b11c591fcdcfa84047fa35576ebb9ad5fbad0f37bee048f0117b148ef772f6.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/01/quarzt_pumice1.jpg",
+        "width": 1528,
+        "height": 1080
+      },
+      {
+        "image": "assets/products/e3828bcae2271e82e9b16e7a5d00add4b2c96e9e2344041c712ff7eab1753b9b.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/01/quarzt_pumice_2.jpg",
+        "width": 764,
+        "height": 1080
+      },
+      {
+        "image": "assets/products/05988367d2966673be2bd540b896645840e34be322b895c285202ef1e0859cde.webp",
+        "imageSource": "https://crusil.pl/wp-content/uploads/2025/01/quarzt_pumice_3.jpg",
+        "width": 764,
+        "height": 1080
+      }
+    ],
+    "description": "Jasna ceramika inspirowana kamieniem i skałą wulkaniczną. W płytach DuoProCeram dekoracyjna warstwa łączy się z kompozytową podstawą.",
+    "panel": false,
+    "priority": -2,
+    "kind": "selection",
+    "badge": "Wybór Markin",
+    "verifiedAt": "2026-10-05T21:02:35.416Z"
   }
 ]
