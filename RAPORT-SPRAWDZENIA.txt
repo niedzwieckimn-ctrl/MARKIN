@@ -1,31 +1,21 @@
-MARKIN V4 — KONTROLA LOKALNA, 5 PAŹDZIERNIKA 2026
+MARKIN V5 — KONTROLA LOKALNA, 5 PAŹDZIERNIKA 2026
 
-43/43 testy jednostkowe zaliczone (w tym walidacja galerii i paneli).
-40 widoków: 10 podstron przy 320, 390, 768 i 1440 px.
-Brak błędów JavaScript, odpowiedzi HTTP >=400, uszkodzonych zdjęć,
-poziomego przepełnienia dokumentu oraz wykluczonych partnerów w treści/linkach.
-Jeden H1 na stronę. 759 lokalnych odwołań sprawdzonych.
-Sprawdzone pliki wszystkich 43 zdjęć zestawienia; brak miniatur poniżej 600 px.
+46/46 testów zaliczonych. 40 widoków (10 stron x 320/390/768/1440 px).
+Brak błędów JS, HTTP >=400, uszkodzonych obrazów i przepełnienia poziomego.
+762 odwołania lokalne sprawdzone przed końcową zmianą kolejności kart.
 
-Strona główna nadal ma 2 sekcje: główny motyw, poziomy rząd produktów.
-Wysokość przy 1440 px: 1388 px. Przy 390 px: 1458 px (bez zmian względem v3).
+Test kliknięcia „Zobacz ofertę” potwierdził otwarcie oferta.html i 6 kategorii.
+„Nowości produktowe” otwiera nowosci.html. Brak odnośników # w przyciskach hero.
+Dolny rząd: 17 produktów, zero wspólnych identyfikatorów kolekcji i adresów
+zdjęć z 7 scenami głównego pokazu. Stan sprawdzony również po odświeżeniu API.
+Przywrócono 6 filtrów i proste zdjęcia kart; brak gallery-hint na głównej.
+Kliknięcie karty otwiera jej stronę katalogu i właściwą pozycję.
+Główne zdjęcia oferty nie powielają zdjęć z pokazu na stronie głównej.
 
-Sprawdzono: 7 scen co 4000 ms, kierunek w lewo i pętlę; automatyczny
-ruch dolnego rzędu; pauzę; prefers-reduced-motion; filtry 24 produktów,
-w tym 13 tarasów, 6 ogrodzeń oraz podfiltr 3 paneli/przęseł; paginację
-6/2; linkowanie do produktu; galerię kolekcji, źródło, strzałki i Escape;
-zapis inspiracji, przeładowanie, wycenę zestawu i przygotowanie mailto.
-Odświeżenie danych serwerowych zachowuje 20 kolekcji i 7 głównych scen.
+Zachowane: karuzele 4 s, kierunek w lewo, pauza, reduced motion,
+galerie kolekcji w katalogu, paginacja, zapis inspiracji i zapytanie mailto.
+Układ głównej: 2 sekcje. Wysokość 1388 px przy 1440 px i 1458 px przy 390 px.
+Katalog pełny: 24 kolekcje, 43 zdjęcia, bez utraty nowych materiałów z v4.
 
-Kontrola zdań opisowych: 10 stron, 0 identycznych powtórzeń (zdania >=6 słów).
-Osobno poprawiono podobne znaczeniowo fragmenty O nas / Projektowanie.
-Nie traktowano powtarzanych przycisków, tytułów w spisie treści ani technicznej
-kopii paska jako błędu redakcyjnego. Wynik: docs/kontrola-tekstow-v4.json.
-
-Źródła i przypisanie wszystkich zdjęć: docs/produkty-zrodla-v4.json.
-Zdjęcia pokazują rzeczywiste materiały lub wizualizacje opublikowane przez
-partnerów. Nie generowano fotografii ani nie rekonstruowano produktów.
-
-Nie publikowano zmian na GitHub/Netlify, nie zmieniano domeny.
-Działanie Functions, Blobs i harmonogramu na docelowym koncie wymaga
-sprawdzenia po wdrożeniu. Lokalny raport nie potwierdza publikacji.
+Paczka nie jest wdrożeniem. Nie wykonywano push, publikacji ani zmian domeny.
+Harmonogram i Functions na docelowym Netlify wymagają kontroli po wdrożeniu.

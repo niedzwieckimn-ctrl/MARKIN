@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import { prepareCatalog, tickerItems, campaign } from '../public/catalog.js';
+import { prepareCatalog, tickerItems, campaign, homeCatalog } from '../public/catalog.js';
 import { galleryOf, productCard } from '../public/products.js';
 import { SEED } from '../netlify/lib/news-seed.mjs';
 const curated=JSON.parse(await fs.readFile(new URL('../data/curated-products.json',import.meta.url),'utf8'));
@@ -27,3 +27,16 @@ test('campaign has one main headline and credits the actual arrangement source',
 
 test('collection galleries keep only local safe images and remove repeats',()=>{const image='assets/products/abcdef.webp';assert.deepEqual(galleryOf({image,gallery:[{image},{image:'https://untrusted.example/test.jpg'},{image:'javascript:alert(1)'},{image:'assets/products/ab1234.webp'}]}).map(x=>x.image),[image,'assets/products/ab1234.webp']);});
 test('panels and spans are identified separately from masonry blocks',()=>{assert.equal(curated.filter(p=>p.panel).length,3);assert.ok(curated.filter(p=>p.panel).every(p=>/Panele|przęsła/.test(p.title)));const block=curated.find(p=>p.title.includes('Bloczki'));assert.ok(productCard(block).includes('data-panel="false"'));assert.ok(productCard(curated.find(p=>p.panel)).includes('data-panel="true"'));});
+
+test('home rail never repeats a campaign collection or image, including refreshed entries',()=>{
+ const scene=curated[0],other=curated[1];
+ assert.deepEqual(homeCatalog([scene,{...scene,id:'different'},other],[scene]),[other]);
+ assert.equal(homeCatalog([scene],[]).length,1);
+});
+test('campaign actions open separate offer and product pages',()=>{
+ const html=campaign(curated.slice(0,2)),actions=html.match(/<div class="actions">(.*?)<\/div>/s)[1];
+ assert.match(actions,/href="oferta.html">Zobacz ofertę/);assert.match(actions,/href="nowosci.html"/);assert.doesNotMatch(actions,/href="#/);
+});
+test('home cards keep plain photos and open the product catalogue',()=>{
+ const html=productCard(curated[0],{home:true});assert.match(html,/href="nowosci.html#produkt-/);assert.doesNotMatch(html,/gallery-hint|data-product-gallery/);
+});

@@ -1,53 +1,33 @@
-MARKIN — WERSJA 4 / WIĘCEJ TARASÓW, PANELI I ARANŻACJI
+MARKIN — WERSJA 5 / NAWIGACJA I BRAK POWTÓRZONYCH ZDJĘĆ
 5 października 2026
 
-Układ wersji 3 pozostaje: pasek nad menu, główny pokaz aranżacji,
-poziomy rząd produktów i krótka stopka. Nie dodano sekcji wydłużających główną.
+POPRAWKA WZGLĘDEM WERSJI 4
+- Główny zielony przycisk „Zobacz ofertę” otwiera oferta.html.
+- Drugi przycisk „Nowości produktowe” otwiera nowosci.html.
+- Żaden z tych przycisków nie przewija do niższej sekcji głównej.
+- Dolny rząd zawiera 17 innych kolekcji: wyklucza wszystkie 7 pozycji
+  głównego pokazu oraz zdjęcia o tych samych adresach.
+- To samo wykluczenie działa po automatycznej aktualizacji produktów.
+- Przywrócono prosty wygląd zdjęć w kartach oraz 6 filtrów na głównej.
+  Nie ma nałożonych napisów „Zobacz zdjęcia” na zdjęciach głównej.
+- Zdjęcie dolnej karty otwiera właściwy produkt w osobnym katalogu.
+- Oferta także otrzymała inne zdjęcia główne tarasu i ogrodzenia.
 
-24 produkty i kolekcje (wcześniej 12), w tym 13 propozycji tarasowych,
-6 ogrodzeń (3 propozycje paneli/przęseł), 3 oświetlenia i 2 nawierzchni.
-43 różne zdjęcia produktowe i aranżacyjne zamiast 12. Dodatkowo zachowana
-galeria 32 zdjęć historycznych Markin oraz pozostałe oryginalne materiały.
-7 scen w głównym pokazie, zmiana co 4 sekundy od prawej do lewej.
+Główny pokaz nadal przesuwa się co 4 s. Układ, kolory i długość strony
+pozostają: główny motyw, poziomy rząd produktów, krótki kontakt.
+W całym katalogu zachowano 24 kolekcje i 43 zdjęcia. Galerie i filtr
+paneli są dostępne w katalogu produktów, pod menu Nowości.
 
-Nowe materiały: Libet Elysian Travertini, Nau, Oudh, Dijon, Kao, Glocal,
-Motley, Elysian; płyty tarasowe SLABB, aluminiowe przęsła NIVE prezentowane
-przez SLABB; betonowe panele Drewbet Deska i Graf. Piękne aranżacje tarasu
-i ogrodzenia zastępują też dotychczasowe zdjęcia główne w zakładce Oferta.
+JAK PODMIENIĆ WERSJĘ 4
+1. Rozpakuj MARKIN-poprawka-v5-do-v4.zip.
+2. W GitHub Desktop, w repozytorium MARKIN, kliknij Show in Explorer.
+3. Wklej zawartość rozpakowanego ZIP-a do głównego folderu repozytorium,
+   zastępując pliki o tych samych nazwach. Niczego nie usuwaj.
+4. Commit to main (opis: Poprawka przycisków i powtarzanych zdjęć), Push origin.
 
-Kliknij zdjęcie produktu, aby otworzyć jego galerię. Zdjęcia, strzałki,
-klawisze lewo/prawo i Escape działają w oknie powiększenia. Źródło kolekcji
-jest podane przy zdjęciu. Filtr „Panele i przęsła” pokazuje odpowiednie
-systemy, bez zaliczania pustaków ogrodzeniowych do paneli.
-
-4 pozycje pochodzą z sekcji nowości producentów, 20 to „Wybór Markin”.
-Obecność w aktualnej ofercie producenta nie oznacza premiery w 2026 roku.
-Nie dodano wymyślonych premier, bestsellerów ani dat zdjęć. Wzory Drewbet
-Deska/Graf opisane na źródle jako Nowość 2022 nie są oznaczone u nas Nowość.
-Automatyczny import Drogbruk/POZBRUK/LedBruk działa jak w wersji 3.
-Zdjęcia galerii i pozostałe kolekcje są wyborem redakcyjnym; automat
-zachowuje je podczas odświeżania. Semmelrock i Gatigo nadal są wykluczeni.
-
-Przegląd zdań na wszystkich 10 podstronach nie znalazł identycznych
-powtórzeń zdań opisowych. Zredagowano podobne znaczeniowo fragmenty
-na stronach O nas i Projektowanie. Etykiety przycisków i nawigacja mogą
-się powtarzać celowo; drugi zestaw paska służy jego płynnej pętli.
-
-AKTUALIZACJA REPOZYTORIUM — GITHUB DESKTOP
-1. Rozpakuj MARKIN-zmiany-v4.zip poleceniem „Wyodrębnij wszystkie”.
-2. W GitHub Desktop wybierz repozytorium MARKIN i „Show in Explorer”.
-3. Skopiuj zawartość rozpakowanej paczki do otwartego folderu repozytorium.
-   Zastąp pliki o tych samych nazwach. build.mjs, package.json i
-   netlify.toml mają pozostać bezpośrednio w katalogu głównym.
-4. W GitHub Desktop: Summary „Nowe aranżacje, tarasy i panele v4”,
-   następnie Commit to main i Push origin.
-5. Jeśli repozytorium jest połączone z Netlify, poczekaj na nowe wdrożenie.
-
-Paczka zmian obejmuje łącznie poprawki v2, v3 i v4 względem pierwszego ZIP-a
-MARKIN-nowoczesna-strona-Netlify.zip. Można nałożyć ją na przekazaną
-wersję 1, wersję 2 albo wersję 3. Nie wymaga usuwania plików. Jeżeli samodzielnie
-edytowałeś pliki po otrzymaniu paczki, zachowaj własne zmiany i sprawdź
-różnice przed zastąpieniem. Pełny projekt: MARKIN-strona-v4-Netlify.zip.
+Ta mała poprawka wymaga kompletu plików wersji 4. Jeśli masz starszy
+projekt, użyj pełnej paczki MARKIN-strona-v5-Netlify.zip.
+Nie nadpisuj bez sprawdzenia własnych zmian dokonanych po wersji 4.
 
 NETLIFY
 Wdróż cały projekt przez integrację Git:

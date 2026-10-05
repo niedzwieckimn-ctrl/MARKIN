@@ -1,5 +1,5 @@
 import { productCard, safeProduct, startCarousel, esc, galleryOf } from './products.js';
-import { prepareCatalog, tickerItems } from './catalog.js';
+import { prepareCatalog, tickerItems, homeCatalog } from './catalog.js';
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 function readData(id){try{return JSON.parse($(id)?.textContent||'[]').filter(safeProduct);}catch{return [];}}
 const seed=readData('#product-data'),curated=readData('#curated-data');
@@ -60,7 +60,8 @@ async function renderProducts(payload){
  if(document.activeElement?.closest('[data-news-grid],.inspiration-dialog,.news-bar'))return;
  const ready=await Promise.all(next.map(p=>new Promise(resolve=>{const image=new Image(),timer=setTimeout(()=>resolve(seed.find(s=>s.id===p.id)||null),5000);image.onload=()=>{clearTimeout(timer);resolve(p);};image.onerror=()=>{clearTimeout(timer);resolve(seed.find(s=>s.id===p.id)||null);};image.src=p.image;})));
  const valid=ready.filter(Boolean);if(!valid.length)return;entries=prepareCatalog(valid,curated);signature=sig;
- $$('[data-news-grid]').forEach(grid=>grid.innerHTML=entries.map(productCard).join(''));
+ const scenes=$$('.scene:not([data-clone])').map(s=>({id:s.dataset.id,image:$('img',s).getAttribute('src')}));
+ $$('[data-news-grid]').forEach(grid=>{const home=grid.hasAttribute('data-rail');grid.innerHTML=(home?homeCatalog(entries,scenes):entries).map(p=>productCard(p,{home})).join('');});
  const track=$('#ticker-track');if(track)track.innerHTML=tickerItems(entries);
  filterCatalog();updateSaved();
 }
