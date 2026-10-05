@@ -1,0 +1,706 @@
+{
+  "2019/04/favicon.png": {
+    "src": "assets/images/2019-04-favicon.webp",
+    "small": "assets/images/2019-04-favicon-sm.webp",
+    "original": "assets/originals/2019/04/favicon.png",
+    "width": 16,
+    "height": 16,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/favicon.png"
+  },
+  "2019/04/favicon_57.png": {
+    "src": "assets/images/2019-04-favicon-57.webp",
+    "small": "assets/images/2019-04-favicon-57-sm.webp",
+    "original": "assets/originals/2019/04/favicon_57.png",
+    "width": 57,
+    "height": 57,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/favicon_57.png"
+  },
+  "2019/04/favicon_144.png": {
+    "src": "assets/images/2019-04-favicon-144.webp",
+    "small": "assets/images/2019-04-favicon-144-sm.webp",
+    "original": "assets/originals/2019/04/favicon_144.png",
+    "width": 144,
+    "height": 144,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/favicon_144.png"
+  },
+  "2019/04/favicon_72.png": {
+    "src": "assets/images/2019-04-favicon-72.webp",
+    "small": "assets/images/2019-04-favicon-72-sm.webp",
+    "original": "assets/originals/2019/04/favicon_72.png",
+    "width": 72,
+    "height": 72,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/favicon_72.png"
+  },
+  "2019/04/markin.png": {
+    "src": "assets/images/2019-04-markin.webp",
+    "small": "assets/images/2019-04-markin-sm.webp",
+    "original": "assets/originals/2019/04/markin.png",
+    "width": 532,
+    "height": 89,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/markin.png"
+  },
+  "2019/04/Tarasy-wentylowane.jpg": {
+    "src": "assets/images/2019-04-tarasy-wentylowane.webp",
+    "small": "assets/images/2019-04-tarasy-wentylowane-sm.webp",
+    "original": "assets/originals/2019/04/Tarasy-wentylowane.jpg",
+    "width": 1449,
+    "height": 1024,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/Tarasy-wentylowane.jpg"
+  },
+  "2019/04/Podjazdy.jpg": {
+    "src": "assets/images/2019-04-podjazdy.webp",
+    "small": "assets/images/2019-04-podjazdy-sm.webp",
+    "original": "assets/originals/2019/04/Podjazdy.jpg",
+    "width": 1920,
+    "height": 1285,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/Podjazdy.jpg"
+  },
+  "2019/04/Oświetlenie.jpg": {
+    "src": "assets/images/2019-04-oswietlenie.webp",
+    "small": "assets/images/2019-04-oswietlenie-sm.webp",
+    "original": "assets/originals/2019/04/Oświetlenie.jpg",
+    "width": 1920,
+    "height": 1080,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/O%C5%9Bwietlenie.jpg"
+  },
+  "2019/07/Ogrodzenia.jpg": {
+    "src": "assets/images/2019-07-ogrodzenia.webp",
+    "small": "assets/images/2019-07-ogrodzenia-sm.webp",
+    "original": "assets/originals/2019/07/Ogrodzenia.jpg",
+    "width": 1920,
+    "height": 1280,
+    "url": "https://markin.pl/wp-content/uploads/2019/07/Ogrodzenia.jpg"
+  },
+  "2019/04/Brama-GATIGO.jpg": {
+    "src": "assets/images/2019-04-brama-gatigo.webp",
+    "small": "assets/images/2019-04-brama-gatigo-sm.webp",
+    "original": "assets/originals/2019/04/Brama-GATIGO.jpg",
+    "width": 1920,
+    "height": 905,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/Brama-GATIGO.jpg"
+  },
+  "2019/04/Elementy-dekoracyjne-1.jpg": {
+    "src": "assets/images/2019-04-elementy-dekoracyjne-1.webp",
+    "small": "assets/images/2019-04-elementy-dekoracyjne-1-sm.webp",
+    "original": "assets/originals/2019/04/Elementy-dekoracyjne-1.jpg",
+    "width": 1920,
+    "height": 1440,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/Elementy-dekoracyjne-1.jpg"
+  },
+  "2019/07/Architektura-ogrodowa.jpg": {
+    "src": "assets/images/2019-07-architektura-ogrodowa.webp",
+    "small": "assets/images/2019-07-architektura-ogrodowa-sm.webp",
+    "original": "assets/originals/2019/07/Architektura-ogrodowa.jpg",
+    "width": 1920,
+    "height": 1440,
+    "url": "https://markin.pl/wp-content/uploads/2019/07/Architektura-ogrodowa.jpg"
+  },
+  "2019/04/fot.jpg": {
+    "src": "assets/images/2019-04-fot.webp",
+    "small": "assets/images/2019-04-fot-sm.webp",
+    "original": "assets/originals/2019/04/fot.jpg",
+    "width": 1312,
+    "height": 739,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/fot.jpg"
+  },
+  "2019/07/14-Obrzeże-100x30x8.jpg": {
+    "src": "assets/images/2019-07-14-obrzeze-100x30x8.webp",
+    "small": "assets/images/2019-07-14-obrzeze-100x30x8-sm.webp",
+    "original": "assets/originals/2019/07/14-Obrzeże-100x30x8.jpg",
+    "width": 1920,
+    "height": 1020,
+    "url": "https://markin.pl/wp-content/uploads/2019/07/14-Obrze%C5%BCe-100x30x8.jpg"
+  },
+  "2019/05/logo_bozza.jpg": {
+    "src": "assets/images/2019-05-logo-bozza.webp",
+    "small": "assets/images/2019-05-logo-bozza-sm.webp",
+    "original": "assets/originals/2019/05/logo_bozza.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_bozza.jpg"
+  },
+  "2019/05/logo_drewbet.jpg": {
+    "src": "assets/images/2019-05-logo-drewbet.webp",
+    "small": "assets/images/2019-05-logo-drewbet-sm.webp",
+    "original": "assets/originals/2019/05/logo_drewbet.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_drewbet.jpg"
+  },
+  "2019/05/logo_drogbruk.jpg": {
+    "src": "assets/images/2019-05-logo-drogbruk.webp",
+    "small": "assets/images/2019-05-logo-drogbruk-sm.webp",
+    "original": "assets/originals/2019/05/logo_drogbruk.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_drogbruk.jpg"
+  },
+  "2019/05/logo_forbet.jpg": {
+    "src": "assets/images/2019-05-logo-forbet.webp",
+    "small": "assets/images/2019-05-logo-forbet-sm.webp",
+    "original": "assets/originals/2019/05/logo_forbet.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_forbet.jpg"
+  },
+  "2019/05/logo_gatigo.jpg": {
+    "src": "assets/images/2019-05-logo-gatigo.webp",
+    "small": "assets/images/2019-05-logo-gatigo-sm.webp",
+    "original": "assets/originals/2019/05/logo_gatigo.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_gatigo.jpg"
+  },
+  "2019/05/logo_ledbruk.jpg": {
+    "src": "assets/images/2019-05-logo-ledbruk.webp",
+    "small": "assets/images/2019-05-logo-ledbruk-sm.webp",
+    "original": "assets/originals/2019/05/logo_ledbruk.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_ledbruk.jpg"
+  },
+  "2019/05/logo_libet.jpg": {
+    "src": "assets/images/2019-05-logo-libet.webp",
+    "small": "assets/images/2019-05-logo-libet-sm.webp",
+    "original": "assets/originals/2019/05/logo_libet.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_libet.jpg"
+  },
+  "2019/05/logo_nicoli.jpg": {
+    "src": "assets/images/2019-05-logo-nicoli.webp",
+    "small": "assets/images/2019-05-logo-nicoli-sm.webp",
+    "original": "assets/originals/2019/05/logo_nicoli.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_nicoli.jpg"
+  },
+  "2019/05/logo_pozbruk.jpg": {
+    "src": "assets/images/2019-05-logo-pozbruk.webp",
+    "small": "assets/images/2019-05-logo-pozbruk-sm.webp",
+    "original": "assets/originals/2019/05/logo_pozbruk.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_pozbruk.jpg"
+  },
+  "2019/05/logo_semmelrock.jpg": {
+    "src": "assets/images/2019-05-logo-semmelrock.webp",
+    "small": "assets/images/2019-05-logo-semmelrock-sm.webp",
+    "original": "assets/originals/2019/05/logo_semmelrock.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_semmelrock.jpg"
+  },
+  "2019/05/logo_slabb.jpg": {
+    "src": "assets/images/2019-05-logo-slabb.webp",
+    "small": "assets/images/2019-05-logo-slabb-sm.webp",
+    "original": "assets/originals/2019/05/logo_slabb.jpg",
+    "width": 320,
+    "height": 240,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_slabb.jpg"
+  },
+  "2024/01/markin.jpg": {
+    "src": "assets/images/2024-01-markin.webp",
+    "small": "assets/images/2024-01-markin-sm.webp",
+    "original": "assets/originals/2024/01/markin.jpg",
+    "width": 1200,
+    "height": 630,
+    "url": "https://markin.pl/wp-content/uploads/2024/01/markin.jpg"
+  },
+  "2019/04/breadcrumb.jpg": {
+    "src": "assets/images/2019-04-breadcrumb.webp",
+    "small": "assets/images/2019-04-breadcrumb-sm.webp",
+    "original": "assets/originals/2019/04/breadcrumb.jpg",
+    "width": 1920,
+    "height": 700,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/breadcrumb.jpg"
+  },
+  "2019/04/fot.-10-MARKIN.PL_.jpg": {
+    "src": "assets/images/2019-04-fot-10-markin-pl-.webp",
+    "small": "assets/images/2019-04-fot-10-markin-pl--sm.webp",
+    "original": "assets/originals/2019/04/fot.-10-MARKIN.PL_.jpg",
+    "width": 3037,
+    "height": 4142,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/fot.-10-MARKIN.PL_.jpg"
+  },
+  "2019/04/fot.-11-Targi-Dom-Ogród-i-Ty.jpg": {
+    "src": "assets/images/2019-04-fot-11-targi-dom-ogrod-i-ty.webp",
+    "small": "assets/images/2019-04-fot-11-targi-dom-ogrod-i-ty-sm.webp",
+    "original": "assets/originals/2019/04/fot.-11-Targi-Dom-Ogród-i-Ty.jpg",
+    "width": 2448,
+    "height": 3264,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/fot.-11-Targi-Dom-Ogr%C3%B3d-i-Ty.jpg"
+  },
+  "2019/04/fot.-12-Targi-Dom-Ogród-i-Ty.jpg": {
+    "src": "assets/images/2019-04-fot-12-targi-dom-ogrod-i-ty.webp",
+    "small": "assets/images/2019-04-fot-12-targi-dom-ogrod-i-ty-sm.webp",
+    "original": "assets/originals/2019/04/fot.-12-Targi-Dom-Ogród-i-Ty.jpg",
+    "width": 2448,
+    "height": 3264,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/fot.-12-Targi-Dom-Ogr%C3%B3d-i-Ty.jpg"
+  },
+  "2019/04/fot.-13-Targi-Dom-Ogród-i-Ty.jpg": {
+    "src": "assets/images/2019-04-fot-13-targi-dom-ogrod-i-ty.webp",
+    "small": "assets/images/2019-04-fot-13-targi-dom-ogrod-i-ty-sm.webp",
+    "original": "assets/originals/2019/04/fot.-13-Targi-Dom-Ogród-i-Ty.jpg",
+    "width": 3264,
+    "height": 2448,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/fot.-13-Targi-Dom-Ogr%C3%B3d-i-Ty.jpg"
+  },
+  "2019/05/kostka-brukowa-semmelrock.jpg": {
+    "src": "assets/images/2019-05-kostka-brukowa-semmelrock.webp",
+    "small": "assets/images/2019-05-kostka-brukowa-semmelrock-sm.webp",
+    "original": "assets/originals/2019/05/kostka-brukowa-semmelrock.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/kostka-brukowa-semmelrock.jpg"
+  },
+  "2019/05/kostka-brukowa-DROGBRUK.jpg": {
+    "src": "assets/images/2019-05-kostka-brukowa-drogbruk.webp",
+    "small": "assets/images/2019-05-kostka-brukowa-drogbruk-sm.webp",
+    "original": "assets/originals/2019/05/kostka-brukowa-DROGBRUK.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/kostka-brukowa-DROGBRUK.jpg"
+  },
+  "2019/05/kostka-brukowa-Forbet.jpg": {
+    "src": "assets/images/2019-05-kostka-brukowa-forbet.webp",
+    "small": "assets/images/2019-05-kostka-brukowa-forbet-sm.webp",
+    "original": "assets/originals/2019/05/kostka-brukowa-Forbet.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/kostka-brukowa-Forbet.jpg"
+  },
+  "2019/05/kostka-brukowa-Libet.jpg": {
+    "src": "assets/images/2019-05-kostka-brukowa-libet.webp",
+    "small": "assets/images/2019-05-kostka-brukowa-libet-sm.webp",
+    "original": "assets/originals/2019/05/kostka-brukowa-Libet.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/kostka-brukowa-Libet.jpg"
+  },
+  "2019/05/płyty-tarasowe-Bozza.jpg": {
+    "src": "assets/images/2019-05-plyty-tarasowe-bozza.webp",
+    "small": "assets/images/2019-05-plyty-tarasowe-bozza-sm.webp",
+    "original": "assets/originals/2019/05/płyty-tarasowe-Bozza.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/p%C5%82yty-tarasowe-Bozza.jpg"
+  },
+  "2019/05/płyty-Presstone-POZ-BRUK.jpg": {
+    "src": "assets/images/2019-05-plyty-presstone-poz-bruk.webp",
+    "small": "assets/images/2019-05-plyty-presstone-poz-bruk-sm.webp",
+    "original": "assets/originals/2019/05/płyty-Presstone-POZ-BRUK.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/p%C5%82yty-Presstone-POZ-BRUK.jpg"
+  },
+  "2019/05/ogrodzenia-Gatigo.jpg": {
+    "src": "assets/images/2019-05-ogrodzenia-gatigo.webp",
+    "small": "assets/images/2019-05-ogrodzenia-gatigo-sm.webp",
+    "original": "assets/originals/2019/05/ogrodzenia-Gatigo.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/ogrodzenia-Gatigo.jpg"
+  },
+  "2019/05/ogrodzenia-Drew-Bet.jpg": {
+    "src": "assets/images/2019-05-ogrodzenia-drew-bet.webp",
+    "small": "assets/images/2019-05-ogrodzenia-drew-bet-sm.webp",
+    "original": "assets/originals/2019/05/ogrodzenia-Drew-Bet.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/ogrodzenia-Drew-Bet.jpg"
+  },
+  "2019/05/ogrodzenie-SLABB.jpg": {
+    "src": "assets/images/2019-05-ogrodzenie-slabb.webp",
+    "small": "assets/images/2019-05-ogrodzenie-slabb-sm.webp",
+    "original": "assets/originals/2019/05/ogrodzenie-SLABB.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/ogrodzenie-SLABB.jpg"
+  },
+  "2019/05/ogrodzenie-COMBET.jpg": {
+    "src": "assets/images/2019-05-ogrodzenie-combet.webp",
+    "small": "assets/images/2019-05-ogrodzenie-combet-sm.webp",
+    "original": "assets/originals/2019/05/ogrodzenie-COMBET.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/ogrodzenie-COMBET.jpg"
+  },
+  "2019/05/OGRODZENIE-Semmelrock.jpg": {
+    "src": "assets/images/2019-05-ogrodzenie-semmelrock.webp",
+    "small": "assets/images/2019-05-ogrodzenie-semmelrock-sm.webp",
+    "original": "assets/originals/2019/05/OGRODZENIE-Semmelrock.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/OGRODZENIE-Semmelrock.jpg"
+  },
+  "2019/05/mała-architektura-SLABB.jpg": {
+    "src": "assets/images/2019-05-mala-architektura-slabb.webp",
+    "small": "assets/images/2019-05-mala-architektura-slabb-sm.webp",
+    "original": "assets/originals/2019/05/mała-architektura-SLABB.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/ma%C5%82a-architektura-SLABB.jpg"
+  },
+  "2019/05/mała-architektura-Libet.jpg": {
+    "src": "assets/images/2019-05-mala-architektura-libet.webp",
+    "small": "assets/images/2019-05-mala-architektura-libet-sm.webp",
+    "original": "assets/originals/2019/05/mała-architektura-Libet.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/ma%C5%82a-architektura-Libet.jpg"
+  },
+  "2019/05/mała-architektura-Semmelrock.jpg": {
+    "src": "assets/images/2019-05-mala-architektura-semmelrock.webp",
+    "small": "assets/images/2019-05-mala-architektura-semmelrock-sm.webp",
+    "original": "assets/originals/2019/05/mała-architektura-Semmelrock.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/ma%C5%82a-architektura-Semmelrock.jpg"
+  },
+  "2019/05/oświetlenie-LedBruk.jpg": {
+    "src": "assets/images/2019-05-oswietlenie-ledbruk.webp",
+    "small": "assets/images/2019-05-oswietlenie-ledbruk-sm.webp",
+    "original": "assets/originals/2019/05/oświetlenie-LedBruk.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/o%C5%9Bwietlenie-LedBruk.jpg"
+  },
+  "2019/05/oświetlenie-Libet.jpg": {
+    "src": "assets/images/2019-05-oswietlenie-libet.webp",
+    "small": "assets/images/2019-05-oswietlenie-libet-sm.webp",
+    "original": "assets/originals/2019/05/oświetlenie-Libet.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/o%C5%9Bwietlenie-Libet.jpg"
+  },
+  "2019/05/donice-Future-Design.jpg": {
+    "src": "assets/images/2019-05-donice-future-design.webp",
+    "small": "assets/images/2019-05-donice-future-design-sm.webp",
+    "original": "assets/originals/2019/05/donice-Future-Design.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/donice-Future-Design.jpg"
+  },
+  "2019/04/Projekt.jpg": {
+    "src": "assets/images/2019-04-projekt.webp",
+    "small": "assets/images/2019-04-projekt-sm.webp",
+    "original": "assets/originals/2019/04/Projekt.jpg",
+    "width": 960,
+    "height": 640,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/Projekt.jpg"
+  },
+  "2019/04/21-1.jpg": {
+    "src": "assets/images/2019-04-21-1.webp",
+    "small": "assets/images/2019-04-21-1-sm.webp",
+    "original": "assets/originals/2019/04/21-1.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/21-1.jpg"
+  },
+  "2019/04/22-1.jpg": {
+    "src": "assets/images/2019-04-22-1.webp",
+    "small": "assets/images/2019-04-22-1-sm.webp",
+    "original": "assets/originals/2019/04/22-1.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/22-1.jpg"
+  },
+  "2019/04/23-1.jpg": {
+    "src": "assets/images/2019-04-23-1.webp",
+    "small": "assets/images/2019-04-23-1-sm.webp",
+    "original": "assets/originals/2019/04/23-1.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/23-1.jpg"
+  },
+  "2019/04/24-1.jpg": {
+    "src": "assets/images/2019-04-24-1.webp",
+    "small": "assets/images/2019-04-24-1-sm.webp",
+    "original": "assets/originals/2019/04/24-1.jpg",
+    "width": 512,
+    "height": 288,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/24-1.jpg"
+  },
+  "2019/04/25-1.jpg": {
+    "src": "assets/images/2019-04-25-1.webp",
+    "small": "assets/images/2019-04-25-1-sm.webp",
+    "original": "assets/originals/2019/04/25-1.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/25-1.jpg"
+  },
+  "2019/04/26-1.jpg": {
+    "src": "assets/images/2019-04-26-1.webp",
+    "small": "assets/images/2019-04-26-1-sm.webp",
+    "original": "assets/originals/2019/04/26-1.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/26-1.jpg"
+  },
+  "2019/04/27-1.jpg": {
+    "src": "assets/images/2019-04-27-1.webp",
+    "small": "assets/images/2019-04-27-1-sm.webp",
+    "original": "assets/originals/2019/04/27-1.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/27-1.jpg"
+  },
+  "2019/04/28-1.jpg": {
+    "src": "assets/images/2019-04-28-1.webp",
+    "small": "assets/images/2019-04-28-1-sm.webp",
+    "original": "assets/originals/2019/04/28-1.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/28-1.jpg"
+  },
+  "2019/04/29-1.jpg": {
+    "src": "assets/images/2019-04-29-1.webp",
+    "small": "assets/images/2019-04-29-1-sm.webp",
+    "original": "assets/originals/2019/04/29-1.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/29-1.jpg"
+  },
+  "2019/04/30-1.jpg": {
+    "src": "assets/images/2019-04-30-1.webp",
+    "small": "assets/images/2019-04-30-1-sm.webp",
+    "original": "assets/originals/2019/04/30-1.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/30-1.jpg"
+  },
+  "2019/04/31-1.jpg": {
+    "src": "assets/images/2019-04-31-1.webp",
+    "small": "assets/images/2019-04-31-1-sm.webp",
+    "original": "assets/originals/2019/04/31-1.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/04/31-1.jpg"
+  },
+  "2019/05/20170522_091655.jpg": {
+    "src": "assets/images/2019-05-20170522-091655.webp",
+    "small": "assets/images/2019-05-20170522-091655-sm.webp",
+    "original": "assets/originals/2019/05/20170522_091655.jpg",
+    "width": 675,
+    "height": 1200,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170522_091655.jpg"
+  },
+  "2019/05/20170522_091705.jpg": {
+    "src": "assets/images/2019-05-20170522-091705.webp",
+    "small": "assets/images/2019-05-20170522-091705-sm.webp",
+    "original": "assets/originals/2019/05/20170522_091705.jpg",
+    "width": 675,
+    "height": 1200,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170522_091705.jpg"
+  },
+  "2019/05/20170522_091713.jpg": {
+    "src": "assets/images/2019-05-20170522-091713.webp",
+    "small": "assets/images/2019-05-20170522-091713-sm.webp",
+    "original": "assets/originals/2019/05/20170522_091713.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170522_091713.jpg"
+  },
+  "2019/05/20170522_091912.jpg": {
+    "src": "assets/images/2019-05-20170522-091912.webp",
+    "small": "assets/images/2019-05-20170522-091912-sm.webp",
+    "original": "assets/originals/2019/05/20170522_091912.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170522_091912.jpg"
+  },
+  "2019/05/20170522_091916.jpg": {
+    "src": "assets/images/2019-05-20170522-091916.webp",
+    "small": "assets/images/2019-05-20170522-091916-sm.webp",
+    "original": "assets/originals/2019/05/20170522_091916.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170522_091916.jpg"
+  },
+  "2019/05/20170524_101318.jpg": {
+    "src": "assets/images/2019-05-20170524-101318.webp",
+    "small": "assets/images/2019-05-20170524-101318-sm.webp",
+    "original": "assets/originals/2019/05/20170524_101318.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170524_101318.jpg"
+  },
+  "2019/05/20170524_101329.jpg": {
+    "src": "assets/images/2019-05-20170524-101329.webp",
+    "small": "assets/images/2019-05-20170524-101329-sm.webp",
+    "original": "assets/originals/2019/05/20170524_101329.jpg",
+    "width": 675,
+    "height": 1200,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170524_101329.jpg"
+  },
+  "2019/05/20170524_101400.jpg": {
+    "src": "assets/images/2019-05-20170524-101400.webp",
+    "small": "assets/images/2019-05-20170524-101400-sm.webp",
+    "original": "assets/originals/2019/05/20170524_101400.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170524_101400.jpg"
+  },
+  "2019/05/20170606_104614.jpg": {
+    "src": "assets/images/2019-05-20170606-104614.webp",
+    "small": "assets/images/2019-05-20170606-104614-sm.webp",
+    "original": "assets/originals/2019/05/20170606_104614.jpg",
+    "width": 675,
+    "height": 1200,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170606_104614.jpg"
+  },
+  "2019/05/20170626_143200.jpg": {
+    "src": "assets/images/2019-05-20170626-143200.webp",
+    "small": "assets/images/2019-05-20170626-143200-sm.webp",
+    "original": "assets/originals/2019/05/20170626_143200.jpg",
+    "width": 675,
+    "height": 1200,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170626_143200.jpg"
+  },
+  "2019/05/20170626_143211.jpg": {
+    "src": "assets/images/2019-05-20170626-143211.webp",
+    "small": "assets/images/2019-05-20170626-143211-sm.webp",
+    "original": "assets/originals/2019/05/20170626_143211.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170626_143211.jpg"
+  },
+  "2019/05/20170626_143223.jpg": {
+    "src": "assets/images/2019-05-20170626-143223.webp",
+    "small": "assets/images/2019-05-20170626-143223-sm.webp",
+    "original": "assets/originals/2019/05/20170626_143223.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170626_143223.jpg"
+  },
+  "2019/05/20170626_143232.jpg": {
+    "src": "assets/images/2019-05-20170626-143232.webp",
+    "small": "assets/images/2019-05-20170626-143232-sm.webp",
+    "original": "assets/originals/2019/05/20170626_143232.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170626_143232.jpg"
+  },
+  "2019/05/20170626_143252.jpg": {
+    "src": "assets/images/2019-05-20170626-143252.webp",
+    "small": "assets/images/2019-05-20170626-143252-sm.webp",
+    "original": "assets/originals/2019/05/20170626_143252.jpg",
+    "width": 1200,
+    "height": 675,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/20170626_143252.jpg"
+  },
+  "2019/05/IMG_0922.jpg": {
+    "src": "assets/images/2019-05-img-0922.webp",
+    "small": "assets/images/2019-05-img-0922-sm.webp",
+    "original": "assets/originals/2019/05/IMG_0922.jpg",
+    "width": 1200,
+    "height": 899,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/IMG_0922.jpg"
+  },
+  "2019/05/IMG_0926.jpg": {
+    "src": "assets/images/2019-05-img-0926.webp",
+    "small": "assets/images/2019-05-img-0926-sm.webp",
+    "original": "assets/originals/2019/05/IMG_0926.jpg",
+    "width": 1200,
+    "height": 899,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/IMG_0926.jpg"
+  },
+  "2019/05/IMG_0930.jpg": {
+    "src": "assets/images/2019-05-img-0930.webp",
+    "small": "assets/images/2019-05-img-0930-sm.webp",
+    "original": "assets/originals/2019/05/IMG_0930.jpg",
+    "width": 1200,
+    "height": 899,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/IMG_0930.jpg"
+  },
+  "2019/05/IMG_20190406_071205.jpg": {
+    "src": "assets/images/2019-05-img-20190406-071205.webp",
+    "small": "assets/images/2019-05-img-20190406-071205-sm.webp",
+    "original": "assets/originals/2019/05/IMG_20190406_071205.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/IMG_20190406_071205.jpg"
+  },
+  "2019/05/IMG_20190406_071217.jpg": {
+    "src": "assets/images/2019-05-img-20190406-071217.webp",
+    "small": "assets/images/2019-05-img-20190406-071217-sm.webp",
+    "original": "assets/originals/2019/05/IMG_20190406_071217.jpg",
+    "width": 900,
+    "height": 1200,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/IMG_20190406_071217.jpg"
+  },
+  "2019/05/IMG_20190418_172928.jpg": {
+    "src": "assets/images/2019-05-img-20190418-172928.webp",
+    "small": "assets/images/2019-05-img-20190418-172928-sm.webp",
+    "original": "assets/originals/2019/05/IMG_20190418_172928.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/IMG_20190418_172928.jpg"
+  },
+  "2019/05/IMG_20190418_173014.jpg": {
+    "src": "assets/images/2019-05-img-20190418-173014.webp",
+    "small": "assets/images/2019-05-img-20190418-173014-sm.webp",
+    "original": "assets/originals/2019/05/IMG_20190418_173014.jpg",
+    "width": 1200,
+    "height": 900,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/IMG_20190418_173014.jpg"
+  },
+  "2019/05/kostka-4cm.jpg": {
+    "src": "assets/images/2019-05-kostka-4cm.webp",
+    "small": "assets/images/2019-05-kostka-4cm-sm.webp",
+    "original": "assets/originals/2019/05/kostka-4cm.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/kostka-4cm.jpg"
+  },
+  "2019/05/plyta-tarasowa-wielkoformatowa.jpg": {
+    "src": "assets/images/2019-05-plyta-tarasowa-wielkoformatowa.webp",
+    "small": "assets/images/2019-05-plyta-tarasowa-wielkoformatowa-sm.webp",
+    "original": "assets/originals/2019/05/plyta-tarasowa-wielkoformatowa.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/plyta-tarasowa-wielkoformatowa.jpg"
+  },
+  "2019/05/melanz-kolorystyczny.jpg": {
+    "src": "assets/images/2019-05-melanz-kolorystyczny.webp",
+    "small": "assets/images/2019-05-melanz-kolorystyczny-sm.webp",
+    "original": "assets/originals/2019/05/melanz-kolorystyczny.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/melanz-kolorystyczny.jpg"
+  },
+  "2019/05/quarziti-2-0.jpg": {
+    "src": "assets/images/2019-05-quarziti-2-0.webp",
+    "small": "assets/images/2019-05-quarziti-2-0-sm.webp",
+    "original": "assets/originals/2019/05/quarziti-2-0.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/quarziti-2-0.jpg"
+  },
+  "2019/05/qubo-libet.jpg": {
+    "src": "assets/images/2019-05-qubo-libet.webp",
+    "small": "assets/images/2019-05-qubo-libet-sm.webp",
+    "original": "assets/originals/2019/05/qubo-libet.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/qubo-libet.jpg"
+  },
+  "2019/05/swiecaca-kostka.jpg": {
+    "src": "assets/images/2019-05-swiecaca-kostka.webp",
+    "small": "assets/images/2019-05-swiecaca-kostka-sm.webp",
+    "original": "assets/originals/2019/05/swiecaca-kostka.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/swiecaca-kostka.jpg"
+  },
+  "2019/05/stream-line-libet.jpg": {
+    "src": "assets/images/2019-05-stream-line-libet.webp",
+    "small": "assets/images/2019-05-stream-line-libet-sm.webp",
+    "original": "assets/originals/2019/05/stream-line-libet.jpg",
+    "width": 500,
+    "height": 300,
+    "url": "https://markin.pl/wp-content/uploads/2019/05/stream-line-libet.jpg"
+  }
+}

@@ -1,0 +1,55 @@
+// Only official, reviewed sources. This file is the outbound network allowlist.
+// Do not accept source URLs or selectors from requests or partner content.
+export const SOURCES = [
+  {
+    id: 'libet', name: 'Libet',
+    hosts: ['libet.pl', 'www.libet.pl'],
+    feeds: ['https://libet.pl/feed/'],
+    page: 'https://libet.pl/aktualnosci/',
+    label: 'Porady i aktualności Libet',
+    titlePattern: /kostk|kolor|taras|ogr[oó]d|ogrod|płyt|gres|modulo|nawierzch|kolekcj|porad|decco/i,
+    html: { item: '.post-item', link: 'a[href]', title: 'h3.title' },
+    limit: 8,
+  },
+  {
+    id: 'ledbruk', name: 'LedBruk',
+    hosts: ['ledbruk.com', 'www.ledbruk.com'],
+    feeds: ['https://ledbruk.com/feed/'],
+    page: 'https://ledbruk.com/category/bez-kategorii-pl/',
+    label: 'Oświetlenie i inspiracje LedBruk',
+    html: { item: 'article', link: 'h2.entry-title a', date: '.published' },
+    limit: 8,
+  },
+  {
+    id: 'gatigo', name: 'Gatigo',
+    hosts: ['gatigo.pl', 'www.gatigo.pl'],
+    feeds: [], // This Gatsby site has no working /feed/ endpoint (HTTP 404).
+    page: 'https://gatigo.pl/wiadomosci/',
+    label: 'Wiadomości Gatigo',
+    titlePattern: /ogrodze|bram|furtk|kotw|monta|porad|panel|stal/i,
+    html: { item: '[class*="PostsTiles1__TileSingleWrapper"]', link: 'a[href]',
+      title: '[class*="PostsTiles1__BadgeWrapper"] p' },
+    limit: 8,
+  },
+  {
+    id: 'drogbruk', name: 'Drogbruk',
+    hosts: ['drogbruk.pl', 'www.drogbruk.pl'],
+    feeds: [],
+    page: 'https://www.drogbruk.pl/artykuly-i-porady/',
+    label: 'Porady Drogbruk',
+    pathPattern: /^\/porady\//,
+    html: { item: '.newsCard', link: 'a.newsCard__body', title: 'h3', date: 'h3 + div' },
+    limit: 8,
+  },
+  {
+    id: 'bozza', name: 'Bozza',
+    hosts: ['bozza.pl', 'www.bozza.pl'],
+    feeds: ['https://bozza.pl/feed/'],
+    page: 'https://bozza.pl/blog/',
+    label: 'Tarasy i materiały Bozza',
+    titlePattern: /taras|zewnętrzn|płytk|płytek|kamie[ńn]|kamien|gres|nawierzch/i,
+    excludeTitlePattern: /wanna|\bspa\b|armatura|drzwi|łazien/i,
+    html: { item: '.tease-post__wrapper', link: 'a[href]', title: 'h4', date: 'time' },
+    limit: 8,
+  },
+];

@@ -1,0 +1,209 @@
+// Initial verified snapshot. Refreshed only by scripts/verify-sources.mjs --write.
+export const SEED = {
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-05T18:52:50.152Z",
+  "lastSuccessAt": "2026-10-05T18:52:50.152Z",
+  "entries": [
+    {
+      "id": "0613418048a267c4e98f",
+      "title": "Jak zamontować kotwy do betonu?",
+      "url": "https://gatigo.pl/wiadomosci/porady-i-trendy/jak-zamontowac-kotwy-do-betonu/",
+      "partner": "Gatigo",
+      "sourceId": "gatigo",
+      "publishedAt": null,
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "09ffe89f6401803ca2f5",
+      "title": "Jak zbudować warzywniak w ogrodzie?",
+      "url": "https://www.drogbruk.pl/porady/jak-zbudowac-warzywniak-w-ogrodzie/",
+      "partner": "Drogbruk",
+      "sourceId": "drogbruk",
+      "publishedAt": "2025-08-12T00:00:00.000Z",
+      "discoveredAt": "2026-10-05T18:44:46.000Z"
+    },
+    {
+      "id": "f57b9c9acf1f5c414a75",
+      "title": "Jak samodzielnie wykonać opaskę oddzielającą trawnik od rabaty?",
+      "url": "https://www.drogbruk.pl/porady/jak-samodzielnie-wykonac-opaske-oddzielajaca-trawnik-od-rabaty/",
+      "partner": "Drogbruk",
+      "sourceId": "drogbruk",
+      "publishedAt": "2025-07-29T00:00:00.000Z",
+      "discoveredAt": "2026-10-05T18:44:46.000Z"
+    },
+    {
+      "id": "3cfdfff9f4c233bd9403",
+      "title": "Jasne kolory beżu w aranżacji podjazdu i ogrodu",
+      "url": "https://www.drogbruk.pl/porady/jasne-kolory-bezu-w-aranzacji-podjazdu-i-ogrodu/",
+      "partner": "Drogbruk",
+      "sourceId": "drogbruk",
+      "publishedAt": "2025-07-10T00:00:00.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "ff4e1f9ebc73531703fd",
+      "title": "Oświetlenie w kostce brukowej – co wybrać?",
+      "url": "https://ledbruk.com/oswietlenie-w-kostce-brukowej-co-wybrac/",
+      "partner": "LedBruk",
+      "sourceId": "ledbruk",
+      "publishedAt": "2024-08-12T10:27:03.000Z",
+      "discoveredAt": "2026-10-05T18:44:46.000Z"
+    },
+    {
+      "id": "7ce845534026dd39fbe7",
+      "title": "LedBruk-Line Alu – Michał Jesionowski VLOG",
+      "url": "https://ledbruk.com/michal-jesionowski-vlog/",
+      "partner": "LedBruk",
+      "sourceId": "ledbruk",
+      "publishedAt": "2024-05-30T19:32:46.000Z",
+      "discoveredAt": "2026-10-05T18:44:46.000Z"
+    },
+    {
+      "id": "fdbdbb8eaeb6ad89e9bd",
+      "title": "Zrównoważony rozwój",
+      "url": "https://ledbruk.com/zrownowazony-rozwoj/",
+      "partner": "LedBruk",
+      "sourceId": "ledbruk",
+      "publishedAt": "2022-03-01T21:14:58.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "d475589e8bd960d68aac",
+      "title": "Oświetlenie tarasu",
+      "url": "https://ledbruk.com/oswietlenie-tarasu/",
+      "partner": "LedBruk",
+      "sourceId": "ledbruk",
+      "publishedAt": "2021-07-08T14:13:25.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "459083fcaf610af7e6f1",
+      "title": "Jak podświetlać strefy w ogrodzie?",
+      "url": "https://ledbruk.com/jak-podswietlac-strefy-w-ogrodzie/",
+      "partner": "LedBruk",
+      "sourceId": "ledbruk",
+      "publishedAt": "2021-07-08T14:11:14.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "9782b3d8f1cc76589aec",
+      "title": "Oświetlenie kostki brukowej",
+      "url": "https://ledbruk.com/oswietlenie-kostki-brukowej/",
+      "partner": "LedBruk",
+      "sourceId": "ledbruk",
+      "publishedAt": "2021-05-11T05:14:31.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "2ff1cea6a736010efa27",
+      "title": "Katalog produktów",
+      "url": "https://ledbruk.com/katalog-produktow/",
+      "partner": "LedBruk",
+      "sourceId": "ledbruk",
+      "publishedAt": "2021-04-13T10:43:04.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "6336ddd7ad494e5f8dff",
+      "title": "Oświetlenie podjazdu do garażu",
+      "url": "https://ledbruk.com/oswietlenie-podjazdu-do-garazu/",
+      "partner": "LedBruk",
+      "sourceId": "ledbruk",
+      "publishedAt": "2021-04-13T06:40:18.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "9c5a1bffee0382e25380",
+      "title": "Nowe kolory w kolekcjach Libet",
+      "url": "https://libet.pl/aktualnosci/nowe-kolory-w-kolekcjach-libet/",
+      "partner": "Libet",
+      "sourceId": "libet",
+      "publishedAt": "2021-03-09T11:24:16.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "80d61d7c3837e1788620",
+      "title": "Nowość! kolor kwarcytowy w rodzinie Libet Decco",
+      "url": "https://libet.pl/aktualnosci/nowosc-kolor-kwarcytowy-w-rodzinie-libet-decco/",
+      "partner": "Libet",
+      "sourceId": "libet",
+      "publishedAt": "2020-10-02T09:04:21.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "6d23dc543cefb7130aec",
+      "title": "Poznajcie kostkę antysmogową",
+      "url": "https://libet.pl/aktualnosci/poznajcie-kostke-antysmogowa/",
+      "partner": "Libet",
+      "sourceId": "libet",
+      "publishedAt": "2019-09-30T05:36:45.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    },
+    {
+      "id": "dcb49f076f231ba0712e",
+      "title": "Nowe kostki Modulo",
+      "url": "https://libet.pl/aktualnosci/nowe-kostki-modulo/",
+      "partner": "Libet",
+      "sourceId": "libet",
+      "publishedAt": "2019-06-17T08:41:33.000Z",
+      "discoveredAt": "2026-10-05T18:52:50.152Z"
+    }
+  ],
+  "sources": [
+    {
+      "id": "libet",
+      "name": "Libet",
+      "url": "https://libet.pl/aktualnosci/",
+      "status": "ok",
+      "checkedAt": "2026-10-05T18:52:50.152Z",
+      "lastSuccessAt": "2026-10-05T18:52:50.152Z",
+      "count": 4,
+      "method": "rss",
+      "error": null
+    },
+    {
+      "id": "ledbruk",
+      "name": "LedBruk",
+      "url": "https://ledbruk.com/category/bez-kategorii-pl/",
+      "status": "ok",
+      "checkedAt": "2026-10-05T18:52:50.152Z",
+      "lastSuccessAt": "2026-10-05T18:52:50.152Z",
+      "count": 8,
+      "method": "rss",
+      "error": null
+    },
+    {
+      "id": "gatigo",
+      "name": "Gatigo",
+      "url": "https://gatigo.pl/wiadomosci/",
+      "status": "ok",
+      "checkedAt": "2026-10-05T18:52:50.152Z",
+      "lastSuccessAt": "2026-10-05T18:52:50.152Z",
+      "count": 1,
+      "method": "html",
+      "error": null
+    },
+    {
+      "id": "drogbruk",
+      "name": "Drogbruk",
+      "url": "https://www.drogbruk.pl/artykuly-i-porady/",
+      "status": "ok",
+      "checkedAt": "2026-10-05T18:52:50.152Z",
+      "lastSuccessAt": "2026-10-05T18:52:50.152Z",
+      "count": 3,
+      "method": "html",
+      "error": null
+    },
+    {
+      "id": "bozza",
+      "name": "Bozza",
+      "url": "https://bozza.pl/blog/",
+      "status": "empty",
+      "checkedAt": "2026-10-05T18:52:50.152Z",
+      "lastSuccessAt": "2026-10-05T18:52:50.152Z",
+      "count": 0,
+      "method": "html",
+      "error": null
+    }
+  ]
+};

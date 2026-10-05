@@ -1,0 +1,84 @@
+{
+  "verified_on": "2026-10-05",
+  "scope": "Treść do przebudowy markin.pl; badanie publicznego serwisu i oficjalnych źródeł marek wymienionych przez Markin. Nowe opisy poniżej są autorskie.",
+  "contact": {
+    "phone": "+48 577 730 739",
+    "phone_href": "tel:+48577730739",
+    "email": "biuro@markin.pl",
+    "address": "Radlin 193C, 26-008 Górno",
+    "address_source": "https://markin.pl/kontakt/",
+    "email_source": "https://markin.pl/realizacje/",
+    "opening_hours": null,
+    "conflict": "Kontakt podaje Radlin 193C. Stary artykuł Informacje wskazuje dawny punkt Kielce, ul. 1 Maja 191. Przyjąć aktualną zakładkę Kontakt; nie tworzyć dwóch czynnych punktów na podstawie niespójności."
+  },
+  "company_facts": {
+    "sources": ["https://markin.pl/o-firmie/", "https://markin.pl/projektowanie/"],
+    "audiences": ["klienci indywidualni", "inwestorzy", "architekci"],
+    "verified_services": ["sprzedaż materiałów do otoczenia domu i ogrodu", "doradztwo materiałowe i aranżacyjne", "indywidualne kosztorysy", "realizacja zamówień", "projektowanie i wycena nawierzchni wokół domu, tarasów, ogrodzeń i małej architektury"],
+    "unverified": ["rok rozpoczęcia działalności", "dokładny staż", "liczba realizacji", "godziny otwarcia", "własna ekipa wykonawcza", "bezpłatny projekt", "bezpłatny transport", "termin odpowiedzi", "sztywna gwarancja na wszystkie produkty", "dokładny zasięg dostaw"]
+  },
+  "offer": [
+    {"name": "Kostki brukowe i podjazdy", "brands": ["Semmelrock", "DrogBruk", "Forbet", "Libet"], "copy": "Pierwsze wrażenie zaczyna się przed domem. Dobierz format, kolor i fakturę nawierzchni do architektury budynku, a jej parametry do codziennego ruchu. Zestawienie podjazdu i ścieżek w jednej kompozycji porządkuje całą posesję.", "consider": ["przeznaczenie i przewidywane obciążenie", "format i sposób ułożenia", "podbudowa oraz odwodnienie"], "source": "https://markin.pl/produkty/"},
+    {"name": "Płyty i tarasy wentylowane", "brands": ["Bozza", "Poz-Bruk"], "copy": "Taras może być naturalnym przedłużeniem salonu. Spokojne powierzchnie, wyrazisty rysunek kamienia lub duże formaty tworzą tło dla odpoczynku. W rozwiązaniu wentylowanym płyty opierają się na wspornikach, pozostawiając pod nimi przestrzeń na przepływ powietrza i odpływ wody.", "consider": ["płyta dopuszczona do wybranego sposobu montażu", "wysokość konstrukcji", "właściwości konkretnego modelu"], "source": "https://markin.pl/produkty/"},
+    {"name": "Ogrodzenia i bramy", "brands": ["Gatigo", "Drewbet", "SLABB", "COM-BET", "Semmelrock"], "copy": "Ogrodzenie nadaje posesji ramę, a brama to detal, z którego korzystasz każdego dnia. Połącz rytm przęseł, słupki i wjazd w spójną całość. Wybór konstrukcji bramy warto rozpocząć od szerokości działki i miejsca dostępnego na otwieranie.", "consider": ["stopień osłonięcia posesji", "światło wjazdu i miejsce na ruch bramy", "spójność z nawierzchnią i elewacją"], "source": "https://markin.pl/produkty/"},
+    {"name": "Mała architektura i elementy dekoracyjne", "brands": ["SLABB", "Libet", "Semmelrock"], "copy": "Dobrze zaplanowany ogród ma swój rytm. Murki, stopnie i elementy dekoracyjne pomagają wydzielić strefy, podkreślić poziomy terenu i poprowadzić wzrok. Powtórzenie materiałów z tarasu czy podjazdu pozwala połączyć poszczególne części posesji.", "consider": ["funkcja i proporcje elementów", "powiązanie z poziomami terenu", "powtarzalna paleta materiałów"], "source": "https://markin.pl/produkty/"},
+    {"name": "Oświetlenie ogrodowe", "brands": ["LedBruk", "Libet"], "copy": "Po zmroku przestrzeń może wyglądać zupełnie inaczej. Światło w nawierzchni, przy schodach i wśród zieleni podkreśla architekturę oraz wyznacza kierunek przejścia. Dobierz oprawy do materiałów i zaplanuj instalację już na etapie projektu.", "consider": ["barwa i kierunek światła", "dopasowanie opraw do nawierzchni", "sposób zasilania i sterowania"], "source": "https://markin.pl/produkty/"},
+    {"name": "Donice", "brands": ["Future Design"], "copy": "Zieleń zasługuje na odpowiednią oprawę. Donice pomagają zbudować wejście do domu, wydzielić miejsce wypoczynku i wprowadzić rośliny na taras. Zestaw formy o przemyślanych proporcjach z materiałami obecnymi w całej aranżacji.", "consider": ["wielkość roślin i bryły korzeniowej", "przeznaczenie do wnętrza lub na zewnątrz", "proporcje oraz kolorystyka"], "source": "https://markin.pl/produkty/"}
+  ],
+  "additional_homepage_categories": ["Bramy Gatigo", "Grill / palenisko Gatigo", "Obrzeże 100 × 30 × 8", "Elementy dekoracyjne", "Tarasy wentylowane z systemem wsporników"],
+  "suggested_brand_copy": {
+    "hero": "Dobrze zaprojektowane otoczenie. Piękniejsza codzienność.",
+    "hero_alternative": "Dom zaczyna się na zewnątrz.",
+    "lead": "Kostka, tarasy, ogrodzenia i detale, które tworzą jedną całość. Poznaj materiały do swojej przestrzeni i zaplanuj ją z Markin.",
+    "about": "Łączymy materiały, pomysły i praktyczne doradztwo. Pomagamy klientom indywidualnym, inwestorom i architektom planować otoczenie domu: od ścieżek i podjazdów po taras, ogrodzenie oraz detale ogrodowe. W jednym miejscu dobierzesz rozwiązania i omówisz ich wycenę.",
+    "design": "Najpierw pomysł. Potem spójna przestrzeń. Projekt pozwala uporządkować funkcje posesji, połączyć materiały i przygotować się do zakupu. W Markin możesz omówić projekt oraz wycenę nawierzchni, tarasu, ogrodzenia i małej architektury.",
+    "consultation_cta": "Porozmawiajmy o Twojej przestrzeni",
+    "quote_cta": "Zapytaj o wycenę"
+  },
+  "suggested_process": {
+    "status": "Redakcyjna prezentacja potwierdzonych usług, bez wymyślania terminów i warunków umowy.",
+    "steps": [
+      {"title": "Porozmawiajmy o potrzebach", "body": "Opowiedz o działce, sposobie jej użytkowania i efekcie, który chcesz uzyskać. Pomocne będą wymiary, zdjęcia oraz inspiracje."},
+      {"title": "Dobierzmy materiały", "body": "Porównajmy formaty, kolory i zastosowania. Połączymy nawierzchnie, ogrodzenie oraz detale w kierunek odpowiadający Twojej architekturze."},
+      {"title": "Ustalmy zakres i wycenę", "body": "Omówimy projekt i zestawienie materiałów. Dostępność, cenę oraz sposób odbioru lub transportu ustalimy dla konkretnego zamówienia."}
+    ]
+  },
+  "advice_topics": [
+    {"title": "Zacznij od codziennych tras", "text": "Zaplanuj dojście do wejścia, samochodu, pojemników na odpady i strefy wypoczynku. Uwzględnij wymiary tych miejsc przed wyborem formatu nawierzchni."},
+    {"title": "Połącz dom i ogród wspólną paletą", "text": "Kolor elewacji, stolarki i ogrodzenia pomaga zawęzić wybór materiałów. Powtórz wybrane barwy, a fakturę i format dopasuj do skali przestrzeni."},
+    {"title": "Parametry dopasuj do zastosowania", "text": "Odpowiednia nawierzchnia zależy od obciążenia, konkretnego produktu, sposobu ułożenia i podłoża. Dobór grubości potwierdź w dokumentacji producenta; nie opieraj go wyłącznie na ogólnych tabelach."},
+    {"title": "Pomyśl o wodzie i świetle wcześniej", "text": "Odwodnienie, poziomy terenu i przebieg instalacji najlepiej rozpatrywać razem z układem nawierzchni. Pozwala to skoordynować późniejsze prace."},
+    {"title": "Sprawdź materiał przed ułożeniem", "text": "Zweryfikuj dostawę oraz oznaczenia na paletach. Mieszanie elementów z różnych palet i pozostawienie właściwych fug wykonuj zgodnie z instrukcją wybranego producenta."}
+  ],
+  "faq": [
+    {"q": "Czy Markin pomaga w projektowaniu?", "a": "Tak. Oferta obejmuje projektowanie i wycenę nawierzchni wokół domu, tarasów, ogrodzeń oraz małej architektury. Zakres współpracy ustalamy indywidualnie.", "source": "https://markin.pl/projektowanie/"},
+    {"q": "Co przygotować do rozmowy o wycenie?", "a": "Wymiary planowanej powierzchni, zdjęcia domu lub działki, informacje o przeznaczeniu nawierzchni oraz wybrane inspiracje. Jeśli masz projekt, warto go dołączyć.", "status": "Autorska praktyczna wskazówka; nie jest warunkiem przyjęcia zamówienia."},
+    {"q": "Jak wybrać materiał na podjazd?", "a": "Zacznij od przewidywanego ruchu i obciążenia. Parametry konkretnej kostki lub płyty, podbudowa oraz montaż muszą odpowiadać temu zastosowaniu. Pomagamy przejść od pomysłu do wyboru materiału.", "sources": ["https://markin.pl/informacje/", "https://www.wienerberger.pl/produkty/kostka-brukowa-plyty-tarasowe-ogrodzenia-betonowe-semmelrock/kostki-i-plyty-brukowe.html"]},
+    {"q": "Na czym polega taras wentylowany?", "a": "Płyty układa się na odpowiednio dobranych wspornikach. Pod powierzchnią zostaje przestrzeń umożliwiająca przepływ powietrza, odpływ wody i dostęp do poprowadzonych tam instalacji. Rozwiązanie trzeba dopasować do podłoża i płyt.", "source": "https://libet.pl/produkt-kategoria/wsporniki/"},
+    {"q": "Czy mogę zamówić transport?", "a": "Sposób odbioru, możliwość transportu, koszt oraz termin ustalamy przy konkretnym zamówieniu. Skontaktuj się z nami z informacją o materiale i miejscu dostawy.", "source": "https://markin.pl/pliki/OWS-MARKIN-PL-Sylweter-Kwiecien.pdf"}
+  ],
+  "official_marketing_sources": [
+    {"brand": "Gatigo", "url": "https://gatigo.pl/ogrodzenia/", "supports": "Zestawianie kolekcji ogrodzeniowych i spójna aranżacja; nie obiecywać dostępności każdej kolekcji w Markin."},
+    {"brand": "Gatigo", "url": "https://gatigo.pl/bramy-wjazdowe/", "supports": "Różne konstrukcje bram, wybór zależny od miejsca na działce; oferta producenta obejmuje wykonanie na wymiar."},
+    {"brand": "Libet", "url": "https://libet.pl/produkt-kategoria/wsporniki/", "supports": "Taras wentylowany, przepływ powietrza i wody, dostęp pod płyty, wsporniki o różnych wysokościach."},
+    {"brand": "Libet", "url": "https://libet.pl/produkt-kategoria/gres-porcelanowy/", "supports": "Gres na powierzchnie zewnętrzne, różne wzory i sposoby montażu; cechy techniczne zależne od modelu."},
+    {"brand": "Bozza", "url": "https://bozza.pl/oferta/tarasy/", "supports": "Kategoria gresu zewnętrznego 20 mm i wsporników; taras jako przestrzeń wypoczynkowa."},
+    {"brand": "LedBruk", "url": "https://ledbruk.com/", "supports": "Oświetlenie dopasowane do kostki, oprawy liniowe, oświetlenie ogrodu, regulacja kolorów i temperatury w wybranych modelach."},
+    {"brand": "Semmelrock / Wienerberger", "url": "https://www.wienerberger.pl/produkty/kostka-brukowa-plyty-tarasowe-ogrodzenia-betonowe-semmelrock/kostki-i-plyty-brukowe.html", "supports": "Dobór kostek według przeznaczenia, koloru, wzoru i nośności; ważny prawidłowy montaż oraz podbudowa."},
+    {"brand": "Future Design", "url": "https://futuredesign.com.pl/", "supports": "Potwierdzenie marki jako źródła oferty donic i odsyłaczy do kolekcji; bez przypisywania całej aktualnej oferty Markin."}
+  ],
+  "legal_and_accuracy_notes": [
+    "Nie przypisywać Markin własnego montażu ani wykonawstwa. Źródła potwierdzają sprzedaż, doradztwo, projektowanie i realizację zamówień, lecz nie własną ekipę.",
+    "Nie publikować fikcyjnych opinii, liczników klientów, nagród, lat na rynku, stanów magazynowych, procentowych rabatów lub cen.",
+    "Stare informacje o nośności 4 cm / 2 t, 6 cm / 3,5 t i 8 cm dla ciężarówek są uogólnieniami; zastąpić poradą o doborze według konkretnego produktu, dokumentacji, podbudowy i obciążenia.",
+    "Nie przenosić jako gwarancji liczby 15–16 lat żywotności oświetlenia ze starego artykułu.",
+    "Polityka prywatności źródła ma treść o wdrożeniu RODO, telefon 557 zamiast 577 i stary adres; wymaga sprawdzenia przez właściciela, nie przedstawiać jej jako poprawionej i zweryfikowanej prawnie.",
+    "Źródłowy OWS podaje MARKIN.PL Sylwester Kwiecień, 26-067 Strawczyn, ul. Św. Tekli 5, Promnik. To dane dokumentu, nie potwierdzony obecny adres punktu. Zachować plik, nie wymyślać nowego regulaminu.",
+    "Sekcja Procedura zamawiania na źródłowej stronie Informacje nie ma treści. Proponowany nowy proces jest redakcyjnym uporządkowaniem istniejących usług, nie obietnicą konkretnych warunków.",
+    "Zdjęcia brać z markin.pl zgodnie z prośbą użytkownika. Z witryn innych marek użyć tylko informacji do autorskiego marketingu, nie pobierać dodatkowych zdjęć bez potrzeby."
+  ],
+  "source_documents": {
+    "sales_terms": "https://markin.pl/pliki/OWS-MARKIN-PL-Sylweter-Kwiecien.pdf",
+    "privacy_policy": "https://markin.pl/polityka-prywatnosci/"
+  }
+}

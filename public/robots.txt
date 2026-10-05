@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://markin.pl/sitemap.xml

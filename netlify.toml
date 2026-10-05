@@ -1,0 +1,61 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[redirects]]
+  from = "/produkty/"
+  to = "/oferta.html"
+  status = 301
+[[redirects]]
+  from = "/informacje/"
+  to = "/poradnik.html"
+  status = 301
+[[redirects]]
+  from = "/o-firmie/"
+  to = "/o-firmie.html"
+  status = 301
+[[redirects]]
+  from = "/projektowanie/"
+  to = "/projektowanie.html"
+  status = 301
+[[redirects]]
+  from = "/realizacje/"
+  to = "/realizacje.html"
+  status = 301
+[[redirects]]
+  from = "/kontakt/"
+  to = "/kontakt.html"
+  status = 301
+[[redirects]]
+  from = "/polityka-prywatnosci/"
+  to = "/prywatnosc.html"
+  status = 301
+[[redirects]]
+  from = "/pliki/OWS-MARKIN-PL-Sylweter-Kwiecien.pdf"
+  to = "/dokumenty/ogolne-warunki-sprzedazy.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/*"
+  to = "/assets/originals/:splat"
+  status = 301

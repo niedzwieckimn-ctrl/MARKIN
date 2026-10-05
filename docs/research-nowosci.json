@@ -1,0 +1,27 @@
+{
+  "verified_on": "2026-10-05",
+  "method": "Publiczne źródła otwarte narzędziem web. Potwierdzenie obecności kanału XML nie potwierdza jeszcze parsowania jego treści przez wdrażany moduł. Bezpośredni odczyt HTTP z shell był zablokowany sandboxem sieciowym.",
+  "sources": [
+    {"brand":"Libet","official_domain":"libet.pl","feed":"https://libet.pl/feed/","feed_verification":"Serwer zwraca text/xml, web nie obsługuje tego content-type.","list":"https://libet.pl/aktualnosci/","alternative":"https://libet.pl/porady-i-inspiracje/","notes":"Lista aktualności zawiera głównie starsze pozycje 2019-2022, a /blog/ jest pusty w SSR. Używać dat z feedu, nie nadawać daty dzisiejszej. Lepiej nazwać sekcję Inspiracje i nowości partnerów."},
+    {"brand":"Bozza","official_domain":"bozza.pl","feed":"https://bozza.pl/feed/","feed_verification":"Serwer zwraca application/rss+xml, web nie obsługuje tego content-type.","list":"https://bozza.pl/blog/","notes":"Blog obejmuje szerokie wyposażenie wnętrz. Filtrować tytuły/kategorie na taras, ogród, płytki, kamień, gres; nie włączać automatycznie armatury, drzwi, wanien itp. niepotwierdzonych w ofercie Markin."},
+    {"brand":"Drogbruk","official_domain":"www.drogbruk.pl","feed":null,"list":"https://www.drogbruk.pl/artykuly-i-porady/","notes":"Widoczna lista zawiera poradniki i aktualności społeczno-sportowe. Filtrować do /porady/ albo tematycznie. Zidentyfikowane konkretne artykuły mają widoczne daty."},
+    {"brand":"LedBruk","official_domain":"ledbruk.com","feed":null,"list":"https://ledbruk.com/category/bez-kategorii-pl/","alternative":"https://ledbruk.com/nowosci/","notes":"Strona kategorii ma widoczne tytuły, daty, linki; /nowosci/ jest stałą prezentacją produktów i zapowiedzią Insert bez daty. Feed /feed/ nie potwierdzony przez narzędzie web."},
+    {"brand":"Gatigo","official_domain":"gatigo.pl","feed":null,"list":"https://gatigo.pl/wiadomosci/aktualnosci/","alternative":"https://gatigo.pl/wiadomosci/","notes":"Aktualności mają tylko dwa wpisy o ambasadorce, brak widocznych linków tekstowych i dat w ekstrakcji. Do automatu gorsze niż Libet/Drogbruk/LedBruk; użyć dopiero po sprawdzeniu faktycznych kart HTML. Nowości produktowe można kierować do aktualnej oferty bram https://gatigo.pl/bramy-wjazdowe/."}
+  ],
+  "verified_items": [
+    {"brand":"Drogbruk","title":"Jak zbudować warzywniak w ogrodzie?","url":"https://www.drogbruk.pl/porady/jak-zbudowac-warzywniak-w-ogrodzie/","date":"2025-08-12","type":"Poradnik","summary_original":"Producent pokazuje zastosowanie palisad w podwyższonych grządkach ogrodowych."},
+    {"brand":"Drogbruk","title":"Jak samodzielnie wykonać opaskę oddzielającą trawnik od rabaty?","url":"https://www.drogbruk.pl/porady/jak-samodzielnie-wykonac-opaske-oddzielajaca-trawnik-od-rabaty/","date":"2025-07-29","type":"Poradnik","summary_original":"Inspiracja do uporządkowania granicy między roślinnością a trawnikiem."},
+    {"brand":"Drogbruk","title":"Primavera w nowym kolorze Lumino","url":"https://www.drogbruk.pl/produkt/primavera-2/primavera-lumino/","date":null,"type":"Nowość produktowa na stronie producenta","summary_original":"Drogbruk prezentuje wariant Lumino swojej kostki Primavera. Dostępność w Markin wymaga potwierdzenia."},
+    {"brand":"LedBruk","title":"Oświetlenie w kostce brukowej – co wybrać?","url":"https://ledbruk.com/oswietlenie-w-kostce-brukowej-co-wybrac/","date":"2024-08-12","type":"Poradnik","summary_original":"Przegląd sposobów wprowadzenia światła w nawierzchnię posesji."},
+    {"brand":"LedBruk","title":"LedBruk-Line Alu – Michał Jesionowski VLOG","url":"https://ledbruk.com/michal-jesionowski-vlog/","date":"2024-05-30","type":"Prezentacja produktu","summary_original":"Materiał o liniowym oświetleniu zewnętrznym LedBruk-Line Alu."},
+    {"brand":"Bozza","title":"Trendy we wnętrzach 2026 prosto z Mediolanu – co zachwyciło nas na Salone del Mobile?","url":"https://bozza.pl/trendy-we-wnetrzach-2026/","date":"2026-05-11","type":"Inspiracje","summary_original":"Relacja o kierunkach wzornictwa; temat ogólny, do domyślnego feedu Markin dopuścić tylko po dopasowaniu tematycznym."}
+  ],
+  "automation_rules": [
+    "Zachować datę publikacji tylko jeśli źródło ją podaje; null oznacza brak daty, nie dzisiejszą datę.",
+    "Wyświetlać nazwę marki i bezpośredni link do źródła. Nie kopiować całych artykułów ani zdjęć z portali partnerów.",
+    "Oddzielić aktualność producenta od dostępności produktu w Markin; nie generować stanów ani cen.",
+    "Utrzymywać dozwoloną listę domen, usuwać HTML/skrypty z tytułów i odrzucać linki do innych domen.",
+    "Przy błędzie pobierania zachować ostatni poprawny cache i prawdziwą datę jego aktualizacji.",
+    "Nie oznaczać jako nowość artykułu sprzed lat tylko dlatego, że został pobrany dzisiaj. Starsze materiały prezentować jako poradniki/inspiracje."
+  ]
+}

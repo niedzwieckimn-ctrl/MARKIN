@@ -1,0 +1,7 @@
+node_modules/
+.netlify/
+.env
+.env.*
+test/live/
+test/bundles/
+.DS_Store
