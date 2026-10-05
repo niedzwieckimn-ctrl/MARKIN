@@ -1,0 +1,52 @@
+[
+  {
+    "page": "404.html",
+    "sentences": 3,
+    "duplicates": []
+  },
+  {
+    "page": "index.html",
+    "sentences": 36,
+    "duplicates": []
+  },
+  {
+    "page": "kontakt.html",
+    "sentences": 7,
+    "duplicates": []
+  },
+  {
+    "page": "nowosci.html",
+    "sentences": 39,
+    "duplicates": []
+  },
+  {
+    "page": "o-firmie.html",
+    "sentences": 11,
+    "duplicates": []
+  },
+  {
+    "page": "oferta.html",
+    "sentences": 28,
+    "duplicates": []
+  },
+  {
+    "page": "poradnik.html",
+    "sentences": 43,
+    "duplicates": []
+  },
+  {
+    "page": "projektowanie.html",
+    "sentences": 24,
+    "duplicates": []
+  },
+  {
+    "page": "prywatnosc.html",
+    "sentences": 19,
+    "duplicates": []
+  },
+  {
+    "page": "realizacje.html",
+    "sentences": 4,
+    "duplicates": []
+  }
+]

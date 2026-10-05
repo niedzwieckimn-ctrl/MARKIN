@@ -1,21 +1,23 @@
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const hosts = new Set(['www.drogbruk.pl','drogbruk.pl','pozbruk.pl','www.pozbruk.pl','ledbruk.com','www.ledbruk.com']);
+const hosts = new Set(['www.drogbruk.pl','drogbruk.pl','pozbruk.pl','www.pozbruk.pl','ledbruk.com','www.ledbruk.com','libet.pl','www.libet.pl','slabb.pl','slabb.eu','bozza.pl','ogrodzenia.drewbet.pl']);
+export const safeImage = image => typeof image==='string' && /^(?:assets\/products\/[a-f0-9]+\.(?:webp|jpg|png)|\/api\/product-image\?id=[a-f0-9]{64})$/.test(image);
+export const galleryOf = p => [...new Map([{image:p.image},...(Array.isArray(p.gallery)?p.gallery:[])].filter(i=>i&&safeImage(i.image)).map(i=>[i.image,i])).values()].slice(0,20);
 export function safeProduct(p) {
   try {
     const url = new URL(p.url);
-    return p && typeof p.id === 'string' && typeof p.title === 'string' && p.title.length >= 4 && p.title.length <= 96
+    return p && typeof p.id === 'string' && typeof p.title === 'string' && p.title.trim().length >= 2 && p.title.length <= 96
       && typeof p.partner === 'string' && !/gatigo|sem[me]+lrock/i.test(p.title + p.partner + p.url)
       && url.protocol === 'https:' && hosts.has(url.hostname) && !url.username && !url.password && !url.port
-      && /^(?:assets\/products\/[a-f0-9]+\.(?:webp|jpg|png)|\/api\/product-image\?id=[a-f0-9]{64})$/.test(p.image);
+      && safeImage(p.image);
   } catch { return false; }
 }
 const quoteURL = p => 'kontakt.html?temat=' + encodeURIComponent(p.partner + ' — ' + p.title);
 export function productCard(p) {
-  return `<article class="news-card product-card" data-partner="${esc(p.partner)}" data-category="${esc(p.category)}">
-    <a class="product-card-photo" href="${esc(quoteURL(p))}" aria-label="Zapytaj o ${esc(p.title)}"><img src="${esc(p.image)}" alt="${esc(p.title)} — zdjęcie producenta ${esc(p.partner)}" width="800" height="540" loading="lazy"><span class="product-badge">${esc(p.badge)}</span></a>
+  return `<article class="news-card product-card" id="produkt-${esc(p.id)}" data-id="${esc(p.id)}" data-kind="${p.kind==='selection'?'selection':'new'}" data-partner="${esc(p.partner)}" data-category="${esc(p.category)}" data-panel="${p.panel===true}">
+    <button class="product-card-photo" type="button" data-product-gallery="${esc(p.id)}" aria-label="Zobacz zdjęcia: ${esc(p.title)}"><img src="${esc(p.image)}" alt="${esc(p.title)} — materiał ze strony ${esc(p.partner)}" width="800" height="540" loading="lazy"><span class="product-badge">${esc(p.badge)}</span><span class="gallery-hint">Zobacz zdjęcia · ${galleryOf(p).length} ↗</span></button>
     <div class="product-card-body"><span class="eyebrow">${esc(p.partner)} / ${esc(p.category)}</span><h3>${esc(p.title)}</h3><p>${esc(p.description)}</p>
     <div class="product-card-actions"><a class="text-link" href="${esc(quoteURL(p))}">Zapytaj o cenę</a><button class="save-product" type="button" data-save="${esc(p.id)}" aria-label="Dodaj ${esc(p.title)} do inspiracji" aria-pressed="false">♡ Zapisz</button></div>
-    <a class="product-source" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">Szczegóły u producenta ↗</a></div></article>`;
+    <a class="product-source" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">Szczegóły u partnera ↗</a></div></article>`;
 }
 export function productSlide(p, i, total) {
   return `<article class="product-slide" data-id="${esc(p.id)}" role="group" aria-roledescription="slajd" aria-label="${i+1} z ${total}: ${esc(p.title)}" ${i ? 'inert aria-hidden="true"' : ''}>

@@ -1,43 +1,31 @@
-MARKIN V2 — RAPORT SPRAWDZENIA, 5 PAŹDZIERNIKA 2026
+MARKIN V4 — KONTROLA LOKALNA, 5 PAŹDZIERNIKA 2026
 
-WYNIK LOKALNY
-- 37/37 testów jednostkowych zaliczonych.
-- 10 stron generuje się poprawnie; 452 lokalne odwołania i kotwice poprawne.
-- Edge/Chromium: 40 widoków (10 stron × 320/390/768/1440 px).
-- Brak poziomego przepełnienia, uszkodzonych zdjęć, błędów JavaScript
-  i odpowiedzi HTTP z błędem podczas sprawdzania stron.
-- Dokładnie jeden nagłówek H1 na każdej stronie.
-- W wyświetlanej treści i linkach stron brak Semmelrock i Gatigo.
+43/43 testy jednostkowe zaliczone (w tym walidacja galerii i paneli).
+40 widoków: 10 podstron przy 320, 390, 768 i 1440 px.
+Brak błędów JavaScript, odpowiedzi HTTP >=400, uszkodzonych zdjęć,
+poziomego przepełnienia dokumentu oraz wykluczonych partnerów w treści/linkach.
+Jeden H1 na stronę. 759 lokalnych odwołań sprawdzonych.
+Sprawdzone pliki wszystkich 43 zdjęć zestawienia; brak miniatur poniżej 600 px.
 
-INTERAKCJE
-- Pierwszy slajd pozostaje przy 3999 ms, następny wchodzi przy 4000 ms.
-- Transformacja przesuwa element w lewo; sprawdzono kolejne slajdy
-  i pętlę z ostatniego na pierwszy bez przejazdu wstecz.
-- Pauza, ręczne strzałki, klawiatura i preferencja ograniczonego ruchu.
-- Zapis inspiracji, zachowanie po przeładowaniu, lista w oknie,
-  usuwanie i czyszczenie, zapytanie o wycenę z nazwą produktu.
-- Przygotowanie wiadomości mailto; nie wysłano wiadomości do firmy.
-- Filtrowanie produktów po marce, przełączanie aranżacji, mobilne menu,
-  filtrowanie realizacji, powiększenie zdjęcia i zamknięcie klawiszem Escape.
+Strona główna nadal ma 2 sekcje: główny motyw, poziomy rząd produktów.
+Wysokość przy 1440 px: 1388 px. Przy 390 px: 1458 px (bez zmian względem v3).
 
-IMPORTER I FUNKCJE
-- Prawdziwe odczyty stron producentów: 3/3 poprawne źródła, 4 produkty.
-- Zdjęcia pobrano i obejrzano; początkowe zdjęcia zoptymalizowano do WebP.
-- Nowy schemat danych i magazyn oddzielają produkty od newsów z wersji 1.
-- Testy: selekcja produktów, odrzucenie newsów/promocji/usuniętych marek,
-  ograniczenie domen, przekierowania, limit rozmiaru, formaty zdjęć,
-  fallback po awarii, wymiana dawnych nowości, status częściowej awarii,
-  walidacja danych po stronie przeglądarki, kontekst produkcyjny i ETag.
-- Trzy funkcje zbudowano lokalnie esbuild-wasm dla Node 22 / ESM.
-- Spakowane funkcje importują się. Odczyt nowości: HTTP 200,
-  kind=products, 4 produkty, mode=snapshot. Nieprawidłowy hash zdjęcia:
-  HTTP 400. Odświeżanie z kontekstu podglądu kończy się bez zapisu.
+Sprawdzono: 7 scen co 4000 ms, kierunek w lewo i pętlę; automatyczny
+ruch dolnego rzędu; pauzę; prefers-reduced-motion; filtry 24 produktów,
+w tym 13 tarasów, 6 ogrodzeń oraz podfiltr 3 paneli/przęseł; paginację
+6/2; linkowanie do produktu; galerię kolekcji, źródło, strzałki i Escape;
+zapis inspiracji, przeładowanie, wycenę zestawu i przygotowanie mailto.
+Odświeżenie danych serwerowych zachowuje 20 kolekcji i 7 głównych scen.
 
-ZAKRES
-To testy lokalne i rzeczywiste pobrania publicznych źródeł. Nie wdrożono
-paczki na Netlify, nie wykonano push do GitHub, nie zmieniono domeny ani DNS.
-Po wdrożeniu trzeba sprawdzić wszystkie 3 Functions, Run now, zapis Blobs,
-wyświetlanie pobranych zdjęć i następny zaplanowany przebieg.
+Kontrola zdań opisowych: 10 stron, 0 identycznych powtórzeń (zdania >=6 słów).
+Osobno poprawiono podobne znaczeniowo fragmenty O nas / Projektowanie.
+Nie traktowano powtarzanych przycisków, tytułów w spisie treści ani technicznej
+kopii paska jako błędu redakcyjnego. Wynik: docs/kontrola-tekstow-v4.json.
 
-Testy w paczce: npm ci, npm test, npm run build,
-node scripts/verify-local.mjs. Kontrola źródeł: npm run news:verify.
+Źródła i przypisanie wszystkich zdjęć: docs/produkty-zrodla-v4.json.
+Zdjęcia pokazują rzeczywiste materiały lub wizualizacje opublikowane przez
+partnerów. Nie generowano fotografii ani nie rekonstruowano produktów.
+
+Nie publikowano zmian na GitHub/Netlify, nie zmieniano domeny.
+Działanie Functions, Blobs i harmonogramu na docelowym koncie wymaga
+sprawdzenia po wdrożeniu. Lokalny raport nie potwierdza publikacji.

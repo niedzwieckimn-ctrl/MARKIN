@@ -46,3 +46,22 @@ w public/assets/fonts/OFL.txt.
 Kontakt przyjęty z aktualnej zakładki Markin: Radlin 193C, 26-008 Górno;
 577 730 739; biuro@markin.pl. Historycznego adresu w archiwalnych
 materiałach nie prezentujemy jako drugiego czynnego punktu.
+
+WERSJA 3 — DODATKOWE ARANŻACJE I KOLEKCJE
+Pełne adresy zdjęć i stron produktów: docs/produkty-zrodla-v3.json.
+Libet / Maxima XL
+https://libet.pl/produkty/plyta-tarasowa-maxima-xl/
+Libet / Monza
+https://libet.pl/produkty/plyta-tarasowa-monza/
+Libet / Imola Retta Colormix
+https://libet.pl/produkty/kostka-brukowa-imola-retta-colormix/
+Libet / Ogrodzenie Maxima
+https://libet.pl/produkty/ogrodzenie-maxima/
+SLABB / Bloczki z betonu architektonicznego
+https://slabb.eu/bloczki-ogrodzeniowe/
+Bozza / Novabell Norgestone
+https://bozza.pl/oferta/tarasy/plytki-gresowe-20mm/
+LedBruk / LedStone — świecący kamień
+https://ledbruk.com/swiecaca-kostka-brukowa/ledstone/
+Drewbet / CUBO GIGA
+https://ogrodzenia.drewbet.pl/oferta18.html

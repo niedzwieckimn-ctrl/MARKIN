@@ -38,3 +38,7 @@ Zmiana HTML partnera może wymagać poprawienia adaptera. Brak nowego produktu u
 Lokalnie: `npm test`, `npm run news:verify`. `npm run news:snapshot` zapisuje nowy zestaw i zdjęcia; po nim uruchom `npm run build`.
 
 Dokumentacja: [Scheduled Functions](https://docs.netlify.com/build/functions/scheduled-functions/), [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/), [Functions](https://docs.netlify.com/build/functions/get-started/).
+
+## Uzupełnienie w wersji 3
+
+Główna zaczyna się od motywu Markin i aranżacji partnerów. Poniżej jest jeden poziomy rząd 12 propozycji. Osiem dodatkowych kolekcji w `data/curated-products.json` jest oznaczonych jako Wybór Markin i nie stanowi automatycznych nowości. `public/catalog.js` łączy je z odczytem producentów; odświeżenie serwera nie usuwa kolekcji ani głównego motywu. Pasek nad menu odsyła do konkretnej strony katalogu. Katalog ma stronicowanie: 6 pozycji na komputerze, 2 na telefonie. Dolny rząd przewija się automatycznie co 4 s z możliwością pauzy. Źródła nowych zdjęć: `produkty-zrodla-v3.json`.

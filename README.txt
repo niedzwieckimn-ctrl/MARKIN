@@ -1,104 +1,89 @@
-MARKIN — WERSJA 2 / NOWOŚCI PRODUKTOWE ZE ZDJĘCIAMI
+MARKIN — WERSJA 4 / WIĘCEJ TARASÓW, PANELI I ARANŻACJI
 5 października 2026
 
-CO ZMIENIONO
-- Duża karuzela na początku strony: rzeczywiste zdjęcia produktów, nazwa,
-  producent, opis i przejście do zapytania. Kolejny slajd co 4000 ms,
-  przesunięcie od prawej do lewej, także przy powrocie do pierwszego slajdu.
-- Strzałki, pauza, wybór slajdu, klawiatura i gest na telefonie. Pokaz
-  zatrzymuje się przy najechaniu, fokusie, po ukryciu karty i poza ekranem.
-  Preferencja ograniczenia ruchu w systemie wyłącza automatyczny start.
-- Zdjęcia produktów i przyciski „Zapytaj o cenę” na stronie Nowości.
-- „Moje inspiracje”: zapis produktów w tej przeglądarce, usuwanie z listy
-  oraz zapytanie o wycenę całego wybranego zestawu.
-- Przełączanie inspiracji: po zmroku, na tarasie, przed domem.
-- Usunięto Semmelrock i Gatigo z prezentowanych partnerów, opisów oferty,
-  przykładów produktów, aktywnych linków i automatycznych źródeł.
-- Zachowano oryginalne materiały Markin, kontakt, 32 zdjęcia realizacji,
-  poradnik i pozostałe podstrony.
+Układ wersji 3 pozostaje: pasek nad menu, główny pokaz aranżacji,
+poziomy rząd produktów i krótka stopka. Nie dodano sekcji wydłużających główną.
 
-AKTUALIZACJA ISTNIEJĄCEGO REPOZYTORIUM MARKIN
-1. Pobierz MARKIN-zmiany-v2.zip i wybierz w Windows „Wyodrębnij wszystkie”.
-2. W GitHub Desktop, w repozytorium MARKIN, kliknij „Show in Explorer”.
-3. Skopiuj ZAWARTOŚĆ rozpakowanej paczki do otwartego folderu repozytorium.
-   Zastąp pliki o tych samych nazwach. Plik build.mjs ma leżeć bezpośrednio
-   obok package.json i netlify.toml. Nie wkładaj całej paczki w podfolder.
-4. W GitHub Desktop wpisz Summary: „Nowości produktowe i inspiracje v2”.
-   Kliknij „Commit to main”, następnie „Push origin”.
-5. Jeśli repozytorium jest już podłączone do Netlify, rozpocznie się nowe
-   wdrożenie. Sprawdź ukończony deploy i odśwież stronę.
+24 produkty i kolekcje (wcześniej 12), w tym 13 propozycji tarasowych,
+6 ogrodzeń (3 propozycje paneli/przęseł), 3 oświetlenia i 2 nawierzchni.
+43 różne zdjęcia produktowe i aranżacyjne zamiast 12. Dodatkowo zachowana
+galeria 32 zdjęć historycznych Markin oraz pozostałe oryginalne materiały.
+7 scen w głównym pokazie, zmiana co 4 sekundy od prawej do lewej.
 
-Paczka zmian została przygotowana względem ZIP-a
-MARKIN-nowoczesna-strona-Netlify.zip z tego czatu (wersja 1).
-Nie usuwa żadnych plików. Jeśli po wersji 1 zmieniałeś samodzielnie pliki
-strony, przed zastąpieniem zachowaj ich kopię i sprawdź różnice w GitHub Desktop.
-Pełny projekt jest także w MARKIN-strona-v2-Netlify.zip.
+Nowe materiały: Libet Elysian Travertini, Nau, Oudh, Dijon, Kao, Glocal,
+Motley, Elysian; płyty tarasowe SLABB, aluminiowe przęsła NIVE prezentowane
+przez SLABB; betonowe panele Drewbet Deska i Graf. Piękne aranżacje tarasu
+i ogrodzenia zastępują też dotychczasowe zdjęcia główne w zakładce Oferta.
 
-PIERWSZE WDROŻENIE PEŁNEGO PROJEKTU
-Rozpakuj MARKIN-strona-v2-Netlify.zip. Dodaj jego zawartość do repozytorium
-i podłącz repozytorium do Netlify. Ustawienia są w netlify.toml:
+Kliknij zdjęcie produktu, aby otworzyć jego galerię. Zdjęcia, strzałki,
+klawisze lewo/prawo i Escape działają w oknie powiększenia. Źródło kolekcji
+jest podane przy zdjęciu. Filtr „Panele i przęsła” pokazuje odpowiednie
+systemy, bez zaliczania pustaków ogrodzeniowych do paneli.
+
+4 pozycje pochodzą z sekcji nowości producentów, 20 to „Wybór Markin”.
+Obecność w aktualnej ofercie producenta nie oznacza premiery w 2026 roku.
+Nie dodano wymyślonych premier, bestsellerów ani dat zdjęć. Wzory Drewbet
+Deska/Graf opisane na źródle jako Nowość 2022 nie są oznaczone u nas Nowość.
+Automatyczny import Drogbruk/POZBRUK/LedBruk działa jak w wersji 3.
+Zdjęcia galerii i pozostałe kolekcje są wyborem redakcyjnym; automat
+zachowuje je podczas odświeżania. Semmelrock i Gatigo nadal są wykluczeni.
+
+Przegląd zdań na wszystkich 10 podstronach nie znalazł identycznych
+powtórzeń zdań opisowych. Zredagowano podobne znaczeniowo fragmenty
+na stronach O nas i Projektowanie. Etykiety przycisków i nawigacja mogą
+się powtarzać celowo; drugi zestaw paska służy jego płynnej pętli.
+
+AKTUALIZACJA REPOZYTORIUM — GITHUB DESKTOP
+1. Rozpakuj MARKIN-zmiany-v4.zip poleceniem „Wyodrębnij wszystkie”.
+2. W GitHub Desktop wybierz repozytorium MARKIN i „Show in Explorer”.
+3. Skopiuj zawartość rozpakowanej paczki do otwartego folderu repozytorium.
+   Zastąp pliki o tych samych nazwach. build.mjs, package.json i
+   netlify.toml mają pozostać bezpośrednio w katalogu głównym.
+4. W GitHub Desktop: Summary „Nowe aranżacje, tarasy i panele v4”,
+   następnie Commit to main i Push origin.
+5. Jeśli repozytorium jest połączone z Netlify, poczekaj na nowe wdrożenie.
+
+Paczka zmian obejmuje łącznie poprawki v2, v3 i v4 względem pierwszego ZIP-a
+MARKIN-nowoczesna-strona-Netlify.zip. Można nałożyć ją na przekazaną
+wersję 1, wersję 2 albo wersję 3. Nie wymaga usuwania plików. Jeżeli samodzielnie
+edytowałeś pliki po otrzymaniu paczki, zachowaj własne zmiany i sprawdź
+różnice przed zastąpieniem. Pełny projekt: MARKIN-strona-v4-Netlify.zip.
+
+NETLIFY
+Wdróż cały projekt przez integrację Git:
   Build command: npm run build
   Publish directory: public
   Functions directory: netlify/functions
   Node.js: 22
 
-AUTOMATYCZNE NOWOŚCI PRODUKTOWE
-Aktualne źródła: Drogbruk (produktowe premiery na stronie głównej),
-POZBRUK (sekcja Nowości), LedBruk (nowości produktowe).
-Pierwsza paczka ma 4 sprawdzone produkty ze zdjęciami producentów.
-Importer nie zbiera ogólnych newsów, poradników ani wpisów promocyjnych.
-Inne marki pozostają w zwykłej ofercie, bez podłączonego importera nowości.
+Samo wgranie folderu public pokaże stronę i dołączone produkty.
+Codzienny import wymaga funkcji partner-news, product-image,
+refresh-partner-news. Harmonogram: 05:00 UTC — 07:00 latem, 06:00 zimą
+w Polsce. Po wdrożeniu sprawdź Functions → refresh-partner-news → Run now
+oraz /api/partner-news: kind=products, schemaVersion=2, mode=cached.
+Sprawdź także zdjęcia i kolejny przebieg harmonogramu. Netlify tworzy
+magazyn markin-partner-products-v2 automatycznie. Nie są potrzebne klucze AI.
 
-Automat sprawdza źródła codziennie o 05:00 UTC, czyli 07:00 latem
-i 06:00 zimą w Polsce, na opublikowanej wersji produkcyjnej Netlify.
-Zdjęcia pobiera na serwer strony. Odwiedzający nie łączy się bezpośrednio
-z serwerami partnerów przy oglądaniu zdjęć. W razie awarii pozostaje
-ostatni poprawny zestaw. Zmiana budowy strony producenta może wymagać
-aktualizacji importera. Etykieta „nowość” jest oznaczeniem producenta,
-nie twierdzeniem, że produkt miał premierę w dniu pobrania.
+Nie publikowano tej paczki, nie zmieniano domeny ani kont GitHub/Netlify.
+Testy lokalne nie są potwierdzeniem uruchomienia automatu na Twoim koncie.
 
-Po wdrożeniu sprawdź obecność 3 funkcji:
-  partner-news, product-image, refresh-partner-news
-Uruchom w Netlify funkcję refresh-partner-news przez „Run now”.
-W /api/partner-news sprawdź schemaVersion: 2, kind: "products",
-mode: "cached" i sources[].status. Otwórz zdjęcia po tym odświeżeniu.
-Netlify Blobs tworzy magazyn markin-partner-products-v2 automatycznie.
-Nie trzeba dostarczać haseł, kluczy AI ani własnego tokenu Blobs.
+EDYCJA I PODGLĄD
+Treści i układ: build.mjs.
+Wybór kolekcji: data/curated-products.json.
+Kolejność scen: data/campaign.json.
+Główny motyw, łączenie kolekcji i pasek: public/catalog.js.
+Interakcje i zapisywanie: public/product-experience.js.
+Wygląd krótkiej głównej: public/compact.css (uzupełnia pozostałe style).
+Automatyczne źródła: netlify/lib/product-sources.mjs oraz product-core.mjs.
+Źródła nowych aranżacji: docs/produkty-zrodla-v4.json.
 
-Wgranie samego folderu public daje stronę z dołączonym zestawem zdjęć,
-ale bez codziennego importowania. Automat wymaga wdrożenia całego projektu
-z funkcjami, np. przez integrację repozytorium Git z Netlify.
-Nie publikowano tej paczki ani nie zmieniano domeny. Harmonogram i zapis
-Blobs na Twoim koncie wymagają sprawdzenia po własnym wdrożeniu.
+Po edycji uruchom npm run build. Do lokalnego podglądu użyj serwera HTTP,
+np. npx http-server public. Otwieranie pliku bezpośrednio z dysku może
+blokować moduły JavaScript. Sprawdzenie: npm ci, npm test,
+node scripts/verify-local.mjs. Kontrola żywych źródeł: npm run news:verify.
 
-LOKALNY PODGLĄD I EDYCJA
-Do interaktywnego podglądu użyj serwera HTTP; moduły JavaScript mogą być
-blokowane przy otwieraniu pliku index.html bezpośrednio z dysku.
-Przykład w folderze projektu: npx http-server public
-Bez Netlify karuzela użyje dołączonego zestawienia produktów.
-
-  npm ci
-  npm run build
-  npm test
-  npm run news:verify
-
-news:verify sprawdza prawdziwe źródła bez zmiany zestawienia w plikach.
-news:snapshot pobiera i zapisuje nowy zestaw; potem wykonaj npm run build.
-Treści i układ: build.mjs oraz data/content.json.
-Karuzela i karty: public/products.js, public/product-experience.js.
-Wygląd: public/styles.css i public/products.css.
-Źródła: netlify/lib/product-sources.mjs i product-core.mjs.
-Zdjęcia nowości: public/assets/products.
-Źródła konkretnych zdjęć: docs/produkty-zrodla-v2.json.
-Materiały badania wersji 1 w docs są archiwum, nie konfiguracją importera.
-
-ZAPYTANIA I ZAKUP
-Strona prowadzi do kontaktu i indywidualnej wyceny. „Przygotuj wiadomość”
-tworzy zapytanie do wysłania we własnym programie pocztowym. Lista inspiracji
-nie jest zamówieniem ani rezerwacją. Cena, dostępność i transport wymagają
-ustalenia dla konkretnego produktu. Nie dodano fikcyjnych stanów, rabatów
-ani sztucznego odliczania czasu do zakupu.
-
+KONTAKT I WYCENA
+Przygotowanie wiadomości nie wysyła jej automatycznie — klient otwiera
+ją we własnej poczcie. „Moje inspiracje” jest listą wyboru, nie zamówieniem.
+Cena, dostępność i transport są potwierdzane indywidualnie.
 Kontakt: Radlin 193C, 26-008 Górno; 577 730 739; biuro@markin.pl.
-Oryginalny dokument OWS i materiały archiwalne zachowano bez zmieniania
-treści historycznych. Domena docelowa w metadanych: markin.pl.
