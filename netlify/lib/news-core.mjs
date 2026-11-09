@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
-import { load } from 'cheerio';
+import { load } from 'cheerio/slim';
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
+import { partnerFetch } from './partner-fetch.mjs';
 
 const MAX_BYTES = 1_500_000;
 const MAX_ITEMS_PER_SOURCE = 16;
@@ -110,7 +111,7 @@ export function uniqueEntries(entries) {
   return [...new Map(entries.map(item => [item.url, item])).values()];
 }
 
-export async function fetchBounded(url, source, { fetchImpl = fetch, timeoutMs = FETCH_TIMEOUT_MS } = {}) {
+export async function fetchBounded(url, source, { fetchImpl = partnerFetch, timeoutMs = FETCH_TIMEOUT_MS } = {}) {
   if (!canonicalUrl(url, source)) throw new Error('BLOCKED_HOST');
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);

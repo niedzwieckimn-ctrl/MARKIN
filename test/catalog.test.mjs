@@ -7,16 +7,19 @@ import { SEED } from '../netlify/lib/news-seed.mjs';
 const curated=JSON.parse(await fs.readFile(new URL('../data/curated-products.json',import.meta.url),'utf8'));
 test('curated collections stay distinct from source-confirmed novelties',()=>{
  const list=prepareCatalog(SEED.entries,curated);
- assert.equal(list.length,30);assert.equal(list.filter(p=>p.kind==='new').length,4);assert.equal(list.filter(p=>p.kind==='selection').length,26);
+ assert.ok(curated.length>=48);assert.ok(SEED.entries.length>=3);assert.ok(list.length>=curated.length);
+ for(const p of curated)assert.ok(list.some(v=>v.id===p.id));
+ for(const p of SEED.entries)assert.ok(list.some(v=>v.kind==='new'&&(v.id===p.id||v.url===p.url)));
  assert.ok(list.filter(p=>p.kind==='selection').every(p=>p.badge==='Wybór Markin'));
  assert.equal(new Set(list.map(p=>p.id)).size,list.length);
- assert.deepEqual([...new Set(list.map(p=>p.category))].sort(),['Tarasy','Ogrodzenia','Światło','Kostka'].sort());
+ for(const c of ['Tarasy','Ogrodzenia','Światło','Kostka','Systemy tarasowe','Pielęgnacja'])assert.ok(list.some(p=>p.category===c));
+ assert.ok(!list.some(p=>/bozza|poz.?bruk|nicoli|com.?bet|future.?design|gatigo/i.test(p.partner+' '+p.url)));
 });
 test('automatic refresh preserves all curated choices and deduplicates identifiers',()=>{
  const fresh={...SEED.entries[0],id:'12345678901234567890',title:'Nowy model producenta'};
  const list=prepareCatalog([fresh,fresh],curated);
- assert.equal(list.length,27);assert.equal(list.filter(p=>p.kind==='new').length,1);assert.equal(list.filter(p=>p.kind==='selection').length,26);
- assert.equal(prepareCatalog([],curated).length,26);
+ assert.equal(list.length,curated.length+1);assert.equal(list.filter(p=>p.kind==='new').length,1);assert.equal(list.filter(p=>p.kind==='selection').length,curated.length);
+ assert.equal(prepareCatalog([],curated).length,curated.length);
 });
 test('ticker links into the local catalogue and has a hidden duplicate for its loop',()=>{
  const text=tickerItems(prepareCatalog(SEED.entries,curated));assert.ok(text.includes('nowosci.html#produkt-'));assert.ok(text.includes('aria-hidden="true" inert'));assert.ok(!text.includes('href="https:'));

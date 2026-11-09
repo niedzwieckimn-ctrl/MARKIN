@@ -1,4 +1,5 @@
 import { esc, safeProduct } from './products.js';
+import { productNotes } from './product-notes.js';
 export const categoryOf=p=>({Taras:'Tarasy',Nawierzchnie:'Kostka'}[p.category]||p.category);
 export function homeCatalog(entries, scenes) {
   const ids=new Set(scenes.map(p=>p.id)),images=new Set(scenes.map(p=>p.image));
@@ -8,18 +9,27 @@ export function homeCatalog(entries, scenes) {
   return [...opening,...remaining.filter(p=>!chosen.has(p.id))];
 }
 export function prepareCatalog(news, curated) {
-  const all=[...news.filter(safeProduct).map(p=>({...p,category:categoryOf(p),kind:'new'})),
-    ...curated.filter(safeProduct).map(p=>({...p,category:categoryOf(p),kind:'selection',badge:'Wybór Markin'}))];
-  const rank=p=>Number.isFinite(p.priority)?p.priority:/Norgestone/.test(p.title)?-4:/Line ALU/.test(p.title)?-2:/Imola/.test(p.title)?-1:0;
-  const unique=[...new Map(all.map(p=>[p.id,p])).values()].sort((a,b)=>rank(a)-rank(b));
+  const key=p=>new URL(p.url).origin+new URL(p.url).pathname.replace(/\/$/,'');
+  const all=curated.filter(safeProduct).map(p=>({...p,category:categoryOf(p),kind:'selection',badge:'Wybór Markin'}));
+  const byURL=new Map(all.map(p=>[key(p),p])),byID=new Map(all.map(p=>[p.id,p]));
+  for(const [newsOrder,p] of news.filter(safeProduct).entries()){
+    const prior=byURL.get(key(p))||byID.get(p.id);
+    if(prior){prior.badge=p.badge;prior.kind='new';prior.newsOrder??=newsOrder;prior.discoveredAt=p.discoveredAt;continue;}
+    const item={...p,description:productNotes[p.url]||p.description,category:categoryOf(p),kind:'new',newsOrder};all.push(item);byURL.set(key(p),item);byID.set(item.id,item);
+  }
+  const rank=p=>p.kind==='new'?-20:Number.isFinite(p.priority)?p.priority:/Line ALU/.test(p.title)?-2:/Imola/.test(p.title)?-1:0;
+  const unique=all.sort((a,b)=>rank(a)-rank(b));
   const featured=unique.filter(p=>Number.isFinite(p.priority)&&p.priority<=-8).slice(0,4);
   const featuredIds=new Set(featured.map(p=>p.id));
-  const buckets=['Tarasy','Ogrodzenia','Światło','Kostka'].map(c=>unique.filter(p=>p.category===c&&!featuredIds.has(p.id)));
+  const categories=[...new Set(['Tarasy','Ogrodzenia','Światło','Kostka','Systemy tarasowe','Pielęgnacja',...unique.map(p=>p.category)])];
+  const buckets=categories.map(c=>unique.filter(p=>p.category===c&&!featuredIds.has(p.id)));
   const result=[...featured];while(buckets.some(b=>b.length))for(const b of buckets)if(b.length)result.push(b.shift());
   return result;
 }
 export function tickerItems(entries) {
-  const one=entries.slice(0,12).map(p=>`<a href="nowosci.html#produkt-${esc(p.id)}"><b>${esc(p.partner)}</b><span>${esc(p.title)}</span><i>✦</i></a>`).join('');
+  const first=entries.filter(p=>p.kind==='new').sort((a,b)=>a.newsOrder-b.newsOrder).slice(0,16),seen=new Set(first.map(p=>p.partner));
+  for(const p of entries)if(!seen.has(p.partner)){seen.add(p.partner);first.push(p);}
+  const one=first.map(p=>`<a href="nowosci.html#produkt-${esc(p.id)}"><b>${esc(p.partner)}</b><span>${esc(p.title)}</span><i>✦</i></a>`).join('');
   return `<div class="ticker-set">${one}</div><div class="ticker-set" aria-hidden="true" inert>${one}</div>`;
 }
 export function campaign(scenes) {

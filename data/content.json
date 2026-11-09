@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-10-05",
+  "verified_on": "2026-11-09",
   "scope": "Treść do przebudowy markin.pl; badanie publicznego serwisu i oficjalnych źródeł marek wymienionych przez Markin. Nowe opisy poniżej są autorskie.",
   "contact": {
     "phone": "+48 577 730 739",
@@ -45,9 +45,11 @@
     {
       "name": "Kostki brukowe i podjazdy",
       "brands": [
-        "DrogBruk",
+        "Drogbruk",
         "Forbet",
-        "Libet"
+        "Libet",
+        "Pater",
+        "Semmelrock"
       ],
       "copy": "Pierwsze wrażenie zaczyna się przed domem. Dobierz format, kolor i fakturę nawierzchni do architektury budynku, a jej parametry do codziennego ruchu. Zestawienie podjazdu i ścieżek w jednej kompozycji porządkuje całą posesję.",
       "consider": [
@@ -60,11 +62,17 @@
     {
       "name": "Płyty i tarasy wentylowane",
       "brands": [
-        "Bozza",
-        "Poz-Bruk",
-        "Crusil"
+        "Crusil",
+        "Cersanit",
+        "Tubądzin",
+        "New Form",
+        "TARRACE",
+        "Verde Ceramika",
+        "PRO-GRES",
+        "Semmelrock",
+        "Libet"
       ],
-      "copy": "Taras może być naturalnym przedłużeniem salonu. Wybierz gres, beton lub hybrydowe płyty ceramiczno-betonowe DuoProCeram firmy Crusil. Kolor, format i sposób montażu dobierz do projektu — także wtedy, gdy planujesz taras wentylowany.",
+      "copy": "Na dużym tarasie jedna spokojna faktura połączy stół, leżaki i wyjście do ogrodu. Porównaj zewnętrzny gres, beton oraz płyty ceramiczno-betonowe DuoProCeram. Do układania na wspornikach wybierz płytę dopuszczoną do tej metody przez producenta.",
       "consider": [
         "płyta dopuszczona do wybranego sposobu montażu",
         "wysokość konstrukcji",
@@ -77,7 +85,6 @@
       "brands": [
         "Drewbet",
         "SLABB",
-        "COM-BET",
         "Crusil"
       ],
       "copy": "Ogrodzenie nadaje posesji ramę. Obok słupków i przęseł odkryj dekoracyjne panele Crusil: ażurowe Aspre i Leste oraz pełne Maestro. Zestaw ich fakturę i stopień osłonięcia z architekturą domu.",
@@ -118,17 +125,17 @@
       "source": "https://markin.pl/produkty/"
     },
     {
-      "name": "Donice",
+      "name": "Wsporniki i wykończenie tarasu",
       "brands": [
-        "Future Design"
+        "Renoplast"
       ],
-      "copy": "Zieleń zasługuje na odpowiednią oprawę. Donice pomagają zbudować wejście do domu, wydzielić miejsce wypoczynku i wprowadzić rośliny na taras. Zestaw formy o przemyślanych proporcjach z materiałami obecnymi w całej aranżacji.",
+      "copy": "Pod płytami dobierz podpory do wysokości tarasu, a na jego brzegu zaplanuj odpływ wody i wykończenie krawędzi. To dwa osobne elementy, które warto przewidzieć jeszcze przed wyborem nawierzchni.",
       "consider": [
-        "wielkość roślin i bryły korzeniowej",
-        "przeznaczenie do wnętrza lub na zewnątrz",
-        "proporcje oraz kolorystyka"
+        "różnica poziomów między progiem a podłożem",
+        "zgodność wspornika z płytą i podłożem",
+        "profil odpowiedni dla wybranego układu warstw"
       ],
-      "source": "https://markin.pl/produkty/"
+      "source": "https://renoplast.pl/"
     }
   ],
   "additional_homepage_categories": [
@@ -225,19 +232,9 @@
       "supports": "Gres na powierzchnie zewnętrzne, różne wzory i sposoby montażu; cechy techniczne zależne od modelu."
     },
     {
-      "brand": "Bozza",
-      "url": "https://bozza.pl/oferta/tarasy/",
-      "supports": "Kategoria gresu zewnętrznego 20 mm i wsporników; taras jako przestrzeń wypoczynkowa."
-    },
-    {
       "brand": "LedBruk",
       "url": "https://ledbruk.com/",
       "supports": "Oświetlenie dopasowane do kostki, oprawy liniowe, oświetlenie ogrodu, regulacja kolorów i temperatury w wybranych modelach."
-    },
-    {
-      "brand": "Future Design",
-      "url": "https://futuredesign.com.pl/",
-      "supports": "Potwierdzenie marki jako źródła oferty donic i odsyłaczy do kolekcji; bez przypisywania całej aktualnej oferty Markin."
     }
   ],
   "legal_and_accuracy_notes": [

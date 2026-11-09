@@ -1,12 +1,13 @@
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const hosts = new Set(['www.drogbruk.pl','drogbruk.pl','pozbruk.pl','www.pozbruk.pl','ledbruk.com','www.ledbruk.com','libet.pl','www.libet.pl','slabb.pl','slabb.eu','bozza.pl','ogrodzenia.drewbet.pl','crusil.pl','www.crusil.pl']);
-export const safeImage = image => typeof image==='string' && /^(?:assets\/products\/[a-f0-9]+\.(?:webp|jpg|png)|\/api\/product-image\?id=[a-f0-9]{64})$/.test(image);
+import { partnerHosts } from './partner-hosts.js';
+const hosts=new Set(partnerHosts);
+export const safeImage = image => typeof image==='string' && /^(?:assets\/partners-v7\/[a-z0-9-]+\.webp|assets\/products\/[a-f0-9]+\.(?:webp|jpg|png)|\/api\/product-image\?id=[a-f0-9]{64})$/.test(image);
 export const galleryOf = p => [...new Map([{image:p.image},...(Array.isArray(p.gallery)?p.gallery:[])].filter(i=>i&&safeImage(i.image)).map(i=>[i.image,i])).values()].slice(0,20);
 export function safeProduct(p) {
   try {
     const url = new URL(p.url);
-    return p && typeof p.id === 'string' && typeof p.title === 'string' && p.title.trim().length >= 2 && p.title.length <= 96
-      && typeof p.partner === 'string' && !/gatigo|sem[me]+lrock/i.test(p.title + p.partner + p.url)
+    return p && /^[0-9a-f]{20}$/.test(p.id) && typeof p.title === 'string' && p.title.trim().length >= 2 && p.title.length <= 96
+      && typeof p.partner === 'string' && p.partner.length > 0
       && url.protocol === 'https:' && hosts.has(url.hostname) && !url.username && !url.password && !url.port
       && safeImage(p.image);
   } catch { return false; }

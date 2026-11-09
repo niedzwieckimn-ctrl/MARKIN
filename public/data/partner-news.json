@@ -1,9 +1,130 @@
 {
   "schemaVersion": 2,
+  "policyVersion": 7,
   "kind": "products",
-  "generatedAt": "2026-10-05T19:42:17.989Z",
-  "lastSuccessAt": "2026-10-05T19:42:17.989Z",
+  "generatedAt": "2026-11-09T10:53:21.087Z",
+  "lastSuccessAt": "2026-11-09T10:53:21.087Z",
   "entries": [
+    {
+      "id": "2b2b6e81ffbc00c832fe",
+      "title": "Płyta MULTI",
+      "url": "https://pater.pl/produkty/plyta-multi/",
+      "imageSource": "https://pater.pl/wp-content/uploads/2026/06/plyta-multi-2-scaled-e1782117595704-500x500-c-default.jpeg",
+      "partner": "Pater",
+      "sourceId": "pater",
+      "sourcePage": "https://pater.pl/przeznaczenie/taras/",
+      "badge": "Nowość w katalogu producenta",
+      "description": "Betonowa płyta z oferty Pater do aranżacji tarasu.",
+      "category": "Tarasy",
+      "discoveredAt": "2026-11-09T10:49:16.696Z",
+      "publishedAt": null,
+      "image": "assets/products/1362cf238fdc046924c7e509e2ad22110d6c27eebc056e382aad03254f17c8fb.jpg"
+    },
+    {
+      "id": "4edeaa7c36fdee7c62e4",
+      "title": "Sandy Stone 20 Grey",
+      "url": "https://tarrace.pl/produkty/sandy-stone-20-grey/",
+      "imageSource": "https://tarrace.pl/wp-content/plugins/tarrace-seo/assets/images/sandy-stone-20-grey-2072-1024.webp",
+      "partner": "TARRACE",
+      "sourceId": "tarrace",
+      "sourcePage": "https://tarrace.pl/produkty/",
+      "badge": "Nowość w katalogu producenta",
+      "description": "Format i grubość według TARRACE: 60 × 60 cm · 20 mm.",
+      "category": "Tarasy",
+      "discoveredAt": "2026-11-09T10:49:16.696Z",
+      "publishedAt": null,
+      "image": "assets/products/a8ecd4082967c8c5967ee938a00748754ecdf49f18be4ff14d4de25a6dce47d7.webp"
+    },
+    {
+      "id": "bc651401cf8442c09a5a",
+      "title": "SABBIA DORO",
+      "url": "https://crusil.pl/kolekcje/sabbia-doro/",
+      "imageSource": "https://crusil.pl/wp-content/uploads/2026/02/Sabbia_60x60@7-1.jpg",
+      "partner": "Crusil",
+      "sourceId": "crusil",
+      "sourcePage": "https://crusil.pl/",
+      "badge": "Nowość w katalogu producenta",
+      "description": "Kolekcja płyt ceramiczno-betonowych Crusil do przestrzeni zewnętrznych.",
+      "category": "Panele i płyty",
+      "discoveredAt": "2026-11-09T10:49:16.696Z",
+      "publishedAt": null,
+      "image": "assets/products/82df21a8af2ab6de199c73b9ea98b02fabda851f43ab99b288f568c38fab2128.jpg"
+    },
+    {
+      "id": "2aace4092c785f86b93b",
+      "title": "Płyta GIGA",
+      "url": "https://pater.pl/produkty/plyta-giga-nowosc/",
+      "imageSource": "https://pater.pl/wp-content/uploads/2026/07/Plyta-Giga-500x500-c-default.jpg",
+      "partner": "Pater",
+      "sourceId": "pater",
+      "sourcePage": "https://pater.pl/przeznaczenie/taras/",
+      "badge": "Nowość w katalogu producenta",
+      "description": "Betonowa płyta z oferty Pater do aranżacji tarasu.",
+      "category": "Tarasy",
+      "discoveredAt": "2026-11-09T10:45:47.435Z",
+      "publishedAt": null,
+      "image": "assets/products/792c2361171d3db5b532d84078f079de77a832b171e5b594a430ac1e3350dfad.jpg"
+    },
+    {
+      "id": "343bb273fe7a65ec0d2e",
+      "title": "Sandy Stone 20 Beige",
+      "url": "https://tarrace.pl/produkty/sandy-stone-20-beige/",
+      "imageSource": "https://tarrace.pl/wp-content/plugins/tarrace-seo/assets/images/sandy-stone-20-beige-2071-1024.webp",
+      "partner": "TARRACE",
+      "sourceId": "tarrace",
+      "sourcePage": "https://tarrace.pl/produkty/",
+      "badge": "Nowość w katalogu producenta",
+      "description": "Format i grubość według TARRACE: 60 × 60 cm · 20 mm.",
+      "category": "Tarasy",
+      "discoveredAt": "2026-11-09T10:45:47.435Z",
+      "publishedAt": null,
+      "image": "assets/products/e4cda1e1e9521bb4bf34743c12776b90776520416da633116f49f43467a894e8.webp"
+    },
+    {
+      "id": "6fc3d33dd0570bcaf8f5",
+      "title": "Sandy Stone 20 Taupe",
+      "url": "https://tarrace.pl/produkty/sandy-stone-20-taupe/",
+      "imageSource": "https://tarrace.pl/wp-content/plugins/tarrace-seo/assets/images/sandy-stone-20-taupe-2062-1024.webp",
+      "partner": "TARRACE",
+      "sourceId": "tarrace",
+      "sourcePage": "https://tarrace.pl/produkty/",
+      "badge": "Nowość w katalogu producenta",
+      "description": "Format i grubość według TARRACE: 60 × 60 cm · 20 mm.",
+      "category": "Tarasy",
+      "discoveredAt": "2026-11-09T10:45:47.435Z",
+      "publishedAt": null,
+      "image": "assets/products/9f2648d073a3826e0a065f566833911d72add7c6427b8cd03d1009b62526fff3.webp"
+    },
+    {
+      "id": "c84339aa2a7d5e319fa1",
+      "title": "Stopień schodowy LEVITO",
+      "url": "https://pater.pl/produkty/stopien-schodowy-levito-nowosc/",
+      "imageSource": "https://pater.pl/wp-content/uploads/2026/07/stopien-levito-scaled-e1783927893815-500x500-c-default.jpeg",
+      "partner": "Pater",
+      "sourceId": "pater",
+      "sourcePage": "https://pater.pl/przeznaczenie/taras/",
+      "badge": "Nowość w katalogu producenta",
+      "description": "Stopień schodowy z betonowych elementów do zagospodarowania terenu Pater.",
+      "category": "Architektura ogrodowa",
+      "discoveredAt": "2026-11-09T10:45:47.435Z",
+      "publishedAt": null,
+      "image": "assets/products/bcaefe67424fa047eb1ee0b5006289a4cf87b16a2d5730c8d73d65d4b5ebb034.jpg"
+    },
+    {
+      "id": "05afe540823e7e1afe41",
+      "title": "LedBruk-Line ALU Oprawa liniowa 24V",
+      "url": "https://ledbruk.com/ledbruk-line-alu/",
+      "imageSource": "https://ledbruk.com/wp-content/uploads/2024/03/LedBruk-Line-ALU-www-ledbruk-com-2024-1.jpg",
+      "partner": "LedBruk",
+      "sourceId": "ledbruk",
+      "sourcePage": "https://ledbruk.com/nowosci/",
+      "badge": "Nowość w ofercie producenta",
+      "description": "Jedna linia światła, zupełnie inny wieczór. Podkreśl geometrię tarasu, ścieżek i wejścia do domu.",
+      "category": "Światło",
+      "discoveredAt": "2026-10-05T19:36:32.023Z",
+      "publishedAt": null,
+      "image": "assets/products/2af0728c54a2a9151b1089db05a057ff6086113ea8d8ce4509481ffe4793c199.webp"
+    },
     {
       "id": "3dda55e37a97ec80b141",
       "title": "Primavera Lumino",
@@ -20,21 +141,6 @@
       "image": "assets/products/b1eff7a8afada6b9b5fc8466e3a391669a2dc66b343cc978380d60cdc7fe1e53.webp"
     },
     {
-      "id": "e347eef0248adabd6ddf",
-      "title": "FREZO FRESCO",
-      "url": "https://pozbruk.pl/produkt/frezo-fresco/",
-      "imageSource": "https://pozbruk.pl/wp-content/uploads/2026/04/Frezo-Fresco_platynowy2.webp",
-      "partner": "POZBRUK",
-      "sourceId": "pozbruk",
-      "sourcePage": "https://pozbruk.pl/otoczenie-domu/",
-      "badge": "Nowości 2026",
-      "description": "Zbuduj przestrzeń na długie poranki i spokojne wieczory. Zobacz, jak ten materiał odnajdzie się przy Twoim domu.",
-      "category": "Taras",
-      "discoveredAt": "2026-10-05T19:36:32.023Z",
-      "publishedAt": null,
-      "image": "assets/products/a43cb097d079d5f36096f34e615d3df202bb79135d690ae2872f547fa1587346.webp"
-    },
-    {
       "id": "51b3c4bfc0bafa0e10f4",
       "title": "LedBruk® Kostka Brukowa LED RGB+CCT",
       "url": "https://ledbruk.com/produkty/swiecaca-kostka-brukowa/",
@@ -48,21 +154,6 @@
       "discoveredAt": "2026-10-05T19:36:32.023Z",
       "publishedAt": null,
       "image": "assets/products/9c732c619f3109ed84ceb9820f77a3e1e93051ecaaf1ddcc329e2e247118aa4b.webp"
-    },
-    {
-      "id": "05afe540823e7e1afe41",
-      "title": "LedBruk-Line ALU Oprawa liniowa 24V",
-      "url": "https://ledbruk.com/ledbruk-line-alu/",
-      "imageSource": "https://ledbruk.com/wp-content/uploads/2024/03/LedBruk-Line-ALU-www-ledbruk-com-2024-1.jpg",
-      "partner": "LedBruk",
-      "sourceId": "ledbruk",
-      "sourcePage": "https://ledbruk.com/nowosci/",
-      "badge": "Nowość w ofercie producenta",
-      "description": "Jedna linia światła, zupełnie inny wieczór. Podkreśl geometrię tarasu, ścieżek i wejścia do domu.",
-      "category": "Światło",
-      "discoveredAt": "2026-10-05T19:36:32.023Z",
-      "publishedAt": null,
-      "image": "assets/products/2af0728c54a2a9151b1089db05a057ff6086113ea8d8ce4509481ffe4793c199.webp"
     }
   ],
   "sources": [
@@ -71,27 +162,170 @@
       "name": "Drogbruk",
       "url": "https://www.drogbruk.pl/",
       "status": "ok",
-      "checkedAt": "2026-10-05T19:42:17.989Z",
-      "lastSuccessAt": "2026-10-05T19:42:17.989Z",
-      "count": 1
-    },
-    {
-      "id": "pozbruk",
-      "name": "POZBRUK",
-      "url": "https://pozbruk.pl/otoczenie-domu/",
-      "status": "ok",
-      "checkedAt": "2026-10-05T19:42:17.989Z",
-      "lastSuccessAt": "2026-10-05T19:42:17.989Z",
-      "count": 1
+      "count": 1,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
     },
     {
       "id": "ledbruk",
       "name": "LedBruk",
       "url": "https://ledbruk.com/nowosci/",
       "status": "ok",
-      "checkedAt": "2026-10-05T19:42:17.989Z",
-      "lastSuccessAt": "2026-10-05T19:42:17.989Z",
-      "count": 2
+      "count": 2,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "pater",
+      "name": "Pater",
+      "url": "https://pater.pl/przeznaczenie/taras/",
+      "status": "ok",
+      "count": 3,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "tarrace",
+      "name": "TARRACE",
+      "url": "https://tarrace.pl/produkty/",
+      "status": "ok",
+      "count": 3,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "renoplast",
+      "name": "Renoplast",
+      "url": "https://renoplast.pl/wsporniki-tarasowe",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "nanobauer",
+      "name": "Nanobauer",
+      "url": "https://b2b.nanobauer.com/11-nanobauer",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "semmelrock",
+      "name": "Semmelrock",
+      "url": "https://www.wienerberger.pl/sitemap.xml/sitemap1.xml",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "tubadzin",
+      "name": "Tubądzin",
+      "url": "https://www.tubadzin.pl/sitemap-products_pl.xml",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "libet",
+      "name": "Libet",
+      "url": "https://libet.pl/produkt-kategoria/gres-porcelanowy/",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "crusil",
+      "name": "Crusil",
+      "url": "https://crusil.pl/",
+      "status": "ok",
+      "count": 1,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "newform",
+      "name": "New Form",
+      "url": "https://goliatgres.pl/pl/goliat/",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "progres",
+      "name": "PRO-GRES",
+      "url": "https://twojaplytka.pl/index.php/sklep/?orderby=date",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "verde",
+      "name": "Verde Ceramika",
+      "url": "https://verdeceramika.pl/nowosci.html",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "cersanit",
+      "name": "Cersanit",
+      "url": "https://www.cersanit.com.pl/plytki-ceramiczne/pomieszczenia-tarasbalkon",
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": null,
+      "error": "HTTP_403"
+    },
+    {
+      "id": "drewbet",
+      "name": "Drewbet",
+      "url": "https://ogrodzenia.drewbet.pl/",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "slabb",
+      "name": "SLABB",
+      "url": "https://slabb.eu/",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
+    },
+    {
+      "id": "forbet",
+      "name": "Forbet",
+      "url": "https://forbet.pl/produkty/",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T10:53:21.087Z",
+      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "newThisRun": 0
     }
   ]
 }

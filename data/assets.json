@@ -71,14 +71,6 @@
     "height": 1280,
     "url": "https://markin.pl/wp-content/uploads/2019/07/Ogrodzenia.jpg"
   },
-  "2019/04/Brama-GATIGO.jpg": {
-    "src": "assets/images/2019-04-brama-gatigo.webp",
-    "small": "assets/images/2019-04-brama-gatigo-sm.webp",
-    "original": "assets/originals/2019/04/Brama-GATIGO.jpg",
-    "width": 1920,
-    "height": 905,
-    "url": "https://markin.pl/wp-content/uploads/2019/04/Brama-GATIGO.jpg"
-  },
   "2019/04/Elementy-dekoracyjne-1.jpg": {
     "src": "assets/images/2019-04-elementy-dekoracyjne-1.webp",
     "small": "assets/images/2019-04-elementy-dekoracyjne-1-sm.webp",
@@ -111,14 +103,6 @@
     "height": 1020,
     "url": "https://markin.pl/wp-content/uploads/2019/07/14-Obrze%C5%BCe-100x30x8.jpg"
   },
-  "2019/05/logo_bozza.jpg": {
-    "src": "assets/images/2019-05-logo-bozza.webp",
-    "small": "assets/images/2019-05-logo-bozza-sm.webp",
-    "original": "assets/originals/2019/05/logo_bozza.jpg",
-    "width": 320,
-    "height": 240,
-    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_bozza.jpg"
-  },
   "2019/05/logo_drewbet.jpg": {
     "src": "assets/images/2019-05-logo-drewbet.webp",
     "small": "assets/images/2019-05-logo-drewbet-sm.webp",
@@ -143,14 +127,6 @@
     "height": 240,
     "url": "https://markin.pl/wp-content/uploads/2019/05/logo_forbet.jpg"
   },
-  "2019/05/logo_gatigo.jpg": {
-    "src": "assets/images/2019-05-logo-gatigo.webp",
-    "small": "assets/images/2019-05-logo-gatigo-sm.webp",
-    "original": "assets/originals/2019/05/logo_gatigo.jpg",
-    "width": 320,
-    "height": 240,
-    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_gatigo.jpg"
-  },
   "2019/05/logo_ledbruk.jpg": {
     "src": "assets/images/2019-05-logo-ledbruk.webp",
     "small": "assets/images/2019-05-logo-ledbruk-sm.webp",
@@ -166,22 +142,6 @@
     "width": 320,
     "height": 240,
     "url": "https://markin.pl/wp-content/uploads/2019/05/logo_libet.jpg"
-  },
-  "2019/05/logo_nicoli.jpg": {
-    "src": "assets/images/2019-05-logo-nicoli.webp",
-    "small": "assets/images/2019-05-logo-nicoli-sm.webp",
-    "original": "assets/originals/2019/05/logo_nicoli.jpg",
-    "width": 320,
-    "height": 240,
-    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_nicoli.jpg"
-  },
-  "2019/05/logo_pozbruk.jpg": {
-    "src": "assets/images/2019-05-logo-pozbruk.webp",
-    "small": "assets/images/2019-05-logo-pozbruk-sm.webp",
-    "original": "assets/originals/2019/05/logo_pozbruk.jpg",
-    "width": 320,
-    "height": 240,
-    "url": "https://markin.pl/wp-content/uploads/2019/05/logo_pozbruk.jpg"
   },
   "2019/05/logo_semmelrock.jpg": {
     "src": "assets/images/2019-05-logo-semmelrock.webp",
@@ -279,30 +239,6 @@
     "height": 300,
     "url": "https://markin.pl/wp-content/uploads/2019/05/kostka-brukowa-Libet.jpg"
   },
-  "2019/05/płyty-tarasowe-Bozza.jpg": {
-    "src": "assets/images/2019-05-plyty-tarasowe-bozza.webp",
-    "small": "assets/images/2019-05-plyty-tarasowe-bozza-sm.webp",
-    "original": "assets/originals/2019/05/płyty-tarasowe-Bozza.jpg",
-    "width": 500,
-    "height": 300,
-    "url": "https://markin.pl/wp-content/uploads/2019/05/p%C5%82yty-tarasowe-Bozza.jpg"
-  },
-  "2019/05/płyty-Presstone-POZ-BRUK.jpg": {
-    "src": "assets/images/2019-05-plyty-presstone-poz-bruk.webp",
-    "small": "assets/images/2019-05-plyty-presstone-poz-bruk-sm.webp",
-    "original": "assets/originals/2019/05/płyty-Presstone-POZ-BRUK.jpg",
-    "width": 500,
-    "height": 300,
-    "url": "https://markin.pl/wp-content/uploads/2019/05/p%C5%82yty-Presstone-POZ-BRUK.jpg"
-  },
-  "2019/05/ogrodzenia-Gatigo.jpg": {
-    "src": "assets/images/2019-05-ogrodzenia-gatigo.webp",
-    "small": "assets/images/2019-05-ogrodzenia-gatigo-sm.webp",
-    "original": "assets/originals/2019/05/ogrodzenia-Gatigo.jpg",
-    "width": 500,
-    "height": 300,
-    "url": "https://markin.pl/wp-content/uploads/2019/05/ogrodzenia-Gatigo.jpg"
-  },
   "2019/05/ogrodzenia-Drew-Bet.jpg": {
     "src": "assets/images/2019-05-ogrodzenia-drew-bet.webp",
     "small": "assets/images/2019-05-ogrodzenia-drew-bet-sm.webp",
@@ -318,14 +254,6 @@
     "width": 500,
     "height": 300,
     "url": "https://markin.pl/wp-content/uploads/2019/05/ogrodzenie-SLABB.jpg"
-  },
-  "2019/05/ogrodzenie-COMBET.jpg": {
-    "src": "assets/images/2019-05-ogrodzenie-combet.webp",
-    "small": "assets/images/2019-05-ogrodzenie-combet-sm.webp",
-    "original": "assets/originals/2019/05/ogrodzenie-COMBET.jpg",
-    "width": 500,
-    "height": 300,
-    "url": "https://markin.pl/wp-content/uploads/2019/05/ogrodzenie-COMBET.jpg"
   },
   "2019/05/OGRODZENIE-Semmelrock.jpg": {
     "src": "assets/images/2019-05-ogrodzenie-semmelrock.webp",
@@ -374,14 +302,6 @@
     "width": 500,
     "height": 300,
     "url": "https://markin.pl/wp-content/uploads/2019/05/o%C5%9Bwietlenie-Libet.jpg"
-  },
-  "2019/05/donice-Future-Design.jpg": {
-    "src": "assets/images/2019-05-donice-future-design.webp",
-    "small": "assets/images/2019-05-donice-future-design-sm.webp",
-    "original": "assets/originals/2019/05/donice-Future-Design.jpg",
-    "width": 500,
-    "height": 300,
-    "url": "https://markin.pl/wp-content/uploads/2019/05/donice-Future-Design.jpg"
   },
   "2019/04/Projekt.jpg": {
     "src": "assets/images/2019-04-projekt.webp",

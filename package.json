@@ -4,7 +4,7 @@
   "type": "module",
   "engines": { "node": ">=22" },
   "scripts": {
-    "build": "node build.mjs",
+    "build": "node build.mjs && node scripts/prepare-publish.mjs",
     "test": "node --test test/*.test.mjs",
     "news:verify": "node scripts/verify-sources.mjs",
     "news:snapshot": "node scripts/verify-sources.mjs --write"

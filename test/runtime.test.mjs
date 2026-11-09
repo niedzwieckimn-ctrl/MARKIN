@@ -23,7 +23,7 @@ test('preview invocation stops before any unavailable production store access', 
 });
 
 test('cache refresh uses conditional ETag write to prevent a stale overlapping run', async () => {
-  let value = { schemaVersion: 2, entries: [{ id: 'old' }], sources: [] };
+  let value = { schemaVersion: 2, policyVersion: 7, kind:'products', entries: [{ id: 'old' }], sources: [] };
   let etag = 'v1';
   const store = {
     async getWithMetadata() { return { data: structuredClone(value), etag }; },

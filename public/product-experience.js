@@ -4,6 +4,10 @@ const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelecto
 function readData(id){try{return JSON.parse($(id)?.textContent||'[]').filter(safeProduct);}catch{return [];}}
 const seed=readData('#product-data'),curated=readData('#curated-data');
 let entries=prepareCatalog(seed,curated),signature=JSON.stringify(seed),selected='Wszystkie',page=0,saved=new Set();
+const brandSelect=$('[data-brand-filter]');
+let brand=brandSelect && [...brandSelect.options].some(o=>o.value===new URLSearchParams(location.search).get('marka')) ? new URLSearchParams(location.search).get('marka') : '';
+if(brandSelect)brandSelect.value=brand;
+brandSelect?.addEventListener('change',()=>{brand=brandSelect.value;page=0;const url=new URL(location.href);url.hash='';if(brand)url.searchParams.set('marka',brand);else url.searchParams.delete('marka');history.replaceState(null,'',url);filterCatalog();});
 const storageKey='markin-inspirations-v2';
 document.addEventListener('click',e=>{const b=e.target.closest('[data-product-gallery]');if(!b)return;const p=entries.find(p=>p.id===b.dataset.productGallery);if(!p)return;document.dispatchEvent(new CustomEvent('markin:gallery',{detail:{photos:galleryOf(p).map(i=>({src:i.image,caption:p.partner+' · '+p.title,url:p.url})),opener:b}}));});
 try{const data=JSON.parse(localStorage.getItem(storageKey)||'[]');if(Array.isArray(data))saved=new Set(data.filter(x=>typeof x==='string'&&/^[a-f0-9]{20}$/.test(x)).slice(0,30));}catch{}
@@ -11,7 +15,7 @@ const drawer=$('.inspiration-dialog'),open=$('.inspiration-open');let drawerOpen
 function updateSaved(){
  $$('[data-save]').forEach(button=>{const yes=saved.has(button.dataset.save);button.setAttribute('aria-pressed',String(yes));button.textContent=yes?'♥ Zapisano':'♡ Zapisz';button.setAttribute('aria-label',(yes?'Usuń z inspiracji: ':'Dodaj do inspiracji: ')+(entries.find(p=>p.id===button.dataset.save)?.title||'produkt'));});
  const list=entries.filter(p=>saved.has(p.id));
- if(open){open.hidden=saved.size===0;$('[data-saved-count]').textContent=list.length;}
+ if(open){open.hidden=list.length===0;$('[data-saved-count]').textContent=list.length;}
  if(drawer){$('[data-saved-list]').innerHTML=list.length?list.map(p=>`<article class="saved-item"><img src="${esc(p.image)}" alt="${esc(p.title)}" width="180" height="120"><div><span class="eyebrow">${esc(p.partner)}</span><h3>${esc(p.title)}</h3><button type="button" data-remove="${esc(p.id)}">Usuń z listy</button></div></article>`).join(''):'<p class="empty">Zapisz produkty, które pasują do Twojego pomysłu. Dawna pozycja mogła opuścić aktualny wybór.</p>';
  $('[data-saved-quote]').hidden=!list.length;$('[data-saved-quote]').href='kontakt.html?temat='+encodeURIComponent('Moje inspiracje: '+list.map(p=>p.partner+' '+p.title).join('; '));}
 }
@@ -31,7 +35,7 @@ $('[data-rail-prev]')?.addEventListener('click',()=>moveRail(-1));$('[data-rail-
 $('[data-rail]')?.addEventListener('scroll',railButtons,{passive:true});
 function filterCatalog(){
  $$('[data-news-grid]').forEach(grid=>{
-   const cards=$$('.product-card',grid),matches=cards.filter(c=>selected==='Wszystkie'||(selected==='Nowości'?c.dataset.kind==='new':selected==='Panele i przęsła'?c.dataset.panel==='true':c.dataset.category===selected));
+   const cards=$$('.product-card',grid),matches=cards.filter(c=>(!brand||c.dataset.partner===brand)&&(selected==='Wszystkie'||(selected==='Nowości'?c.dataset.kind==='new':selected==='Panele i przęsła'?c.dataset.panel==='true':c.dataset.category===selected)));
    const size=grid.dataset.pageSize?(innerWidth<=760?2:Number(grid.dataset.pageSize)):Infinity;
    const total=Math.max(1,Math.ceil(matches.length/size));page=Math.min(page,total-1);
    cards.forEach(c=>c.hidden=true);matches.slice(page*size||0,Number.isFinite(size)?(page+1)*size:undefined).forEach(c=>c.hidden=false);
@@ -46,24 +50,26 @@ $$('[data-category-filter]').forEach(b=>b.addEventListener('click',()=>{selected
 $('[data-catalog-prev]')?.addEventListener('click',()=>{page=Math.max(0,page-1);filterCatalog();$('.catalog-page')?.scrollIntoView({block:'start'});});
 $('[data-catalog-next]')?.addEventListener('click',()=>{page++;filterCatalog();$('.catalog-page')?.scrollIntoView({block:'start'});});
 function locateProduct(){
- const id=location.hash.match(/^#produkt-([a-f0-9]{20})$/)?.[1],grid=$('.catalog-grid');if(!id||!grid)return;
+ const id=location.hash.match(/^#produkt-([a-f0-9]{20})$/)?.[1],grid=$('.catalog-grid[data-news-grid]');if(!id||!grid)return;
  const cards=$$('.product-card',grid),index=cards.findIndex(c=>c.dataset.id===id);if(index<0)return;
- selected='Wszystkie';page=Math.floor(index/(innerWidth<=760?2:Number(grid.dataset.pageSize)));filterCatalog();
+ selected='Wszystkie';brand='';if(brandSelect)brandSelect.value='';page=Math.floor(index/(innerWidth<=760?2:Number(grid.dataset.pageSize)));filterCatalog();
  const card=cards[index];requestAnimationFrame(()=>{card.scrollIntoView({block:'center'});card.classList.add('product-highlight');setTimeout(()=>card.classList.remove('product-highlight'),2200);});
 }
 window.addEventListener('hashchange',locateProduct);
 let mobile=innerWidth<=760;window.addEventListener('resize',()=>{if(mobile!==(innerWidth<=760)){mobile=!mobile;page=0;filterCatalog();}railButtons();},{passive:true});
-function status(payload){const date=new Date(payload.generatedAt);const checked=!isNaN(date)?new Intl.DateTimeFormat('pl-PL',{dateStyle:'long'}).format(date):'';const partial=payload.stale||payload.sources?.some(s=>s.status!=='ok');$$('[data-news-status]').forEach(p=>p.textContent=(checked?'Sprawdzenie źródeł nowości: '+checked+'. ':'')+'Obok nowości pokazujemy osobno oznaczony Wybór Markin.'+(partial?' Część materiałów pochodzi z ostatniego poprawnego odczytu.':''));}
+function refreshCare(){const box=$('[data-care-updates]');if(!box)return;const listed=new Set($$('.care-step:not([data-care-updates]) article').map(n=>n.dataset.id));const extra=entries.filter(p=>p.category==='Pielęgnacja'&&!listed.has(p.id));$('[data-care-grid]',box).innerHTML=extra.map(p=>productCard(p)).join('');box.hidden=!extra.length;}
+function status(payload){const date=new Date(payload.generatedAt);const checked=!isNaN(date)?new Intl.DateTimeFormat('pl-PL',{dateStyle:'long'}).format(date):'';const partial=payload.stale||payload.sources?.some(s=>['error','partial'].includes(s.status));$$('[data-news-status]').forEach(p=>p.textContent=(checked?'Sprawdzenie źródeł nowości: '+checked+'. ':'')+'Nowości producenta i pozycje niedawno dodane do katalogu mają osobne oznaczenia. Pozostałe kolekcje to Wybór Markin.'+(partial?' Nie wszystkie katalogi były dostępne podczas ostatniego sprawdzenia.':''));}
 async function renderProducts(payload){
  if(payload.schemaVersion!==2||payload.kind!=='products'||!Array.isArray(payload.entries))return;
- const next=payload.entries.filter(safeProduct).slice(0,12),sig=JSON.stringify(next);if(!next.length)return;status(payload);if(sig===signature)return;
+ const next=payload.entries.filter(safeProduct).slice(0,96),sig=JSON.stringify(next);status(payload);if(sig===signature)return;
  if(document.activeElement?.closest('[data-news-grid],.inspiration-dialog,.news-bar'))return;
  const ready=await Promise.all(next.map(p=>new Promise(resolve=>{const image=new Image(),timer=setTimeout(()=>resolve(seed.find(s=>s.id===p.id)||null),5000);image.onload=()=>{clearTimeout(timer);resolve(p);};image.onerror=()=>{clearTimeout(timer);resolve(seed.find(s=>s.id===p.id)||null);};image.src=p.image;})));
- const valid=ready.filter(Boolean);if(!valid.length)return;entries=prepareCatalog(valid,curated);signature=sig;
+ const valid=ready.filter(Boolean);if(next.length&&!valid.length)return;entries=prepareCatalog(valid,curated);signature=JSON.stringify(valid);
  const scenes=$$('.scene:not([data-clone])').map(s=>({id:s.dataset.id,image:$('img',s).getAttribute('src')}));
  $$('[data-news-grid]').forEach(grid=>{const home=grid.hasAttribute('data-rail');grid.innerHTML=(home?homeCatalog(entries,scenes):entries).map(p=>productCard(p,{home})).join('');});
+ if(brandSelect){for(const p of entries){if(![...brandSelect.options].some(o=>o.value===p.partner))brandSelect.add(new Option(p.partner,p.partner));}}
  const track=$('#ticker-track');if(track)track.innerHTML=tickerItems(entries);
- filterCatalog();updateSaved();
+ refreshCare();filterCatalog();updateSaved();if(location.hash)locateProduct();
 }
 function startRail(){
  const rail=$('[data-rail]'),root=$('.discovery-section'),button=$('[data-rail-pause]');if(!rail||!button)return;
@@ -82,6 +88,6 @@ function startRail(){
  new IntersectionObserver(items=>{visible=items[0].isIntersecting;schedule();},{threshold:.25}).observe(rail);
  document.addEventListener('visibilitychange',schedule);motion.addEventListener('change',()=>setStopped(motion.matches));railReset=schedule;setStopped(stopped);
 }
-startRail();filterCatalog();updateSaved();locateProduct();
+startRail();refreshCare();filterCatalog();updateSaved();locateProduct();
 async function loadProducts(){if(location.protocol==='file:')return;try{const r=await fetch('/api/partner-news',{signal:AbortSignal.timeout(6000),headers:{Accept:'application/json'}});if(r.ok&&r.headers.get('content-type')?.includes('json'))await renderProducts(await r.json());}catch{}}
 loadProducts();let lastRefresh=Date.now();document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-lastRefresh>900000){lastRefresh=Date.now();loadProducts();}});

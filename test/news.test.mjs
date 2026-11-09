@@ -69,7 +69,7 @@ test('HTML layout changes or bot challenge cannot masquerade as a healthy empty 
   assert.equal(result.error, 'SOURCE_STRUCTURE_CHANGED');
 });
 
-test('topic filter excludes unrelated Bozza bathroom content', () => {
+test('topic filter excludes unrelated supplier bathroom content', () => {
   const filtered = { ...source, titlePattern: /taras|płytk|ogród/i };
   assert.equal(normalizeEntry({ ...sample, title: 'Nowa wanna z hydromasażem' }, filtered, now), null);
   assert.ok(normalizeEntry({ ...sample, title: 'Nowe płytki tarasowe' }, filtered, now));

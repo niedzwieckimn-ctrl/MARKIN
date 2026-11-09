@@ -1,26 +1,17 @@
-MARKIN V6 — KONTROLA LOKALNA, 5 PAŹDZIERNIKA 2026
+MARKIN · KONTROLA WERSJI 7 · 9.11.2026
 
-46/46 testów jednostkowych. 44 widoki: 11 stron x 320/390/768/1440 px.
-Brak błędów JS, odpowiedzi HTTP >=400, uszkodzonych obrazów i przepełnień.
-889 lokalnych odwołań sprawdzonych; 22 pliki JS/MJS poprawne składniowo.
-61 zdjęć kolekcji odczytanych z plików; każde ma min. 600 px szerokości.
-Źródłowe obrazy Crusil obejrzano przed wybraniem i dodaniem.
+12 podstron, 17 partnerów, 60 różnych kart produktów. 101 zdjęć w galeriach produktów (bez liczenia tej samej ścieżki dwa razy). 27 ręcznie opracowanych produktów dziesięciu dodanych lub przywróconych partnerów. W tym 5 preparatów do czyszczenia i impregnacji: 4 Nanobauer i 1 Semmelrock. Pozostały materiały Crusil i innych aktualnych partnerów.
+52 ręcznie przygotowane karty i 10 produktów z odczytu źródeł: dwa produkty pojawiły się w obu zestawach, więc katalog łączy je po adresie producenta. Zapisane wybory zachowują lokalne identyfikatory i galerie.
 
-Nowa strona Partnerzy: 12 marek, w tym Crusil z logo i oficjalnym linkiem.
-Sprawdzono wejście z menu komputera i telefonu, pełny wykaz oraz wykluczenie
-Semmelrock/Gatigo. Przykłady Crusil w Ofercie prowadzą do kart produktów.
-6 kolekcji Crusil: 3 tarasowe oraz 3 panele. Materiał oznaczony Wybór Markin.
+KONTROLA STRONY
+50/50 testów oprogramowania. Sprawdzono 12 podstron w szerokościach 320, 390, 768, 1024 i 1440 px: brak poziomego przepełnienia, uszkodzonych zdjęć, podwójnego H1 i linków starych partnerów. Przeglądarka poprawnie otwiera zakładkę pielęgnacji również z menu na telefonie.
+Sprawdzono: 17 kart partnerów, przejście do produktów wszystkich 10 nowych marek, galerię, zapis preparatu Oil Cleaner do inspiracji, zapytanie z wypełnionym tematem oraz przejście z głównego zdjęcia do osobnej oferty. Główna ma nadal dwie sekcje; 7 slajdów nie powtarza się w dolnym rzędzie. Kontrola zasymulowanej nowej odpowiedzi serwera: karta dodana do paska, katalogu i dolnego rzędu bez naruszenia pokazu głównego. Brak błędów przeglądarki.
+Kontrola redakcyjna: w opisach 60 produktów nie znaleziono powtórzonych pełnych zdań o długości powyżej 25 znaków. Pomiary nie obejmują etykiet menu oraz przycisków, które celowo są spójne.
 
-Główny motyw ma 7 scen i nie powtarza kolekcji/zdjęć w dolnym rzędzie
-23 produktów. Pełny katalog zachowuje 30 propozycji (4 źródłowe nowości,
-26 wyborów redakcyjnych). Test odświeżenia API potwierdził zachowanie Crusil
-i reguły braku powtórzeń. Przycisk oferty otwiera osobną podstronę.
+NOWOŚCI — ODCZYT ZE STRON PARTNERÓW
+9.11.2026, 11:53 czasu polskiego. 16 z 17 źródeł odpowiedziało prawidłowo: 5 pokazało aktualne produkty w zestawieniu, a 11 obserwuje wybrane kategorie. 10 pozycji i ich zdjęcia zapisano lokalnie jako zestaw startowy.
+Cersanit: automatyczny odczyt katalogu dostał HTTP 403. Dwie karty gresu tarasowego (Geo 2.0 i Stonematch 2.0), ich opisy i zdjęcia są w paczce niezależnie od tego ograniczenia. Automat będzie ponawiał sprawdzenie.
+Potwierdzono pobieranie także dla Tubądzina, Forbet i Crusil. Trzy funkcje Netlify przeszły lokalne pakowanie. Harmonogram i zapis do Netlify Blobs wymagają produkcyjnego wdrożenia na koncie właściciela; nie są tu raportowane jako wykonane na hostingu.
 
-Zaliczone: galerie, pauza, zmiana co 4000 ms w lewo, ograniczony ruch,
-filtry, paginacja 6/2, linki do kart, lista inspiracji i zapytanie mailto.
-Główna nadal 1388 px wysokości przy 1440 px i 1458 px przy 390 px.
-Kontrola tekstów: 0 identycznych powtórzeń zdań >=6 słów na 11 podstronach.
+Paczka stanowi pełny projekt. Przewodnik wdrożenia: README.txt. Źródła dodanych materiałów: docs/produkty-zrodla-v7.json; konfiguracja i zakres automatu: docs/AUTOMATYCZNE-NOWOSCI.md.
 
-Przygotowano pliki lokalne. Nie wykonywano publikacji, push ani zmian DNS.
-Nie dodawano automatycznego źródła Crusil; jego kolekcje są statycznym wyborem.
-Dotychczasowe Functions i harmonogram wymagają kontroli po własnym wdrożeniu.

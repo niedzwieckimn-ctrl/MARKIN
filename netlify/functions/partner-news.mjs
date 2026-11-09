@@ -1,5 +1,5 @@
 import { openNewsStore, readNews, SEED } from '../lib/news-store.mjs';
-import { publicSnapshot } from '../lib/news-core.mjs';
+import { outputSnapshot } from '../lib/product-core.mjs';
 
 export default async function handler(request) {
   if (!['GET', 'HEAD'].includes(request.method)) return new Response(null, { status: 405, headers: { Allow: 'GET, HEAD' } });
@@ -12,7 +12,7 @@ export default async function handler(request) {
     // Public visitors still receive the bundled verified snapshot if storage is unavailable.
     console.warn('partner-news: blob cache unavailable; serving bundled snapshot');
   }
-  const body = request.method === 'HEAD' ? null : JSON.stringify(publicSnapshot(snapshot, mode));
+  const body = request.method === 'HEAD' ? null : JSON.stringify(outputSnapshot(snapshot, mode));
   return new Response(body, { headers: {
     'Content-Type': 'application/json; charset=utf-8',
     'Cache-Control': 'public, max-age=60',

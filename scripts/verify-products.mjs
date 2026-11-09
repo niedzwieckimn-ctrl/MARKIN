@@ -17,7 +17,8 @@ const snapshot = await refreshProducts(SEED, SOURCES, {
 console.log(JSON.stringify({ entries: snapshot.entries.map(({title,partner,image})=>({title,partner,image})), sources: snapshot.sources }, null, 2));
 if (write) {
   if (!snapshot.entries.length) throw Error('No verified products; no snapshot written');
-  await writeFile('public/data/partner-news.json', JSON.stringify(snapshot, null, 2) + '\n');
+  const {observed,...publicData}=snapshot;
+  await writeFile('public/data/partner-news.json', JSON.stringify(publicData, null, 2) + '\n');
   await writeFile('netlify/lib/news-seed.mjs', 'export const SEED = ' + JSON.stringify(snapshot, null, 2) + ';\n');
 }
-if (snapshot.sources.some(s => s.status !== 'ok')) process.exitCode = 1;
+if (snapshot.sources.some(s => ['error','partial'].includes(s.status))) process.exitCode = 1;

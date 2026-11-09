@@ -1,77 +1,24 @@
-MARKIN — WERSJA 6 / CRUSIL I WIDOCZNA LISTA PARTNERÓW
-5 października 2026
+MARKIN · aktualizacja strony · 9 listopada 2026
 
-PARTNERZY
-„Partnerzy” to osobna pozycja menu na każdej stronie, także w menu telefonu.
-partnerzy.html zawiera wszystkie 12 marek: Crusil, Drogbruk, Libet, Bozza,
-Forbet, Drewbet, LedBruk, Poz-Bruk, SLABB, Nicoli, Future Design i COM-BET.
-Lista została przeniesiona z dołu O nas; pozostał tam wyraźny odnośnik.
-Partnerzy są również podlinkowani w stopkach. Semmelrock i Gatigo wykluczeni.
+WDROŻENIE W ISTNIEJĄCYM PROJEKCIE NETLIFY
+1. Rozpakuj cały plik MARKIN-strona-v7-Netlify.zip w Windows („Wyodrębnij wszystkie”).
+2. W GitHub Desktop wybierz swoje repozytorium MARKIN i „Show in Explorer”. Do głównego folderu repozytorium skopiuj ZAWARTOŚĆ rozpakowanej paczki. Plik netlify.toml ma leżeć bezpośrednio obok package.json i folderów public oraz netlify. Nie zmieniaj folderu .git. Pełna paczka może też posłużyć jako zawartość nowego, pustego repozytorium.
+3. W GitHub Desktop sprawdź zmiany, wpisz opis (np. „Nowi partnerzy i pielęgnacja kostki”), wybierz „Commit to main” i „Push origin”. Jeśli Netlify śledzi ten branch, rozpocznie budowanie strony.
+4. Konfiguracja jest w netlify.toml: główny folder repozytorium, polecenie npm run build, publikowany folder markin-publish (powstaje przy budowaniu, zawiera tylko bieżące materiały), funkcje netlify/functions. W Netlify poczekaj na produkcyjne wdrożenie (Published). Ręczne przeciągnięcie samego public uruchomi wersję statyczną, bez codziennego pobierania nowości.
+5. Po publikacji otwórz Partnerzy oraz Zadbaj o swoją kostkę. Na stronie /api/partner-news powinien pojawić się zestaw produktów w formacie JSON. W panelu Functions sprawdź następne zaplanowane uruchomienie refresh-partner-news i jego wynik.
 
-CRUSIL
-- Panele dekoracyjne: ażurowe Aspre i Leste oraz pełne Maestro.
-- Płyty ceramiczno-betonowe DuoProCeram: Sabbia Doro, Pietra Antica Black,
-  Quartz Pumice.
-- 18 zdjęć producenta oraz oficjalne logo Crusil, zapisane lokalnie.
-- Opisy i przykłady w istniejących kategoriach oferty: tarasy, ogrodzenia
-  i architektura ogrodowa. Linki prowadzą do konkretnych kart katalogu.
-- Crusil pojawia się w dolnym rzędzie produktów i górnym pasku.
-
-To wybór redakcyjny oznaczony Wybór Markin. Dodanie partnera nie włącza
-automatycznego importu jego całej witryny. Dotychczasowy automat
-Drogbruk / POZBRUK / LedBruk pozostaje aktywny i zachowuje kolekcje Crusil.
-Źródła zdjęć i opisów: docs/crusil-zrodla-v6.json.
-
-ZACHOWANY UKŁAD
-Główny pokaz bez zmian: 7 aranżacji co 4 sekundy. Pod nim 23 inne kolekcje,
-bez powtarzania głównych fotografii. Pełny katalog: 30 kolekcji i 61 zdjęć.
-Przyciski Zobacz ofertę / Nowości produktowe nadal otwierają osobne strony.
-Na głównej nadal 2 sekcje, 6 filtrów i zwykłe karty bez dodatkowych nakładek.
-
-AKTUALIZACJA
-1. Rozpakuj MARKIN-zmiany-v6.zip. Paczka pasuje do wersji 4 albo 5.
-2. GitHub Desktop → repozytorium MARKIN → Show in Explorer.
-3. Wklej zawartość paczki do głównego folderu repozytorium i zastąp pliki.
-4. Commit to main, następnie Push origin.
-Nie trzeba osobno nakładać poprawki v5. Własne późniejsze zmiany porównaj
-przed nadpisaniem. Dla starszej wersji użyj pełnego projektu:
-MARKIN-strona-v6-Netlify.zip.
-
-NETLIFY
-Wdróż cały projekt przez integrację Git:
-  Build command: npm run build
-  Publish directory: public
-  Functions directory: netlify/functions
-  Node.js: 22
-
-Samo wgranie folderu public pokaże stronę i dołączone produkty.
-Codzienny import wymaga funkcji partner-news, product-image,
-refresh-partner-news. Harmonogram: 05:00 UTC — 07:00 latem, 06:00 zimą
-w Polsce. Po wdrożeniu sprawdź Functions → refresh-partner-news → Run now
-oraz /api/partner-news: kind=products, schemaVersion=2, mode=cached.
-Sprawdź także zdjęcia i kolejny przebieg harmonogramu. Netlify tworzy
-magazyn markin-partner-products-v2 automatycznie. Nie są potrzebne klucze AI.
-
-Nie publikowano tej paczki, nie zmieniano domeny ani kont GitHub/Netlify.
-Testy lokalne nie są potwierdzeniem uruchomienia automatu na Twoim koncie.
+CO ZAWIERA STRONA
+Główna: pokaz aranżacji co 4 sekundy, pasek informacyjny oraz niżej osobny rząd produktów. Przyciski otwierają osobne podstrony.
+Partnerzy: 17 marek, pozycja w menu i stopce. Cersanit i Tubądzin pokazują gres zewnętrzny; New Form reprezentuje Goliat Gres, a PRO-GRES jest opisany jako dystrybutor. TARRACE oznacza markę LIS / PH Saturn.
+Zadbaj o swoją kostkę: osobno czyszczenie i ochrona, 4 preparaty Nanobauer oraz Semmelrock Pave Care. Z karty preparatu można przejść do źródła, zapisać produkt lub przygotować zapytanie.
+Zdjęcia i treść startowa są w projekcie. Dostępność u producenta i cena nie są stanem magazynowym MARKIN.
+ 
+AUTOMAT
+Raz dziennie o 05:00 UTC (06:00 w Polsce zimą, 07:00 latem). Działa po produkcyjnym wdrożeniu z funkcjami i Netlify Blobs. Nie wymaga podawania kluczy firm partnerskich. Odczytuje wybrane kategorie lub karty oznaczone przez producenta, pomija artykuły prasowe. Gdy ktoś doda kartę w monitorowanej kategorii, automat rozróżnia wykrycie od premiery zadeklarowanej przez partnera. Awaria jednego źródła nie usuwa wyboru lokalnego. Szczegółowy zakres i ograniczenia: docs/AUTOMATYCZNE-NOWOSCI.md. Bieżący wynik testu źródeł: RAPORT-SPRAWDZENIA.txt.
 
 EDYCJA I PODGLĄD
-Treści i układ: build.mjs.
-Wybór kolekcji: data/curated-products.json.
-Kolejność scen: data/campaign.json.
-Główny motyw, łączenie kolekcji i pasek: public/catalog.js.
-Interakcje i zapisywanie: public/product-experience.js.
-Wygląd krótkiej głównej: public/compact.css (uzupełnia pozostałe style).
-Automatyczne źródła: netlify/lib/product-sources.mjs oraz product-core.mjs.
-Źródła nowych aranżacji: docs/produkty-zrodla-v4.json.
+data/partners.json — lista marek; data/curated-products.json — wybór produktów i zdjęcia; data/campaign.json — kolejność slajdów.
+Źródło każdego dodanego zdjęcia i karty opisano w docs/produkty-zrodla-v7.json. Zdjęcia produktów dynamicznych mają imageSource w public/data/partner-news.json.
+Podgląd po rozpakowaniu: w głównym folderze projektu npm ci i npm run build; public udostępnij przez lokalny serwer HTTP. Samo otwarcie .html wprost z dysku nie uruchamia wszystkich interakcji.
+Kontrola: npm test oraz node scripts/verify-local.mjs. Podgląd bieżącego pobierania bez zmiany projektu: npm run news:verify.
 
-Po edycji uruchom npm run build. Do lokalnego podglądu użyj serwera HTTP,
-np. npx http-server public. Otwieranie pliku bezpośrednio z dysku może
-blokować moduły JavaScript. Sprawdzenie: npm ci, npm test,
-node scripts/verify-local.mjs. Kontrola żywych źródeł: npm run news:verify.
-
-KONTAKT I WYCENA
-Przygotowanie wiadomości nie wysyła jej automatycznie — klient otwiera
-ją we własnej poczcie. „Moje inspiracje” jest listą wyboru, nie zamówieniem.
-Cena, dostępność i transport są potwierdzane indywidualnie.
-Kontakt: Radlin 193C, 26-008 Górno; 577 730 739; biuro@markin.pl.
