@@ -58,10 +58,10 @@
   },
   {
     "name": "Pater",
-    "homepage": "https://pater.pl/",
-    "summary": "Betonowe płyty na taras i kostki na podjazd różnią się nie tylko formatem. W kolekcjach Pater dobór elementu można zacząć od tego, czy po nawierzchni będą poruszać się piesi, czy także samochody.",
-    "catalogUrl": "https://pater.pl/przeznaczenie/taras/",
-    "cover": "assets/partners-v7/pater-solo.webp"
+    "homepage": "https://www.kostkapater.pl/",
+    "summary": "Pater z Brzeźnicy produkuje betonowe nawierzchnie do ogrodu. W katalogu Architektura ogrodowa znajdziesz płyty Romero o rysunku marmuru oraz kostki Esperia i Tivoli na ścieżki i podjazdy.",
+    "catalogUrl": "https://kostkapater.pl/produkty/architektura-ogrodowa/",
+    "cover": "assets/partners-v7/pater-romero.webp"
   },
   {
     "name": "PRO-GRES",
@@ -80,7 +80,7 @@
   {
     "name": "Semmelrock",
     "homepage": "https://www.wienerberger.pl/produkty/kostka-brukowa-plyty-tarasowe-ogrodzenia-betonowe-semmelrock.html",
-    "summary": "Marka z grupy Wienerberger oferuje betonowe nawierzchnie od podjazdu po taras. Uzupełnieniem płyt brukowych i tarasowych są środki do ochrony powierzchni betonu.",
+    "summary": "Marka z grupy Wienerberger oferuje betonowe nawierzchnie od podjazdu po taras. Porównaj płyty brukowe Ventura milo z tarasowymi Mayesto bello.",
     "catalogUrl": "https://www.wienerberger.pl/produkty/kostka-brukowa-plyty-tarasowe-ogrodzenia-betonowe-semmelrock/plyty-tarasowe.html",
     "cover": "assets/partners-v7/semmelrock-ventura-milo.webp"
   },

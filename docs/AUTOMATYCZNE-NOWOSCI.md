@@ -15,7 +15,7 @@ Strona zaczyna od lokalnych produktów i zdjęć zawartych w paczce. Zwykły odw
 | --- | --- |
 | Drogbruk | Oficjalne slajdy ze znakiem nowości lub informacją o nowym kolorze i odnośnikiem do produktu. |
 | LedBruk | Sekcja „Nowości” i wskazane w niej karty oświetlenia. |
-| Pater | Karty produktów w kategorii tarasu; uwzględnia oznaczenie „NOWOŚĆ”. |
+| Pater | Karty w katalogu [Architektura ogrodowa](https://kostkapater.pl/produkty/architektura-ogrodowa/) producenta z Brzeźnicy. Pierwszy odczyt ustalił listę odniesienia: 11 kart. |
 | TARRACE | Karty katalogowe na tarrace.pl/produkty/; uwzględnia etykiety producenta. |
 | Semmelrock | Produktowa część oficjalnej polskiej mapy Wienerberger: płyty tarasowe i kostki/płyty brukowe. |
 | Tubądzin | Dwie części polskiej mapy produktów; tylko pozycje tarasowe i koraTER. Fotografie mogą pochodzić także z oficjalnego CDN Tubądzin. |

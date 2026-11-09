@@ -3,7 +3,7 @@ const entry=(id,name,page,hosts,rest={})=>({id,name,page,hosts,limit:4,category:
 export const SOURCES=[
   entry('drogbruk','Drogbruk','https://www.drogbruk.pl/',['www.drogbruk.pl','drogbruk.pl'],{category:'Nawierzchnie',mode:'explicit',path:/^\/produkt\/[^/]/}),
   entry('ledbruk','LedBruk','https://ledbruk.com/nowosci/',['ledbruk.com','www.ledbruk.com'],{category:'Światło',mode:'explicit',path:/^\/(?:produkty\/[^/]|ledbruk-line-alu\/)/}),
-  entry('pater','Pater','https://pater.pl/przeznaczenie/taras/',['pater.pl'],{row:'.results__item',link:'.results__item__title a',title:'.results__item__title',path:/^\/produkty\/[^/]+\/$/,image:'.results__figure img'}),
+  entry('kostkapater','Pater','https://kostkapater.pl/produkty/architektura-ogrodowa/',['kostkapater.pl','www.kostkapater.pl'],{category:'Nawierzchnie',row:'.products a.product[href]',title:'h3',image:'.image img',path:/^\/produkty\/architektura-ogrodowa\/[a-z0-9-]+\/$/}),
   entry('tarrace','TARRACE','https://tarrace.pl/produkty/',['tarrace.pl'],{row:'article.trc-card',link:'a[href]',title:'h2,h3',explicitSelector:'.trc-badge',path:/^\/produkty\/[^/]+\/$/,image:'img'}),
   entry('renoplast','Renoplast','https://renoplast.pl/wsporniki-tarasowe',['renoplast.pl','www.renoplast.pl'],{category:'Systemy tarasowe',row:'a[href*="/produkt/wspornik"]',path:/^\/produkt\/wspornik[-a-z0-9]+\/?$/}),
   entry('nanobauer','Nanobauer','https://b2b.nanobauer.com/11-nanobauer',['b2b.nanobauer.com'],{category:'Pielęgnacja',row:'article.product-miniature',link:'.product-title a',title:'.product-title',image:'a.product-thumbnail img',path:/^\/nanobauer\/\d+[^/]+\.html$/,match:/paving|concrete|gress|sandstone|pebble|rock|joint|white stain|multicolor|rust cleaner/i}),

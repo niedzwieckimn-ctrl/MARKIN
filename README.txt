@@ -10,7 +10,7 @@ WDROŻENIE W ISTNIEJĄCYM PROJEKCIE NETLIFY
 CO ZAWIERA STRONA
 Główna: pokaz aranżacji co 4 sekundy, pasek informacyjny oraz niżej osobny rząd produktów. Przyciski otwierają osobne podstrony.
 Partnerzy: 17 marek, pozycja w menu i stopce. Cersanit i Tubądzin pokazują gres zewnętrzny; New Form reprezentuje Goliat Gres, a PRO-GRES jest opisany jako dystrybutor. TARRACE oznacza markę LIS / PH Saturn.
-Zadbaj o swoją kostkę: osobno czyszczenie i ochrona, 4 preparaty Nanobauer oraz Semmelrock Pave Care. Z karty preparatu można przejść do źródła, zapisać produkt lub przygotować zapytanie.
+Zadbaj o swoją kostkę: osobno czyszczenie i ochrona, 4 preparaty Nanobauer. Z karty preparatu można przejść do źródła, zapisać produkt lub przygotować zapytanie.
 Zdjęcia i treść startowa są w projekcie. Dostępność u producenta i cena nie są stanem magazynowym MARKIN.
  
 AUTOMAT

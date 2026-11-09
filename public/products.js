@@ -7,6 +7,7 @@ export function safeProduct(p) {
   try {
     const url = new URL(p.url);
     return p && /^[0-9a-f]{20}$/.test(p.id) && typeof p.title === 'string' && p.title.trim().length >= 2 && p.title.length <= 96
+      && !(p.partner === 'Semmelrock' && /pave[\s_-]+care/i.test(p.title+' '+url.pathname) && /impregnat/i.test(p.title+' '+url.pathname))
       && typeof p.partner === 'string' && p.partner.length > 0
       && url.protocol === 'https:' && hosts.has(url.hostname) && !url.username && !url.password && !url.port
       && safeImage(p.image);

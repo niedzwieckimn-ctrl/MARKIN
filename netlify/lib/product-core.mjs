@@ -11,21 +11,20 @@ export const imageKey = url => createHash('sha256').update(url).digest('hex');
 const productName=value=>plainText(value,96).replace(/\s*[-–—:]?\s*\bnowość\s*!*\s*$/iu,'').trim();
 function descriptionOf(item,src){
   if(src.id==='tarrace'&&/^\d+(?:[.,]\d+)?\s*[×x]\s*\d+(?:[.,]\d+)?\s*cm\s*·\s*\d+\s*mm$/iu.test(item.spec||''))return 'Format i grubość według TARRACE: '+item.spec+'.';
-  if(src.id==='pater'&&/stopie/i.test(item.title))return 'Stopień schodowy z betonowych elementów do zagospodarowania terenu Pater.';
-  if(src.id==='pater'&&/płyta/i.test(item.title))return 'Betonowa płyta z oferty Pater do aranżacji tarasu.';
   if(src.id==='crusil')return 'Kolekcja płyt ceramiczno-betonowych Crusil do przestrzeni zewnętrznych.';
   return '';
 }
 export function product(raw, source, now = new Date()) {
   const url = productUrl(raw.url, source), imageSource = imageUrl(raw.imageSource, url || source.page, source);
   const title = productName(raw.title);
+  if (source.id === 'semmelrock' && /\bpave[\s_-]+care\b/i.test(title + ' ' + url) && /impregnat/i.test(title + ' ' + url)) return null;
   if (!url || !imageSource || title.length < 4 || forbidden.test(title + url + imageSource)) return null;
   if (!/\.(jpe?g|png|webp)(?:\?|$)/i.test(imageSource)) return null;
   return { id: imageKey(source.id + ':' + url).slice(0, 20), title, url, imageSource,
     partner: source.name, sourceId: source.id, sourcePage: source.page,
     badge: plainText(raw.badge || 'W nowościach producenta', 50),
     description: plainText(raw.description || '', 220),
-    category: raw.category || (source.id==='semmelrock'&&url.includes('/kostki-i-plyty-brukowe/')?'Nawierzchnie':source.id==='pater'&&/stopie|palisad|obrze[zż]/i.test(url+title)?'Architektura ogrodowa':source.category),
+    category: raw.category || (source.id==='semmelrock'&&url.includes('/kostki-i-plyty-brukowe/')?'Nawierzchnie':source.category),
     discoveredAt: now.toISOString(), publishedAt: null };
 }
 

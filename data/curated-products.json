@@ -758,51 +758,86 @@
     "verifiedAt": "2026-10-05T21:02:35.416Z"
   },
   {
-    "id": "d60b33837250eb743beb",
+    "id": "5592278f203b5af6013d",
     "partner": "Pater",
-    "title": "Płyta Solo",
-    "url": "https://pater.pl/produkty/plyta-solo/",
+    "title": "Płyty Romero",
+    "url": "https://kostkapater.pl/produkty/architektura-ogrodowa/romero/",
     "category": "Tarasy",
-    "description": "Kwadrat o boku jednego metra pozwala położyć taras z niewielką liczbą spoin. Betonowa płyta ma 3 cm grubości; producent przewiduje ją na tarasy, balkony i ścieżki dla pieszych.",
-    "image": "assets/partners-v7/pater-solo.webp",
-    "imageSource": "https://pater.pl/wp-content/uploads/2022/01/IMG_2456-3-scaled.jpg",
+    "description": "Trzy formaty płyt pozwalają rozłożyć marmurowy rysunek na szerokiej powierzchni tarasu. Prostokątne elementy możesz zestawiać w jednym kierunku albo przesuwać ich spoiny względem siebie.",
+    "image": "assets/partners-v7/pater-romero.webp",
+    "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/merano-kolor-szary-tivoli-kolor-tasmania-mniejsza-kostka-17.jpg",
     "kind": "selection",
     "badge": "Wybór Markin",
     "verifiedAt": "2026-11-09",
     "gallery": [
       {
-        "image": "assets/partners-v7/pater-solo.webp",
-        "imageSource": "https://pater.pl/wp-content/uploads/2022/01/IMG_2456-3-scaled.jpg"
+        "image": "assets/partners-v7/pater-romero.webp",
+        "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/merano-kolor-szary-tivoli-kolor-tasmania-mniejsza-kostka-17.jpg"
       },
       {
-        "image": "assets/partners-v7/pater-solo-2.webp",
-        "imageSource": "https://pater.pl/wp-content/uploads/2022/01/IMG_2469-scaled.jpg"
+        "image": "assets/partners-v7/pater-romero-2.webp",
+        "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/DSC_6996-1.jpg"
       },
       {
-        "image": "assets/partners-v7/pater-solo-3.webp",
-        "imageSource": "https://pater.pl/wp-content/uploads/2022/01/IMG_2455-scaled.jpg"
+        "image": "assets/partners-v7/pater-romero-3.webp",
+        "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/merano-kolor-tasmania-11.jpg"
       }
     ]
   },
   {
-    "id": "cf4ad0cc9e52f354dc97",
+    "id": "c1b0129b9596d6429ad5",
     "partner": "Pater",
-    "title": "Kostka Roma",
-    "url": "https://pater.pl/produkty/kostka-roma/",
+    "title": "Kostka Esperia",
+    "url": "https://kostkapater.pl/produkty/architektura-ogrodowa/esperia/",
     "category": "Kostka",
-    "description": "Kostka betonowa o grubości 6 cm na ścieżki i podjazdy dla samochodów do 3,5 t. W jednej kompozycji można zestawić elementy o różnych rozmiarach, a odcienie dobrać do elewacji i zieleni.",
-    "image": "assets/partners-v7/pater-roma.webp",
-    "imageSource": "https://pater.pl/wp-content/uploads/2021/12/IMG_3389-scaled.jpg",
+    "description": "Fazowane krawędzie podkreślają podział nawierzchni, a odcień Wapień muszlowy rozjaśnia strefę wejścia. Producent przewiduje Esperię na tarasy, ścieżki i podjazdy dla samochodów osobowych.",
+    "image": "assets/partners-v7/pater-esperia.webp",
+    "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/esperia-wapien-muszlowy-2.jpg",
     "kind": "selection",
     "badge": "Wybór Markin",
     "verifiedAt": "2026-11-09",
     "gallery": [
       {
-        "image": "assets/partners-v7/pater-roma.webp",
-        "imageSource": "https://pater.pl/wp-content/uploads/2021/12/IMG_3389-scaled.jpg"
+        "image": "assets/partners-v7/pater-esperia.webp",
+        "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/esperia-wapien-muszlowy-2.jpg"
+      },
+      {
+        "image": "assets/partners-v7/pater-esperia-2.webp",
+        "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/esperia-kolor-_-wapien-muszlowy-5.jpg"
+      },
+      {
+        "image": "assets/partners-v7/pater-esperia-3.webp",
+        "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/esperia-kolor-_-wapien-muszlowy-obrzeze-sora-kolor-szary-1.jpg"
       }
     ],
     "priority": -10
+  },
+  {
+    "id": "b2a33e6bc0a1cc3c14f6",
+    "partner": "Pater",
+    "title": "Kostka Tivoli",
+    "url": "https://kostkapater.pl/produkty/architektura-ogrodowa/tivoli/",
+    "category": "Kostka",
+    "description": "Tivoli łączy trzy długości prostokątnej kostki. Na zdjęciach producenta widać, jak odcień Tasmania układa się w pasma. Ten sam materiał możesz poprowadzić od tarasu aż po podjazd dla auta osobowego.",
+    "image": "assets/partners-v7/pater-tivoli.webp",
+    "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/tivoli-kolor-tasmiania-1-1.jpg",
+    "kind": "selection",
+    "badge": "Wybór Markin",
+    "verifiedAt": "2026-11-09",
+    "gallery": [
+      {
+        "image": "assets/partners-v7/pater-tivoli.webp",
+        "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/tivoli-kolor-tasmiania-1-1.jpg"
+      },
+      {
+        "image": "assets/partners-v7/pater-tivoli-2.webp",
+        "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/DSC_7560-3-1.jpg"
+      },
+      {
+        "image": "assets/partners-v7/pater-tivoli-3.webp",
+        "imageSource": "https://kostkapater.pl/wp-content/uploads/2024/03/tivoli-kolor-tasmiania-2.jpg"
+      }
+    ]
   },
   {
     "id": "764fcb6d09d39ce3f365",
@@ -853,26 +888,6 @@
         "imageSource": "https://www.wienerberger.pl/var/commerce/products/wienerberger/products/wbs_pl_website/wbs_pl_website/semm_plyty_tarasowe/1385396/assets/asset2.imgTransformer/web-rendition/web/1761918838379/PL_MKT_PHO_REF_SEM_Chorzow_Nowa_Fala_baseny_mayesto_bello_asti_bello_044.jpg"
       }
     ]
-  },
-  {
-    "id": "43145106b2c07e6091be",
-    "partner": "Semmelrock",
-    "title": "Pave Care Impregnat",
-    "url": "https://www.wienerberger.pl/produkty/kostka-brukowa-plyty-tarasowe-ogrodzenia-betonowe-semmelrock/akcesoria/pave-care-impregnat.html",
-    "category": "Pielęgnacja",
-    "description": "Impregnat do betonowych kostek i płyt ogranicza wnikanie wody, oleju i zabrudzeń. Pozostawia matową powierzchnię bez zmiany koloru. Zużycie podane przez producenta to 100–300 ml/m², zależnie m.in. od porowatości betonu.",
-    "image": "assets/partners-v7/semmelrock-pave-care.webp",
-    "imageSource": "https://www.wienerberger.pl/content/dam/wienerberger/poland/marketing/photography/productshots/landscaping/single-product/PL_MKT_PSH_LAN_SEM_Pave_Care_Impregnat.jpg.imgTransformer/crop_1to1/md-2/1641680963292/PL_MKT_PSH_LAN_SEM_Pave_Care_Impregnat.jpg",
-    "kind": "selection",
-    "badge": "Wybór Markin",
-    "verifiedAt": "2026-11-09",
-    "gallery": [
-      {
-        "image": "assets/partners-v7/semmelrock-pave-care.webp",
-        "imageSource": "https://www.wienerberger.pl/content/dam/wienerberger/poland/marketing/photography/productshots/landscaping/single-product/PL_MKT_PSH_LAN_SEM_Pave_Care_Impregnat.jpg.imgTransformer/crop_1to1/md-2/1641680963292/PL_MKT_PSH_LAN_SEM_Pave_Care_Impregnat.jpg"
-      }
-    ],
-    "careStep": "protect"
   },
   {
     "id": "dbd24f737d290416366c",

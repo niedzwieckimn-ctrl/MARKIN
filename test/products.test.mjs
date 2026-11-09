@@ -1,14 +1,30 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { SOURCES } from '../netlify/lib/product-sources.mjs';
-import { product, parseProducts, fetchProducts, refreshProducts, fetchProductImage } from '../netlify/lib/product-core.mjs';
+import { product, parseProducts, fetchProducts, refreshProducts, fetchProductImage, outputSnapshot } from '../netlify/lib/product-core.mjs';
 import { safeProduct, productCard } from '../public/products.js';
 import imageHandler from '../netlify/functions/product-image.mjs';
 import { SEED } from '../netlify/lib/news-seed.mjs';
-const now=new Date('2026-10-05T19:00:00Z'), drog=SOURCES.find(s=>s.id==='drogbruk'), pater=SOURCES.find(s=>s.id==='pater');
+const now=new Date('2026-10-05T19:00:00Z'), drog=SOURCES.find(s=>s.id==='drogbruk');
 const slide=(title='Model w nowym kolorze Lumino!',url='/produkt/model/',image='https://www.drogbruk.pl/photo.jpg')=>`<div class="swiper-slide"><h2>${title}</h2><img src="${image}"><a href="${url}">Sprawdź</a></div>`;
 const htmlResponse=text=>new Response(text,{headers:{'Content-Type':'text/html'}});
 const image='assets/products/abcdef.jpg';
+
+test('cached withdrawn items are rejected by the API and the catalogue',()=>{
+  const oldPater={...SEED.entries[0],partner:'Pater',sourceId:'pater',url:'https://pater.pl/produkty/plyta-multi/',imageSource:'https://pater.pl/photo.jpg',image};
+  const care={...oldPater,partner:'Semmelrock',sourceId:'semmelrock',title:'Pave Care Impregnat',url:'https://www.wienerberger.pl/produkty/semmelrock/plyty-tarasowe/pave-care-impregnat.html',imageSource:'https://www.wienerberger.pl/photo.jpg'};
+  assert.deepEqual(outputSnapshot({entries:[oldPater,care]},'cached').entries,[]);
+  assert.equal(safeProduct(oldPater),false);assert.equal(safeProduct(care),false);
+});
+
+test('Pater establishes a baseline and publishes a later card from the Brzeznica catalogue',async()=>{
+  const src=SOURCES.find(s=>s.id==='kostkapater');
+  const link=slug=>'<a class="product" href="'+src.page+slug+'/"><div class="image"><img data-src="https://kostkapater.pl/'+slug+'.jpg"></div><h3>'+slug+'</h3></a>';
+  const run=(previous,slugs)=>refreshProducts(previous,[src],{now,fetchImpl:async()=>htmlResponse('<div class="products">'+slugs.map(link).join('')+'</div>'),saveImage:async()=>image});
+  const baseline=await run({},['romero']);assert.equal(baseline.entries.length,0);assert.equal(baseline.observed.kostkapater.length,1);
+  const update=await run(baseline,['romero','nowy-model']);
+  assert.deepEqual(update.entries.map(p=>p.url),[src.page+'nowy-model/']);assert.ok(safeProduct(update.entries[0]));
+});
 
 test('product adapters never treat general headlines or promotions as new products',()=>{
   const items=parseProducts(slide()+slide('Nowości z targów','/aktualnosci/targi/')+slide('Nowość! Promocja 20%','/produkt/promocja/'),drog,now);

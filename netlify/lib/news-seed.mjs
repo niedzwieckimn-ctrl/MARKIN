@@ -2,24 +2,9 @@ export const SEED = {
   "schemaVersion": 2,
   "policyVersion": 7,
   "kind": "products",
-  "generatedAt": "2026-11-09T10:53:21.087Z",
-  "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+  "generatedAt": "2026-11-09T12:02:41.114Z",
+  "lastSuccessAt": "2026-11-09T12:02:41.114Z",
   "entries": [
-    {
-      "id": "2b2b6e81ffbc00c832fe",
-      "title": "Płyta MULTI",
-      "url": "https://pater.pl/produkty/plyta-multi/",
-      "imageSource": "https://pater.pl/wp-content/uploads/2026/06/plyta-multi-2-scaled-e1782117595704-500x500-c-default.jpeg",
-      "partner": "Pater",
-      "sourceId": "pater",
-      "sourcePage": "https://pater.pl/przeznaczenie/taras/",
-      "badge": "Nowość w katalogu producenta",
-      "description": "Betonowa płyta z oferty Pater do aranżacji tarasu.",
-      "category": "Tarasy",
-      "discoveredAt": "2026-11-09T10:49:16.696Z",
-      "publishedAt": null,
-      "image": "assets/products/1362cf238fdc046924c7e509e2ad22110d6c27eebc056e382aad03254f17c8fb.jpg"
-    },
     {
       "id": "4edeaa7c36fdee7c62e4",
       "title": "Sandy Stone 20 Grey",
@@ -51,21 +36,6 @@ export const SEED = {
       "image": "assets/products/82df21a8af2ab6de199c73b9ea98b02fabda851f43ab99b288f568c38fab2128.jpg"
     },
     {
-      "id": "2aace4092c785f86b93b",
-      "title": "Płyta GIGA",
-      "url": "https://pater.pl/produkty/plyta-giga-nowosc/",
-      "imageSource": "https://pater.pl/wp-content/uploads/2026/07/Plyta-Giga-500x500-c-default.jpg",
-      "partner": "Pater",
-      "sourceId": "pater",
-      "sourcePage": "https://pater.pl/przeznaczenie/taras/",
-      "badge": "Nowość w katalogu producenta",
-      "description": "Betonowa płyta z oferty Pater do aranżacji tarasu.",
-      "category": "Tarasy",
-      "discoveredAt": "2026-11-09T10:45:47.435Z",
-      "publishedAt": null,
-      "image": "assets/products/792c2361171d3db5b532d84078f079de77a832b171e5b594a430ac1e3350dfad.jpg"
-    },
-    {
       "id": "343bb273fe7a65ec0d2e",
       "title": "Sandy Stone 20 Beige",
       "url": "https://tarrace.pl/produkty/sandy-stone-20-beige/",
@@ -94,21 +64,6 @@ export const SEED = {
       "discoveredAt": "2026-11-09T10:45:47.435Z",
       "publishedAt": null,
       "image": "assets/products/9f2648d073a3826e0a065f566833911d72add7c6427b8cd03d1009b62526fff3.webp"
-    },
-    {
-      "id": "c84339aa2a7d5e319fa1",
-      "title": "Stopień schodowy LEVITO",
-      "url": "https://pater.pl/produkty/stopien-schodowy-levito-nowosc/",
-      "imageSource": "https://pater.pl/wp-content/uploads/2026/07/stopien-levito-scaled-e1783927893815-500x500-c-default.jpeg",
-      "partner": "Pater",
-      "sourceId": "pater",
-      "sourcePage": "https://pater.pl/przeznaczenie/taras/",
-      "badge": "Nowość w katalogu producenta",
-      "description": "Stopień schodowy z betonowych elementów do zagospodarowania terenu Pater.",
-      "category": "Architektura ogrodowa",
-      "discoveredAt": "2026-11-09T10:45:47.435Z",
-      "publishedAt": null,
-      "image": "assets/products/bcaefe67424fa047eb1ee0b5006289a4cf87b16a2d5730c8d73d65d4b5ebb034.jpg"
     },
     {
       "id": "05afe540823e7e1afe41",
@@ -178,13 +133,13 @@ export const SEED = {
       "newThisRun": 0
     },
     {
-      "id": "pater",
+      "id": "kostkapater",
       "name": "Pater",
-      "url": "https://pater.pl/przeznaczenie/taras/",
-      "status": "ok",
-      "count": 3,
-      "checkedAt": "2026-11-09T10:53:21.087Z",
-      "lastSuccessAt": "2026-11-09T10:53:21.087Z",
+      "url": "https://kostkapater.pl/produkty/architektura-ogrodowa/",
+      "status": "monitoring",
+      "count": 0,
+      "checkedAt": "2026-11-09T12:02:41.114Z",
+      "lastSuccessAt": "2026-11-09T12:02:41.114Z",
       "newThisRun": 0
     },
     {
@@ -329,25 +284,6 @@ export const SEED = {
     }
   ],
   "observed": {
-    "pater": [
-      "https://pater.pl/produkty/plyta-solo/",
-      "https://pater.pl/produkty/plyta-mega/",
-      "https://pater.pl/produkty/plyta-liner/",
-      "https://pater.pl/produkty/plyta-dekor/",
-      "https://pater.pl/produkty/plyta-brukowa-szlachetna/",
-      "https://pater.pl/produkty/rekord/",
-      "https://pater.pl/produkty/plyta-lang-50/",
-      "https://pater.pl/produkty/palisada-ogrodowa-betonowa/",
-      "https://pater.pl/produkty/palisada-betonowa-prostokatna/",
-      "https://pater.pl/produkty/palisada-deco/",
-      "https://pater.pl/produkty/obrzeze-palinea-duo/",
-      "https://pater.pl/produkty/palinea-max/",
-      "https://pater.pl/produkty/obrzeze-palinea/",
-      "https://pater.pl/produkty/stopien-schodowy/",
-      "https://pater.pl/produkty/plyta-giga-nowosc/",
-      "https://pater.pl/produkty/stopien-schodowy-levito-nowosc/",
-      "https://pater.pl/produkty/plyta-multi/"
-    ],
     "tarrace": [
       "https://tarrace.pl/produkty/authority-graphite/",
       "https://tarrace.pl/produkty/authority-grey/",
@@ -641,6 +577,19 @@ export const SEED = {
       "https://forbet.pl/products/gigante-parva/",
       "https://forbet.pl/products/old-wood/",
       "https://forbet.pl/products/nelio-mini/"
+    ],
+    "kostkapater": [
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/amber/",
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/como/",
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/esperia/",
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/sora/",
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/passeo/",
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/romero/",
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/stopien-schodowy/",
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/tivoli/",
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/trokadero/",
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/trokadero-piatto/",
+      "https://kostkapater.pl/produkty/architektura-ogrodowa/verde/"
     ]
   }
 };
