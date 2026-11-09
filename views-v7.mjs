@@ -6,7 +6,7 @@ export function partnerDirectory({brands, catalog, intro, esc, im}) {
     const internal = products.length ? '<a class="text-link" href="nowosci.html?marka='+encodeURIComponent(b.name)+'">Produkty marki ↗</a>' : '<a class="text-link" href="oferta.html#nawierzchnie">W ofercie MARKIN ↗</a>';
     return '<article class="partner-tile v7-tile"><div class="partner-media">'+visual+'</div><div class="partner-body"><h2>'+esc(b.name)+'</h2><p>'+esc(b.summary)+'</p><div>'+internal+' <a class="product-source" href="'+esc(b.catalogUrl || b.homepage)+'" target="_blank" rel="noopener noreferrer">Katalog partnera ↗</a></div></div></article>';
   }).join('');
-  return intro('Partnerzy','Marki w ofercie Markin.','Od kostki na podjazd po krawędź tarasu. Zobacz, w czym specjalizują się nasi partnerzy, i przejdź prosto do ich produktów.')+'<section class="section partner-directory"><div class="wrap"><div class="partners-grid">'+cards+'</div></div></section>';
+  return intro('Partnerzy','Marki w ofercie Markin','Od kostki na podjazd po krawędź tarasu. Zobacz, w czym specjalizują się nasi partnerzy, i przejdź prosto do ich produktów.')+'<section class="section partner-directory"><div class="wrap"><div class="partners-grid">'+cards+'</div></div></section>';
 }
 
 export function carePage({catalog, esc, productCard}) {
