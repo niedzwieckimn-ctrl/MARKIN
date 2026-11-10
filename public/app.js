@@ -2,7 +2,33 @@ import "./product-experience.js";
 (()=>{'use strict';
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 const menu=$('.menu-toggle'), nav=$('.nav-links');
-menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open);menu.textContent=open?'Zamknij ×':'Menu';});
+const navigation = menu.closest('.navigation');
+const phone = navigation.querySelector('.nav-contact');
+function setMenuOpen(open) {
+  menu.setAttribute('aria-expanded', String(open));
+  nav.classList.toggle('open', open);
+  menu.textContent = open ? 'Zamknij ×' : 'Menu';
+}
+function fitNavigation() {
+  const wasCompact = navigation.classList.contains('is-compact');
+  let compact = matchMedia('(max-width: 760px)').matches;
+  if (!compact) {
+    // Measure the full row with the visitor's current font and zoom.
+    navigation.classList.remove('is-compact');
+    compact = phone.getBoundingClientRect().right > navigation.getBoundingClientRect().right;
+  }
+  navigation.classList.toggle('is-compact', compact);
+  if (wasCompact && !compact) setMenuOpen(false);
+}
+menu.addEventListener('click', () => setMenuOpen(menu.getAttribute('aria-expanded') !== 'true'));
+fitNavigation();
+if ('ResizeObserver' in window) {
+  const observer = new ResizeObserver(fitNavigation);
+  [navigation, nav, phone].forEach(element => observer.observe(element));
+}
+window.addEventListener('resize', fitNavigation);
+document.fonts?.ready.then(fitNavigation);
+document.fonts?.addEventListener('loadingdone', fitNavigation);
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav?.classList.contains('open')){menu.click();menu.focus();}});
 document.addEventListener('click',e=>{if(nav?.classList.contains('open')&&!e.target.closest('.navigation'))menu.click();});
 const topLink=$('.back-top');window.addEventListener('scroll',()=>{if(topLink)topLink.hidden=scrollY<800;},{passive:true});
